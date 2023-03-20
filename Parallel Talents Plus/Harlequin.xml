@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+  <TalentTree jobidentifier="harlequin">
+    <SubTree identifier="harlequin_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions>
+        <TalentOption identifier="enrollintoclowncollege" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="3" maxchosentalents="11">
+        <TalentOption identifier="colorfulcompatriots" />
+        <TalentOption identifier="followthehonk" />
+        <TalentOption identifier="honkexpert" />
+        <TalentOption identifier="inspiringtunesharlequin" />
+        <TalentOption identifier="jackintheboxharlequin" />
+        <TalentOption identifier="laughter" />
+        <TalentOption identifier="partyanimal" />
+        <TalentOption identifier="roughhousing" />
+        <TalentOption identifier="safetyhazard" />
+        <TalentOption identifier="underpressure" />
+        <TalentOption identifier="waterpranksterharlequin" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Fearmonger" type="specialization" requires="harlequin_primary">
+      <TalentOptions>
+        <TalentOption identifier="bully" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="intimidation" />
+        <TalentOption identifier="ironfist" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="badegg" />
+        <TalentOption identifier="ferocity" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="brutality" />
+        <TalentOption identifier="stockholmsyndrome" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Fool" type="specialization" requires="harlequin_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="grunt" />
+        <TalentOption identifier="offduty" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="justafleshwound" />
+        <TalentOption identifier="safetylast" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="hystericalstrength" />
+        <TalentOption identifier="playingwithfire" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="accidentprone" />
+        <TalentOption identifier="playingthepart" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Jester" type="specialization" requires="harlequin_primary">
+      <TalentOptions>
+        <TalentOption identifier="killingjoke" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="chonkyhonksharlequin" />
+        <TalentOption identifier="clownsignal" />
+        <TalentOption identifier="gluttony" />
+        <TalentOption identifier="knockemdead" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="bandwagon" />
+        <TalentOption identifier="encore" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="darkcomedy" />
+        <TalentOption identifier="professional" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>

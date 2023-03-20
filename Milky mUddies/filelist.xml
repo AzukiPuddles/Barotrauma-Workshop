@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Milky mUddies" modversion="0.0.2" corepackage="False" steamworkshopid="2949073632" gameversion="1.0.8.0">
+  <Item file="%ModDir%/Milky mUddies.xml" />
+</contentpackage>

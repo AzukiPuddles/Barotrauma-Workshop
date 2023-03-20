@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.1" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.8.0">
+  <TalentTrees file="%ModDir%/TalentTrees.xml" />
+  <TalentTrees file="%ModDir%/JE TalentTrees.xml" />
+  <TalentTrees file="%ModDir%/JE TalentTrees-VanillaLike.xml" />
+  <TalentTrees file="%ModDir%/Acolyte.xml" />
+  <TalentTrees file="%ModDir%/Blade.xml" />
+  <TalentTrees file="%ModDir%/Blahaj.xml" />
+  <TalentTrees file="%ModDir%/Harlequin.xml" />
+  <TalentTrees file="%ModDir%/Mudraptor.xml" />
+  <TalentTrees file="%ModDir%/Surgeon.xml" />
+  <TalentTrees file="%ModDir%/Warden.xml" />
+</contentpackage>

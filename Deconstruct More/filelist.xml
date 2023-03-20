@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Deconstruct More" modversion="0.0.2" corepackage="False" steamworkshopid="2943368366" gameversion="1.0.8.0">
+  <Item file="%ModDir%/Items/CreatureLoot/creatureloot.xml" />
+  <Item file="%ModDir%/Items/Misc/misc.xml" />
+  <Item file="%ModDir%/Items/Pets/PetItems.xml" />
+  <Item file="%ModDir%/Items/Weapons/explosives.xml" />
+  <Item file="%ModDir%/Items/idcard.xml" />
+</contentpackage>

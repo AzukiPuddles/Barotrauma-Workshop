@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<Items>
+  <!-- ######################################### MILK ITEMS #########################################-->
+  <!-- Milking tool -->
+  <Item name="Milking Tool" identifier="milkingtool" Description="Tool used to get the milk out of Molochs" category="Equipment" Tags="smallitem,tool,mountableweapon" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="140" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false" />
+      <Price locationtype="city" multiplier="1.1" sold="true" minavailable="0" maxavailable="2" />
+      <Price locationtype="research" multiplier="1.1" sold="true" minavailable="0" maxavailable="3" />
+      <Price locationtype="military" multiplier="1" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <InventoryIcon texture="%ModDir:2667952918%/MolochMilkItems.png" sourcerect="308,132,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir:2667952918%/MolochMilkItems.png" sourcerect="207,1,157,59" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="10">
+      <Item identifier="rubber" />
+      <Item identifier="aluminium" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="mechanical" level="35" />
+      <Item identifier="rubber" />
+      <Item identifier="aluminium" />
+      <Item identifier="plastic" />
+    </Fabricate>
+    <!-- physics body -->
+    <Body width="157" height="59" density="40" />
+    <!-- the character will hold the item 50 pixels in front of him, with his hands at the handle1 and handle2 positions -->
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,-20" handle1="-59,-10" handle2="15,17" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.5" barrelpos="42,10" spread="0" unskilledspread="0" combatPriority="0" drawhudwhenequipped="true" crosshairscale="0.2">
+      <!-- when used with gas tank, deplete gas and show particles -->
+      <!-- different gasses have different particles-->
+      <StatusEffect type="OnUse" targettype="Contained" targets="oxygentank" Condition="-30" duration="0.1" comparison="AND">
+        <Conditional condition="gt 0" />
+        <Conditional InWater="false" />
+        <sound file="Content/Items/Tools/Sprayer.ogg" type="OnUse" range="500.0" loop="true" />
+        <ParticleEmitter particle="steam" anglemin="0" anglemax="0" distancemin="85" distancemax="85" velocitymin="20" velocitymax="30" scalemultiplier="0.7,0.7" particlespersecond="20" copyentityangle="True" colormultiplier="255,255,255,255" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" targets="weldingfueltank,incendiumfueltank" Condition="-30" duration="0.1" comparison="AND">
+        <Conditional condition="gt 0" />
+        <Conditional InWater="false" />
+        <sound file="Content/Items/Tools/Sprayer.ogg" type="OnUse" range="500.0" loop="true" />
+        <ParticleEmitter particle="steam" anglemin="0" anglemax="0" distancemin="85" distancemax="85" velocitymin="20" velocitymax="30" scalemultiplier="0.7,0.7" particlespersecond="20" copyentityangle="True" colormultiplier="170,100,90,255" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" targets="oxygenitetank" Condition="-30" duration="0.1" comparison="AND">
+        <Conditional condition="gt 0" />
+        <Conditional InWater="false" />
+        <sound file="Content/Items/Tools/Sprayer.ogg" type="OnUse" range="500.0" loop="true" />
+        <ParticleEmitter particle="steam" anglemin="0" anglemax="0" distancemin="85" distancemax="85" velocitymin="20" velocitymax="30" scalemultiplier="0.7,0.7" particlespersecond="20" copyentityangle="True" colormultiplier="120,150,120,255" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" targets="oxygentank,weldingfueltank,incendiumfueltank,oxygenitetank" Condition="-30" duration="0.1" comparison="AND">
+        <Conditional condition="gt 0" />
+        <Conditional InWater="true" />
+        <ParticleEmitter particle="risingbubbles" anglemin="0" anglemax="0" distancemin="85" distancemax="85" velocitymin="20" velocitymax="30" scalemultiplier="0.7,0.7" particlespersecond="20" copyentityangle="True" colormultiplier="120,150,120,255" />
+        <!-- bubbly sound if releasing gas underwater -->
+        <Sound file="%ModDir:2667952918%/Sounds/bubble1.ogg" type="OnUse" range="500" selectionmode="Random" />
+        <Sound file="%ModDir:2667952918%/Sounds/bubble2.ogg" type="OnUse" range="500" />
+        <Sound file="%ModDir:2667952918%/Sounds/bubble3.ogg" type="OnUse" range="500" />
+      </StatusEffect>
+      <!-- squeezy squeeze sound or sputter if trying to milk the air -->
+      <StatusEffect type="OnUse" targettype="Contained" targets="milktank" tags="milkcontained">
+        <Conditional HasStatusTag="neq canmilk" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze1.ogg" type="OnUse" range="500" selectionmode="Random" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze5.ogg" type="OnUse" range="500" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze6.ogg" type="OnUse" range="500" />
+      </StatusEffect>
+      <!-- Milky mUddies -->
+      <StatusEffect type="OnUse" targettype="NearbyCharacters,Contained" targets="Mudraptor_player,milktank" range="100" duration="1" stackable="false" tags="canmilk" conditionalComparison="And" >
+        <Conditional Condition="lt 100"/>
+        <Conditional PMJSleepTimeIcon="neq 0" />
+        <Affliction identifier="bloodloss" strength="4" />
+      </StatusEffect>
+
+      <!-- Milking -->
+      <StatusEffect type="OnUse" targettype="Contained" targets="milktank" duration="0.25" stackable="false" Condition="10" tags="milkcontained">
+        <Conditional HasStatusTag="canmilk" />
+        <!-- squeezy squeeze sound or sputter if milk successful -->
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze2.ogg" type="OnUse" range="500" selectionmode="Random" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze3.ogg" type="OnUse" range="500" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze4.ogg" type="OnUse" range="500" />
+      </StatusEffect> 
+      <!-- squeezy squeeze sound if pumping gas tank -->
+      <StatusEffect type="OnUse" targettype="This">
+        <Conditional HasStatusTag="neq milkcontained" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze5.ogg" type="OnUse" range="500" selectionmode="Random" />
+        <Sound file="%ModDir:2667952918%/Sounds/squeeze6.ogg" type="OnUse" range="500" />
+      </StatusEffect>
+    </RangedWeapon>
+    <!-- one tank can be contained inside the item -->
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="false" itempos="-66,17" containedspritedepth="0.56" containedstateindicatorstyle="tank" itemRotation="-90">
+      <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+      <Containable items="weldingtoolfuel,oxygensource,milktank" />
+      <Containable items="milktank">
+        <StatusEffect type="OnContaining" target="This" tags="milkcontained" duration="0.1" />
+      </Containable>
+    </ItemContainer>
+  </Item>
+</Items>
+  </Override>

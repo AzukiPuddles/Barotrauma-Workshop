@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Item name="" identifier="food" nameidentifier="food" Tags="smallitem,petfood1,petfood2,petfood3,monsterfood" maxstacksize="8" hideinmenus="true" health="50" damagedbyexplosions="true" category="Misc" scale="0.5" impactsoundtag="impact_metal_light" cargocontaineridentifier="metalcrate">
+    <Sprite texture="Content/Characters/Pets/pets.png" depth="0.7" sourcerect="206,390,34,53" origin="0.5,0.5" />
+    <Price baseprice="120" minleveldifficulty="10">
+      <Price storeidentifier="merchantoutpost"/>
+      <Price storeidentifier="merchantcity"/>
+      <Price storeidentifier="merchantresearch"/>
+      <Price storeidentifier="merchantmilitary"/>
+      <Price storeidentifier="merchantmine"/>
+    </Price>    
+	<Deconstruct time="10" chooserandom="true" amount="4">
+      <Item identifier="raptorbane" commonness="0.6" />
+      <Item identifier="raptorbane" commonness="0.6" />
+      <Item identifier="creepingorange" commonness="0.6" />
+      <Item identifier="creepingorange" commonness="0.6" />
+      <Item identifier="antibloodloss1" commonness="0.4" />
+    </Deconstruct>
+    <Body width="34" height="53" density="20" />
+    <Throwable characterusable="true" slots="Any,RightHand,LeftHand" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="petnametag" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate">
+    <Price baseprice="10" minleveldifficulty="10">
+      <Price storeidentifier="merchantoutpost"/>
+      <Price storeidentifier="merchantcity"/>
+      <Price storeidentifier="merchantresearch"/>
+      <Price storeidentifier="merchantmilitary"/>
+      <Price storeidentifier="merchantmine"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/idcard.png" depth="0.5" sourcerect="0,0,16,16" />
+    <Body width="16" height="12" density="10.5" />
+    <NameTag />
+    <Holdable slots="Any,RightHand,LeftHand,Card" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+</Override>

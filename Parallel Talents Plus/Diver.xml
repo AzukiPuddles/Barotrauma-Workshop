@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTree jobidentifier="diver">
+  <SubTree identifier="diver_primary" nameidentifier="talenttree.primary" type="primary">
+    <TalentOptions requiredtalents="2" maxchosentalents="5">
+      <TalentOption identifier="treadingwater" />
+      <TalentOption identifier="excavator" />
+      <TalentOption identifier="poacher" />
+      <TalentOption identifier="calloused" />
+      <TalentOption identifier="coretraining" />
+    </TalentOptions>
+    <TalentOptions requiredtalents="2" maxchosentalents="5">
+      <TalentOption identifier="aliendelver" />
+      <TalentOption identifier="Hullmaintence" />
+      <TalentOption identifier="Hydrophobic" />
+      <TalentOption identifier="ForeignExchange" />
+      <TalentOption identifier="Abyss" />
+    </TalentOptions>
+  </SubTree>
+  <SubTree identifier="Big Game Hunter" type="specialization" requires="diver_primary">
+    <TalentOptions>
+      <TalentOption identifier="deadlystab" />
+    </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <TalentOption identifier="ScaleSkin" />
+      <TalentOption identifier="reckless" />
+    </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <TalentOption identifier="dazeproof" />
+      <TalentOption identifier="activeparry" />
+    </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <TalentOption identifier="Ares" />
+      <TalentOption identifier="Artemis" />
+    </TalentOptions>
+  </SubTree>
+  <SubTree identifier="Pathfinder" type="specialization" requires="diver_primary">
+    <TalentOptions>
+      <TalentOption identifier="Trailblazer" />
+    </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <TalentOption identifier="Panic" />
+      <TalentOption identifier="Plunder" />
+    </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <TalentOption identifier="LivingFigurehead" />
+      <TalentOption identifier="LastStretch" />
+    </TalentOptions>
+    <TalentOptions>
+      <TalentOption identifier="PhysicoriumFlare" />
+    </TalentOptions>
+  </SubTree>
+  <SubTree identifier="First Aid" type="specialization" requires="diver_primary">
+    <TalentOptions>
+      <TalentOption identifier="FACertified" />
+    </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <TalentOption identifier="hydrotherapy" />
+      <TalentOption identifier="stifle" />
+    </TalentOptions>
+    <TalentOptions>
+      <TalentOption identifier="extractor" />
+    </TalentOptions>
+    <TalentOptions>
+      <TalentOption identifier="TopUp" />
+    </TalentOptions>
+  </SubTree>
+</TalentTree>
+</Override>
