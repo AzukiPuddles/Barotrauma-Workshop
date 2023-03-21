@@ -33,7 +33,7 @@
         <TalentOption identifier="PMJBackpack2" />
         <TalentOption identifier="PMJWaterSonar" />
       </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="4">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
         <TalentOption identifier="PMJBond_Captain" />
         <TalentOption identifier="PMJBond_Security" />
         <TalentOption identifier="PMJBond_Doctor" />
