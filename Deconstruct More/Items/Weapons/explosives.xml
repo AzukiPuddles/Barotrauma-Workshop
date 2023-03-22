@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Override>  
   <Item name="" identifier="detonator" description="" category="Equipment,Weapon" Tags="smallitem,detonator" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_metal_light" isshootable="true">
     <Upgrade gameversion="0.9.3.0" scale="0.5"/>

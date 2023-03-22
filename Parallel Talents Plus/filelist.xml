@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.4" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.8.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.5" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.8.0">
   <TalentTrees file="%ModDir%/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Acolyte.xml" />
+  <TalentTrees file="%ModDir%/Agriculturist.xml" />
   <TalentTrees file="%ModDir%/Blade.xml" />
   <TalentTrees file="%ModDir%/Blahaj.xml" />
   <TalentTrees file="%ModDir%/Clownotrauma - Clown.xml" />
+  <TalentTrees file="%ModDir%/Dead Space - CEC Engineer.xml" />
   <TalentTrees file="%ModDir%/Diver.xml" />
+  <TalentTrees file="%ModDir%/Force Warrior.xml" />
   <TalentTrees file="%ModDir%/Harlequin.xml" />
+  <TalentTrees file="%ModDir%/IRN Medical Officer.xml" />
   <TalentTrees file="%ModDir%/Mudraptor.xml" />
+  <TalentTrees file="%ModDir%/Occultist.xml" />
   <TalentTrees file="%ModDir%/Scavenger.xml" />
   <TalentTrees file="%ModDir%/Surgeon.xml" />
   <TalentTrees file="%ModDir%/VanillaPlus - Clown.xml" />

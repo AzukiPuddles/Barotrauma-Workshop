@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+  <TalentTree jobidentifier="ForceWarrior">
+    <SubTree identifier="ForceWarrior_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOption identifier="younglingtraining" />
+        <TalentOption identifier="knowledgeaboutmanufacturing" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="lightsaberlethalstrike" />
+        <TalentOption identifier="lightsaberrapidattack" />
+        <TalentOption identifier="basicknowledge-" />
+        <TalentOption identifier="repairinterests" />
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="lonewolf" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Jedi" type="specialization" requires="ForceWarrior_primary" blocks="Sith">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="jedi-calm" />
+        <TalentOption identifier="stonewall" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="jedi-clearmind" />
+        <TalentOption identifier="jedi-indomitable" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="jedi-forceheal" />
+        <TalentOption identifier="jedi-stuncounterattack" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="jedi-absolutedefense" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Polymath" type="specialization" requires="ForceWarrior_primary" blocks="">
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOption identifier="leadingbyexample" />
+        <TalentOption identifier="miner" />
+        <TalentOption identifier="medicalexpertise" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOption identifier="drsubmarine" />
+        <TalentOption identifier="quickfixer" />
+        <TalentOption identifier="tinkerer" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOption identifier="scavenger" />
+        <TalentOption identifier="berserker" />
+        <TalentOption identifier="genetampering" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOption identifier="betterthannew" />
+        <TalentOption identifier="implacable" />
+        <TalentOption identifier="miracleworker" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Sith" type="specialization" requires="ForceWarrior_primary" blocks="Jedi">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="sith-furious" />
+        <TalentOption identifier="pyromaniac" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="sith-heavyhit" />
+        <TalentOption identifier="sith-darkguard" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="sith-psychosith" />
+        <TalentOption identifier="sith-criticaloutbreak" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sith-forcelightning" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>
