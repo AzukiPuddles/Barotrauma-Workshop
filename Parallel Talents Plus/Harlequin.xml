@@ -6,13 +6,14 @@
       <TalentOptions>
         <TalentOption identifier="enrollintoclowncollege" />
       </TalentOptions>
-      <TalentOptions requiredtalents="3" maxchosentalents="11">
+      <TalentOptions requiredtalents="3" maxchosentalents="12">
         <TalentOption identifier="colorfulcompatriots" />
         <TalentOption identifier="followthehonk" />
         <TalentOption identifier="honkexpert" />
         <TalentOption identifier="inspiringtunesharlequin" />
         <TalentOption identifier="jackintheboxharlequin" />
         <TalentOption identifier="laughter" />
+        <TalentOption identifier="mendingmelodies" />
         <TalentOption identifier="partyanimal" />
         <TalentOption identifier="roughhousing" />
         <TalentOption identifier="safetyhazard" />
