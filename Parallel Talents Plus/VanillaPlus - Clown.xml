@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="clown">
+      <SubTree identifier="cheerleader">
+        <TalentOptions>
+          <TalentOption identifier="og_inspiringtunes" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="og_hypertunes" />
+          <TalentOption identifier="og_reapertunes" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="og_slapstickexpert" />
+          <TalentOption identifier="og_crewlayabout" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="og_honkmotherguide" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="og_revivertunes" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="happyfuntime">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="chonkyhonks" />
+          <TalentOption identifier="og_suddentunes" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="og_psychoclown" />
+          <TalentOption identifier="og_cannonman" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="plaguedoctor" />
+          <TalentOption identifier="lonewolf" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <ShowCaseTalent identifier="og_knifelist">
+            <TalentOption identifier="og_stunknife" />
+            <TalentOption identifier="og_poisonknife" />
+            <TalentOption identifier="og_delusionknife" />
+            <TalentOption identifier="og_organicknife" />
+          </ShowCaseTalent>
+          <TalentOption identifier="og_nuclearandlife" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="og_insanetunes" />
+          <TalentOption identifier="og_thegame" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="clownfoundation">
+        <TalentOptions>
+          <TalentOption identifier="og_spreadthehonkmother" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="og_escapist" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="og_waterprankster" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="truepotential" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="og_truepotential" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+  <TalentTree jobidentifier="clownotrauma_clown">
+    <SubTree identifier="clownotrauma_primary" nameidentifier="talenttree.clownotrauma_clown_primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOption identifier="clownotrauma_clownconnections" />
+        <TalentOption identifier="clownotrauma_honkmotherdevelopmentfund" />
+        <TalentOption identifier="clownotrauma_funpolice" />
+        <TalentOption identifier="clownotrauma_humourfoundation" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="3">
+        <TalentOption identifier="clownotrauma_explosiveentertainment" />
+        <TalentOption identifier="clownotrauma_thetravellingcircus" />
+        <TalentOption identifier="clownotrauma_europanmenagerie" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clownotrauma_clown" type="specialization" requires="clownotrauma_primary">
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_clownblessing" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_watercomedian" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_ripandtear" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_truestpotential" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clownotrauma_cultist" type="specialization" requires="clownotrauma_primary">
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_cultistblessing" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_forwhomethebloodflows" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_undeadcrew" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_cheatdeath" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="clownotrauma_mime" type="specialization" requires="clownotrauma_primary">
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_mimeblessing" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_speechlessperformance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="clownotrauma_artofsilence" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="6">
+        <ShowCaseTalent identifier="clownotrauma_masterclassact">
+          <TalentOption identifier="bigguns" />
+          <TalentOption identifier="miracleworker" />
+          <TalentOption identifier="specops" />
+          <TalentOption identifier="powerarmor" />
+          <TalentOption identifier="nuclearoption" />
+          <TalentOption identifier="thefriendswemade" />
+        </ShowCaseTalent>
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>
