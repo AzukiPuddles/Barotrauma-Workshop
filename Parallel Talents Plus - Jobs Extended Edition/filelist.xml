@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.5" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.8.0">
-  <TalentTrees file="%ModDir%/TalentTrees.xml" />
-  <TalentTrees file="%ModDir%/JE TalentTrees.xml" />
-  <TalentTrees file="%ModDir%/JE TalentTrees-VanillaLike.xml" />
-  <TalentTrees file="%ModDir%/Acolyte.xml" />
-  <TalentTrees file="%ModDir%/Agriculturist.xml" />
-  <TalentTrees file="%ModDir%/Blade.xml" />
-  <TalentTrees file="%ModDir%/Blahaj.xml" />
-  <TalentTrees file="%ModDir%/Clownotrauma - Clown.xml" />
-  <TalentTrees file="%ModDir%/Dead Space - CEC Engineer.xml" />
-  <TalentTrees file="%ModDir%/Force Warrior.xml" />
-  <TalentTrees file="%ModDir%/Harlequin.xml" />
-  <TalentTrees file="%ModDir%/IRN Medical Officer.xml" />
-  <TalentTrees file="%ModDir%/Mudraptor.xml" />
-  <TalentTrees file="%ModDir%/Occultist.xml" />
-  <TalentTrees file="%ModDir%/Scavenger.xml" />
-  <TalentTrees file="%ModDir%/Surgeon.xml" />
-  <TalentTrees file="%ModDir%/VanillaPlus - Clown.xml" />
-  <TalentTrees file="%ModDir%/Warden.xml" />
+<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.6" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.8.0">
+  <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees-VanillaLike.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Agriculturist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Blade.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Blahaj.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/BSA - Iron Rider.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Clownotrauma - Clown.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Dead Space - CEC Engineer.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Force Warrior.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Harlequin.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/IRN Medical Officer.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Scavenger.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Surgeon.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/VanillaPlus - Clown.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Warden.xml" />
 </contentpackage>

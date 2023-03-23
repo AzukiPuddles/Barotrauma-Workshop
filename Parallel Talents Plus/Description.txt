@@ -1,0 +1,41 @@
+A recreation of the parallel talents mod with support for many job mods.
+
+What this mod does:
+Allows you to freely switch between trees to spend your talent points on.
+Allows you to take all talents in a tree, instead of having one per tier.
+
+
+While there are no issues running this even if you use no job mods, I recommend using the original if that's your plan. But if you want a shorter mod list and/or support for jobs that don't have patches this is the mod for you.
+Load order generally doesn't matter unless something overrides the trees already, or unless stated.
+
+Supported mods:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870519815]Acolyte[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946558743]Agruculturist[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880774658]Blade[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2936664151]Blahaj[/url] (Place patch above)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2891792017]BSA - Iron Rider[/url] (Upcoming)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2861491326]Clown-O-Trauma - Clown[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935939204]Dead Space - CEC Engineer[/url] (+Fixes talent tree progression)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2920304251]Diver[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2939207314]Force Warrior[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942994485]Harlequin[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942907860]IRN Medical Officer[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2871761155]Mudraptor[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946779482]Occultist[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2921079225]Scavenger[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2790455798]Surgeon[/url] (Place patch above)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2687741461]Warden[/url]
+
+Prepatched mods:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2929084649]Needs - Chef[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]Vanilla Plus - Prisoner[/url]
+
+Unsupported mods: 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2526236489]Jobs Extended[/url] (Duplicate job, JE, and Diver do not use overrides either) If you would prefer this job mod instead look at [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2949678245]Parallel Talents Plus - Jobs Extended Edition[/url]
+
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2903374119]Original[/url] talents mod.
+Thank you for downloading, and thank you to the original mod creators for their terrific work~
+
+[url=https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus]Github[/url]

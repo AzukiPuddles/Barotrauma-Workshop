@@ -1,0 +1,40 @@
+Parallel Talents Plus - Jobs Extended Edition
+https://steamcommunity.com/sharedfiles/filedetails/?id=2949678245
+https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus%20-%20Jobs%20Extended%20Edition
+
+0.0.6 Mar 23
+Added support for:
+BSA - Iron Rider
+
+Restructured files
+
+
+0.0.5 Mar 22
+Added support for:
+Agriculturist
+Dead Space - CEC Engineer
+Force Warrior
+IRN Medical Officer
+Occultist
+
+Fixed potential encoding issues
+
+
+0.0.4 Mar 22
+Added support for:
+Warden (Was supported but undocumented)
+Clownotrauma - Clown
+Scavenger
+VanillaPlus - Clown
+
+
+0.0.3 Mar 22
+Added new Harlequin talent "Mending Melodies"
+
+
+0.0.2 Mar 20
+Fixed mudraptors first tree, last talent.Previously limited to only 4, set properly at 5 (all of them) as was intended.
+
+
+0.0.1 Mar 20
+Uploaded
