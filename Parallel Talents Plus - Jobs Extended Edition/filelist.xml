@@ -15,6 +15,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/IRN Medical Officer.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Renegade.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Scavenger.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Surgeon.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/VanillaPlus - Clown.xml" />

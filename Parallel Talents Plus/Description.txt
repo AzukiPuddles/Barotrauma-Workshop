@@ -17,11 +17,12 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2861491326]Clown-O-Trauma - Clown[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935939204]Dead Space - CEC Engineer[/url] (+Fixes talent tree progression)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2920304251]Diver[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2939207314]Force Warrior[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942994485]Harlequin[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2939207314]Force Warrior[/url] (Jedi or Sith)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942994485]Harlequin[/url] (One Killing Joke ability)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942907860]IRN Medical Officer[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2871761155]Mudraptor[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946779482]Occultist[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951046791]Renegade[/url] (One Specilization)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2921079225]Scavenger[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2790455798]Surgeon[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
