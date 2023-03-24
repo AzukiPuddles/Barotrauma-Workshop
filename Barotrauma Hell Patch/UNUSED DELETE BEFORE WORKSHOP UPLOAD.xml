@@ -2,7 +2,7 @@
 <Override>
 <Items>
 <!--Whale Mining Suit-->
-  <Item name="" identifier="barodrama_whalesuit" category="Diving" tags="diving,deepdiving,divingsuit,divinggear_wearableindoors,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="barodrama_whalesuit" category="Diving" tags="diving,deepdiving,divingsuit,divinggear_wearableindoors,deepdivinglarge,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswap="true" impactsoundtag="impact_metal_heavy">
     <Price baseprice="2500" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" sold="false" />
       <Price storeidentifier="merchantcity" sold="false" />
