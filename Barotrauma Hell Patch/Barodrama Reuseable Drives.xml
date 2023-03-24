@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<Items>
+  <Item name="" identifier="barodrama_edd_eel" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="true" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="electrical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" electrical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_eelsuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" electrical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" electrical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_moray" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="true" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="electrical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" electrical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_moraysuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" electrical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" electrical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_lamprey" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="true" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="electrical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" electrical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_lampreysuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" electrical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" electrical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_whale" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,64,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,64,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="mechanical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" mechanical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_whalesuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" mechanical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" mechanical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_belugia" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,64,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,64,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="mechanical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" mechanical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_belugiasuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" mechanical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" mechanical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_orca" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,64,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,64,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="mechanical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" mechanical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_orcasuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" mechanical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" mechanical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_wasp" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,128,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,128,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="medical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" medical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_waspsuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" medical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" medical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_beetle" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,128,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,128,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="medical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" medical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_beetlesuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" medical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" medical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_mantis" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,128,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,128,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="medical" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" medical="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_mantissuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" medical="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" medical="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_cobra" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,192,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="0,192,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="weapons" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" weapons="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_cobrasuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" weapons="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" weapons="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_viper" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,192,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="64,192,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="weapons" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" weapons="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_vipersuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" weapons="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" weapons="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_winder" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="true" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,192,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="128,192,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="weapons" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" weapons="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_windersuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" weapons="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" weapons="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_renegade" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="secarmcab" secondary="armcab" />
+    <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab" spawnprobability="0.05" />
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="192,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="helm" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" helm="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_renegadesuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" helm="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" helm="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_director" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="secarmcab" secondary="armcab" />
+    <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab" spawnprobability="0.05" />
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="192,64,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="192,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="helm" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" helm="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_directorsuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" helm="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" helm="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="barodrama_edd_tyrant" category="Equipment" maxstacksize="1" Tags="smallitem" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="secarmcab" secondary="armcab" />
+    <PreferredContainer secondary="wrecksecarmcab,abandonedsecarmcab" spawnprobability="0.05" />
+    <Price baseprice="1400" sold="false">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+      <Price storeidentifier="merchantengineering" sold="false" />
+    </Price>
+    <Deconstruct time="20">
+      <Item identifier="aluminum" />
+      <Item identifier="silicon" />
+    </Deconstruct>
+    <InventoryIcon texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="192,128,64,64" origin="0.5,0.5" />
+    <Sprite texture=" %ModDir:2799033770%/Jobgear/discs.png" sourcerect="192,64,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="35" height="65" density="15" />
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomCenter" absoluteoffset="0,160" style="ItemUI" />
+      <Button text="edd.unlock">
+        <StatusEffect type="OnUse" target="This" tags="check" duration="1" stackable="false" />
+      </Button>
+    </CustomInterface>
+    <SkillRequirementHint identifier="helm" level="40" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Unlock with skill, break with lacking -->
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" helm="gte 40" />
+        <GiveTalentInfo talentidentifiers="bdr_tyrantsuit" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_unlock.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" disabledeltatime="true" interval="1.1" comparison="And">
+        <Conditional hasstatustag="check" />
+        <Conditional skillrequirement="true" helm="lt 40" />
+        <Sound file=" %ModDir:2799033770%/Jobgear/disc_deny.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This,Character" tags="failiure" duration="1" stackable="false" comparison="And">
+        <Conditional skillrequirement="true" helm="lt 40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" Condition="1000" disabledeltatime="true" delay="2" stackable="false" />
+    </Holdable>
+  </Item>
+</Items>
+</Override>
