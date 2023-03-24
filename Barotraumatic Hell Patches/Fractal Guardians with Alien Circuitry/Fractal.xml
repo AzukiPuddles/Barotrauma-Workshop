@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
   <Character speciesname="Fractalguardian" humanoid="False" caninteract="True" blooddecal="blood" speciestranslationoverride="" displayname="" group="ancientalien" hasinfo="False" husk="False" usehuskappendage="False" needsair="False" needswater="False" canspeak="False" usebosshealthbar="False" noise="100" visibility="100" bleedparticleair="blooddrop" bleedparticlewater="waterblood" bleedparticlemultiplier="1" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" hideinthermalgoggles="True" sonardisruption="0" distantsonarrange="0" disabledistance="25000" soundinterval="10" caneat="False" ismachine="true">
     <ragdolls folder="%ModDir:2831987252%/Characters/Vanilla_Creatures/Fractalguardian/Ragdolls" />

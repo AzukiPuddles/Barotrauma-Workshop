@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Barotrauma Hell Patch" modversion="0.0.1" corepackage="False" gameversion="1.0.8.0">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Barotraumatic Hell Patches" modversion="0.5" corepackage="False" steamworkshopid="2951374536" gameversion="1.0.8.0">
+  <Item file="%ModDir%/mechanic_gearoverride.xml" />
   <Item file="%ModDir%/Extract It with Waifu Genes.xml" />
   <Item file="%ModDir%/Genes Expanded Chip Spawnrate.xml" />
   <Item file="%ModDir%/Waifu Genes Removeable.xml" />
