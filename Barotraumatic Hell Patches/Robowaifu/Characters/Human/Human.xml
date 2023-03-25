@@ -4,6 +4,10 @@
     <names path="%ModDir%/Robowaifu/Characters/Human/names.xml" />
     <ragdolls folder="%ModDir%/Robowaifu/Characters/Human/Ragdolls" />
     <animations folder="%ModDir:2948488019%/Characters/Human/Animations" />
+    <StatusEffect type="always" target="This" delay="1" stackable="false" disabledeltatime="true">
+      <Conditional IsDead="false" />
+      <Affliction identifier="luabotomy" amount="1" />
+    </StatusEffect>
     <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.25" ScaleMax="0.5" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
     <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
     <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="1" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
@@ -773,10 +777,10 @@
         <sprite name="Herpes" texture="%ModDir:2648774153%/Characters/Human/Human_female_karma.png" sheetindex="0,0" />
       </Wearable>
     </HeadAttachments>
-    <StatusEffect Type="Always" Target="Character" Comparison="And" usehulloxygen="false" setvalue="true" BleedParticleAir="spark" BleedParticleWater="spark" PressureProtection="2000.0">
+    <StatusEffect Type="Always" Target="Character,AllLimbs" Comparison="And" usehulloxygen="false" setvalue="true" BleedParticleAir="spark" BleedParticleWater="spark" PressureProtection="2000.0">
       <Conditional ismale="false" />
       <Conditional isfemale="false" />
-      <ReduceAffliction identifier="oxygenlow" strength="0.5" />
+      <ReduceAffliction identifier="oxygenlow" amount="1000" />
       <ReduceAffliction identifier="huskinfection" amount="1000" />
       <ReduceAffliction identifier="bleeding" amount="1000" />
       <ReduceAffliction identifier="nausea" amount="1000" />
@@ -784,6 +788,7 @@
       <ReduceAffliction identifier="watchersgaze" amount="1000" />
       <ReduceAffliction identifier="psychosis" amount="1000" />
       <ReduceAffliction identifier="nausea" amount="1000" />
+      <Affliction identifier="ntc_cyberlimb" amount="100" />
     </StatusEffect>
     <StatusEffect Type="Always" Target="Character" Comparison="And">
       <Conditional ismale="false" />
