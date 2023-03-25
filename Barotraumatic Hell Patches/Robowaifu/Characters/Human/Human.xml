@@ -783,6 +783,7 @@
       <ReduceAffliction identifier="organdamage" amount="1000" />
       <ReduceAffliction identifier="watchersgaze" amount="1000" />
       <ReduceAffliction identifier="psychosis" amount="1000" />
+      <ReduceAffliction identifier="nausea" amount="1000" />
     </StatusEffect>
     <StatusEffect Type="Always" Target="Character" Comparison="And">
       <Conditional ismale="false" />
@@ -793,6 +794,7 @@
     <StatusEffect Type="InWater" Target="Character" Comparison="And">
       <Conditional ismale="false" />
       <Conditional isfemale="false" />
+      <Conditional isplayer="true" />
       <Conditional framebuff="0" />
       <Affliction identifier="rinternaldamage" amount="+2" />
     </StatusEffect>
