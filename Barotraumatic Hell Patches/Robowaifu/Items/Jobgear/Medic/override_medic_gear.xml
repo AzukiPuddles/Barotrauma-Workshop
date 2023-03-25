@@ -24,7 +24,7 @@
     <Sprite name="Health Scanner" texture="Content/Items/Jobgear/headgears.png" sourcerect="115,349,75,26" depth="0.6" origin="0.5,0.5" />
     <Body width="70" height="24" density="30" />
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-      <sprite name="Health Scanner Wearable" texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" sourcerect="115,349,75,26" origin="0.5,0.3" />
+      <sprite name="Health Scanner Wearable" texture="%ModDir%/Robowaifu/Items/Jobgear/headgears_[GENDER].png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" sourcerect="115,349,75,26" origin="0.5,0.3" />
     </Wearable>
     <StatusHUD drawhudwhenequipped="true" />
   </Item>
@@ -54,7 +54,7 @@
       <Containable items="chem,medical" />
     </ItemContainer>
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Headset Wearable" texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" sourcerect="640,340,70,52" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" origin="0.45,0.4" />
+      <sprite name="Headset Wearable" texture="%ModDir%/Robowaifu/Items/Jobgear/headgears_[GENDER].png" sourcerect="640,340,70,52" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" origin="0.45,0.4" />
     </Wearable>
   </Item>
   <Item name="" identifier="doctorsuniform1" aliases="doctorsuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
@@ -70,26 +70,26 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon name="Medic Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+    <InventoryIcon name="Medic Uniform 1 Icon" texture="%ModDir%/Robowaifu/Items/Jobgear/OutfitIcons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
     <Sprite name="Medic Uniform 1" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="504,84,123,60" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Medic Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.50" />
-      <sprite name="Medic Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,55,105,150" origin="0.575,0.66" />
-      <sprite name="Medic Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,210,105,55" origin="0.56,0.37" />
-      <sprite name="Medic Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 1 Boobs" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Torso" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,190" origin="0.575,0.50" />
+      <sprite name="Medic Uniform 1 Torso" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,55,105,150" origin="0.575,0.66" />
+      <sprite name="Medic Uniform 1 Right Hand" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Hand" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Lower Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Lower Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Upper Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Upper Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Waist" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,210,105,55" origin="0.56,0.37" />
+      <sprite name="Medic Uniform 1 Right Thigh" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Thigh" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Leg" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Leg" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Right Shoe" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Left Shoe" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 1 Boobs" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_1.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,bitewounds" damagemultiplier="0.95" />
     </Wearable>
     <ItemContainer capacity="3">
@@ -109,25 +109,25 @@
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
-    <InventoryIcon name="Medic Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+    <InventoryIcon name="Medic Uniform 2 Icon" texture="%ModDir%/Robowaifu/Items/Jobgear/OutfitIcons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
     <Sprite name="Medic Uniform 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="640,70,124,74" depth="0.6" origin="0.5,0.5" />
     <Body width="100" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Medic Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,256" origin="0.575,0.4" />
-      <sprite name="Medic Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,180,105,76" origin="0.46,0.6" />
-      <sprite name="Medic Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Medic Uniform 2 Boobs" texture="%ModDir%/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Torso" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Torso" depthlimb="Jaw" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="155,0,105,256" origin="0.575,0.4" />
+      <sprite name="Medic Uniform 2 Right Hand" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Hand" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Lower Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Lower Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Upper Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Upper Arm" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Waist" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" sourcerect="405,180,105,76" origin="0.46,0.6" />
+      <sprite name="Medic Uniform 2 Right Thigh" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Thigh" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Leg" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Leg" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Right Shoe" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Left Shoe" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Medic Uniform 2 Boobs" texture="%ModDir%/Robowaifu/Items/Jobgear/Medic/medic_[GENDER]_2.png" limb="Tail" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,bitewounds" damagemultiplier="0.95" />
     </Wearable>
     <ItemContainer capacity="3">

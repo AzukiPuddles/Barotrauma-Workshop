@@ -30,7 +30,7 @@
       </WifiComponent>
     </Upgrade>
     <Wearable limbtype="Head" slots="Any,Headset" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
-      <sprite name="Headset Wearable" texture="%ModDir%/Items/Jobgear/headgears_[GENDER].png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" sourcerect="28,321,49,62" origin="0.5,0.5" />
+      <sprite name="Headset Wearable" texture="%ModDir%/Robowaifu/Items/Jobgear/headgears_[GENDER].png" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" sourcerect="28,321,49,62" origin="0.5,0.5" />
     </Wearable>
   </Item>
   <Item name="" identifier="toolbelt" category="Equipment" tags="smallitem,mobilecontainer,tool" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.5" fireproof="true" description="" impactsoundtag="impact_soft">
@@ -52,10 +52,10 @@
       <Price storeidentifier="merchantengineering" minavailable="4" multiplier="0.9" />
     </Price>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,576,64,64" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Jobgear/Mechanic/safetyharness_female.png" sourcerect="419,128,51,48" depth="0.6" origin="0.4174587,0.4578402" />
+    <Sprite texture="%ModDir%/Robowaifu/Items/Jobgear/Mechanic/safetyharness_female.png" sourcerect="419,128,51,48" depth="0.6" origin="0.4174587,0.4578402" />
     <Body width="100" height="45" density="20" />
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="ToolBelt" texture="%ModDir%/Items/Jobgear/Mechanic/safetyharness_female.png" sourcerect="405,128,106,64" limb="Torso" depthlimb="Jaw" inherittexturescale="true" origin="0.5,-0.2" />
+      <sprite name="ToolBelt" texture="%ModDir%/Robowaifu/Items/Jobgear/Mechanic/safetyharness_female.png" sourcerect="405,128,106,64" limb="Torso" depthlimb="Jaw" inherittexturescale="true" origin="0.5,-0.2" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="6" depth="0.5">

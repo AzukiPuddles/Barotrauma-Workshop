@@ -59,8 +59,6 @@
     <sprite SourceRect="80,128,80,128" Origin="0.5,0.5" Depth="0.075" Texture="" IgnoreTint="False" Color="255,255,255,255" DeadColor="255,255,255,255" DeadColorTime="0" />
     <tintmask texture="%ModDir%/Robowaifu/Characters/Human/Human_[GENDER]_mask.png" />
     <damagedsprite texture="%ModDir%/Robowaifu/Characters/Human/Human_damageoverlay_[GENDER].png" sourcerect="80,128,80,128" />
-    <tintmask texture="Content/Characters/Human/Human_[GENDER]_mask.png" />
-    <damagedsprite texture="Content/Characters/Human/Human_damageoverlay.png" sourcerect="80,128,80,128"/>
     <damagemodifier DamageSound="" DamageParticle="" DamageMultiplier="0.5" ProbabilityMultiplier="1" ArmorSector="0,360" DeflectProjectiles="False" AfflictionIdentifiers="gunshotwound,lacerations,blunttrauma" AfflictionTypes="" />
     <damagemodifier DamageSound="" DamageParticle="" DamageMultiplier="0.75" ProbabilityMultiplier="1" ArmorSector="0,360" DeflectProjectiles="False" AfflictionIdentifiers="bleeding,bitewounds" AfflictionTypes="" />
   </limb>
