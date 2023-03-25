@@ -16,10 +16,10 @@
   <Item file="%ModDir%/Robowaifu/Items/Jobgear/Engineer/override_engineer_gear.xml" />
   <Item file="%ModDir%/Robowaifu/Items/Jobgear/Mechanic/override_mechanic_gear.xml" />
   <Item file="%ModDir%/Robowaifu/Items/Jobgear/Medic/override_medic_gear.xml" />
-  <Item file="%ModDir%/Robowaifu/Items/Jobgear/Security/override_securityofficer_gear.xml" />
-  <Item file="%ModDir%/Robowaifu/Items/Jobgear/Watchman/override_watchman_gear.xml" />
   <Item file="%ModDir%/Robowaifu/Items/Jobgear/override_misc.xml" />
   <Item file="%ModDir%/Robowaifu/Items/Jobgear/override_pirateitems.xml" />
+  <Item file="%ModDir%/Robowaifu/Items/Jobgear/Security/override_securityofficer_gear.xml" />
+  <Item file="%ModDir%/Robowaifu/Items/Jobgear/Watchman/override_watchman_gear.xml" />
   <Character file="%ModDir%/Fractal Guardians with Alien Circuitry/Fractal.xml" />
   <Character file="%ModDir%/Fractal Guardians with Alien Circuitry/Fractal2.xml" />
 </contentpackage>
