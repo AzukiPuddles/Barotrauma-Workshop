@@ -9,11 +9,12 @@
         <TalentOption identifier="shu_engine_boost" />
         <TalentOption identifier="shu_flextape" />
       </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
         <TalentOption identifier="shu_shipdoll_transport" />
         <TalentOption identifier="shu_wakeup" />
         <TalentOption identifier="shu_sweet_stash" />
         <TalentOption identifier="shu_revolutionary_ties" />
+        <TalentOption identifier="shu_overcome_crisis" />
         <TalentOption identifier="shu_yasen_abyss" />
       </TalentOptions>
     </SubTree>

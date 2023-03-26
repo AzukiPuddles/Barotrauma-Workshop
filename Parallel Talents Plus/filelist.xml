@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.7" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.8.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.8" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.8.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Agriculturist.xml" />

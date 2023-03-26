@@ -2,6 +2,10 @@ Changelog for Parallel Talents Plus
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949082804
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus
 
+0.0.8 Mar 25
+Updated talent tree:
+IRN Medical Officer, +shu_overcome_crisis
+
 0.0.7 Mar 23
 Added support for:
 Renegade

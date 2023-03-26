@@ -28,6 +28,10 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2687741461]Warden[/url]
 
+Talent Tree Patches:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2951969296]The Great Talent Merger of 1.0[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2952533781]Merged Talent Trees[/url] (Original not required)
+
 Prepatched mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2929084649]Needs - Chef[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]Vanilla Plus - Prisoner[/url]

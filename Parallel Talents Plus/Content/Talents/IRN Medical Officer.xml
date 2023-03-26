@@ -14,6 +14,7 @@
         <TalentOption identifier="shu_wakeup" />
         <TalentOption identifier="shu_sweet_stash" />
         <TalentOption identifier="shu_revolutionary_ties" />
+        <TalentOption identifier="shu_overcome_crisis" />
         <TalentOption identifier="shu_yasen_abyss" />
       </TalentOptions>
     </SubTree>
