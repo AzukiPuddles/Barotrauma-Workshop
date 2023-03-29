@@ -50,7 +50,7 @@
       </TalentOptions>
     </SubTree>
     <SubTree identifier="specialisation" nameidentifier="talentname.specialisation" requires="Renegade_primary">
-      <TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5"> 
         <ShowCaseTalent identifier="specialisation">
           <TalentOption identifier="specialisation_helm" />
           <TalentOption identifier="specialisation_medical" />

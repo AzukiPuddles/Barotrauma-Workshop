@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+<TalentTree jobidentifier="juniorexecutiveofficer">
+    <SubTree identifier="juniorexecutiveofficer_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="6">
+        <TalentOption identifier="oiledmachinery" />
+        <TalentOption identifier="gunrunner" />
+        <TalentOption identifier="miner" />
+        <TalentOption identifier="thewaitinglist" />
+        <TalentOption identifier="camaraderie" />
+        <TalentOption identifier="prodigy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="juniorexecutiveofficer_secondary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="3" maxchosentalents="6">
+        <TalentOption identifier="clowncommissar" />
+        <TalentOption identifier="drunkensailor" />
+        <TalentOption identifier="swole" />
+        <TalentOption identifier="crustyseaman" />
+        <TalentOption identifier="lonewolf" />
+        <TalentOption identifier="finalsolution" />
+      </TalentOptions>
+    </SubTree>
+    <!--	<SubTree identifier="juniorexecutiveofficer_tetriary" nameidentifier="talenttree.primary" type="primary"> 
+	  <TalentOptions maxchosentalents="1">
+        <ShowCaseTalent identifier="factionbasedpardonsbase" maxchosentalents="1">
+          <TalentOption identifier="factionbasedpardonscoalition"/>
+          <TalentOption identifier="factionbasedpardonsseparatists"/>
+          <TalentOption identifier="factionbasedpardonsclowns"/>
+          <TalentOption identifier="factionbasedpardonshuskcult"/>
+        </ShowCaseTalent>
+      </TalentOptions>
+    </SubTree> -->
+    <SubTree identifier="the_veteran_soldier" type="specialization" requires="juniorexecutiveofficer_primary,juniorexecutiveofficer_secondary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <ShowCaseTalent identifier="weaponsspecialistdeluxe">
+          <TalentOption identifier="weaponsspecialistdeluxe_shotguns" />
+          <TalentOption identifier="weaponsspecialistdeluxe_pistols" />
+          <TalentOption identifier="weaponsspecialistdeluxe_rifles" />
+          <TalentOption identifier="weaponsspecialistdeluxe_smgs" />
+          <TalentOption identifier="weaponsspecialistdeluxe_grenades" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">  
+        <TalentOption identifier="physicalconditioningquickescape" />
+        <TalentOption identifier="physicalconditioningholdfirm" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="riflemandeluxe" />
+        <TalentOption identifier="swordsmandeluxe" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="castledoctrineveterandontholdposition" />
+        <TalentOption identifier="castledoctrineveteranholdposition" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="inspiringpresencedeluxe" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="the_veteran_sailor" type="specialization" requires="juniorexecutiveofficer_primary,juniorexecutiveofficer_secondary">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <ShowCaseTalent identifier="apprenticeshipdeluxe">
+          <TalentOption identifier="apprenticeshipdeluxe_captain" />
+          <TalentOption identifier="apprenticeshipdeluxe_doctor" />
+          <TalentOption identifier="apprenticeshipdeluxe_security" />
+          <TalentOption identifier="apprenticeshipdeluxe_mechanic" />
+          <TalentOption identifier="apprenticeshipdeluxe_engineer" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="firemanscarry" />
+        <TalentOption identifier="firstaidtraining" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="scavenger" />
+        <TalentOption identifier="scrapsavant" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="monsterhunter1" />
+        <TalentOption identifier="piratehunter1" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="journeymandeluxe" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="the_merchant_of_venice" type="specialization" requires="juniorexecutiveofficer_primary,juniorexecutiveofficer_secondary">
+      <TalentOptions>
+        <TalentOption identifier="innermerchanttalent" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="escortdeluxe" />
+        <TalentOption identifier="truckerdeluxe" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="artisancrafter" />
+        <TalentOption identifier="traderoutedeluxe" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2"> 
+        <TalentOption identifier="lehappymerchant" />
+        <TalentOption identifier="insurancepolicymerchant" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="merchantsongtalent" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>

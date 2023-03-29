@@ -11,6 +11,7 @@ Load order generally doesn't matter unless something overrides the trees already
 Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870519815]Acolyte[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946558743]Agruculturist[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2702957052]Better Solo Crew Start - Senior Assistant[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880774658]Blade[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2936664151]Blahaj[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2891792017]BSA - Iron Rider[/url]

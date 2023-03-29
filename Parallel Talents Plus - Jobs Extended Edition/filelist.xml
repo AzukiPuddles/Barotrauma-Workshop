@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.9" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.8.0">
+<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.10" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.8.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees-VanillaLike.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Agriculturist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Better Solo Crew Start - Senior Assistant.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Blade.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Blahaj.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/BSA - Iron Rider.xml" />

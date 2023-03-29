@@ -12,13 +12,14 @@
         <TalentOption identifier="sanctuary" />
         <TalentOption identifier="willinghost" />
       </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="6">
+      <TalentOptions requiredtalents="2" maxchosentalents="7">
         <TalentOption identifier="chainthebeast" />
         <TalentOption identifier="dunleashthebeast" />
         <TalentOption identifier="freesamples" />
         <TalentOption identifier="herbalist" />
         <TalentOption identifier="itsalive" />
         <TalentOption identifier="jekyllandhyde" />
+        <TalentOption identifier="naturalorder" />
       </TalentOptions>
     </SubTree>
     <SubTree identifier="Symbiosis" type="specialization" requires="acolyte_primary">
