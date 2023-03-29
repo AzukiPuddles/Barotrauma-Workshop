@@ -6,7 +6,7 @@
       <TalentOptions requiredtalents="3" maxchosentalents="3">
         <TalentOption identifier="warden_core1" />
         <TalentOption identifier="warden_core3" />
-        <TalentOption identifier="warden_core4" />
+        <TalentOption identifier="warden_second5" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="1">
         <ShowCaseTalent identifier="warden_core2">
@@ -22,7 +22,7 @@
         <TalentOption identifier="warden_second2" />
         <TalentOption identifier="warden_second3" />
         <TalentOption identifier="warden_second4" />
-        <TalentOption identifier="warden_second5" />
+        <TalentOption identifier="warden_core4" />
         <TalentOption identifier="warden_second6" />
         <TalentOption identifier="warden_second7" />
       </TalentOptions>
@@ -40,7 +40,7 @@
     </SubTree>
     <SubTree identifier="warden_paragon" type="specialization" requires="warden_primary">
       <TalentOptions>
-        <TalentOption identifier="warden_para1" />
+        <TalentOption identifier="warden_enf1" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="warden_para2" />
@@ -56,7 +56,7 @@
     </SubTree>
     <SubTree identifier="warden_enforcer" type="specialization" requires="warden_primary">
       <TalentOptions>
-        <TalentOption identifier="warden_enf1" />
+        <TalentOption identifier="warden_para1" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="warden_enf2" />
