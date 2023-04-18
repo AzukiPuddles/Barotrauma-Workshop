@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+  <TalentTree jobidentifier="shu_battlemedic">
+    <SubTree identifier="shu_battlemedic_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOption identifier="shu_explosion_maniac" />
+        <TalentOption identifier="shu_ship_printing" />
+        <TalentOption identifier="shu_engine_boost" />
+        <TalentOption identifier="shu_flextape" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="shu_shipdoll_transport" />
+        <TalentOption identifier="shu_wakeup" />
+        <TalentOption identifier="shu_sweet_stash" />
+        <TalentOption identifier="shu_revolutionary_ties" />
+        <TalentOption identifier="shu_overcome_crisis" />
+        <TalentOption identifier="shu_yasen_abyss" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_battlemedic_yasen" type="specialization" requires="shu_battlemedic_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_yasen_submarine_warfare" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_yasen_surcouf_expert" />
+        <TalentOption identifier="shu_yasen_i400_expert" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_yasen_yasen" />
+        <TalentOption identifier="shu_yasen_cloaker" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_yasen_shinkaiseikan" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_battlemedic_drpepper" type="specialization" requires="shu_battlemedic_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_drpepper_upgrades" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_drpepper_engineer" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_drpepper_fleshisweak" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_drpepper_madscientist" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_battlemedic_medic" type="specialization" requires="shu_battlemedic_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_medic_support" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_medic_redalert" />
+        <TalentOption identifier="shu_ship_printing_memeautor" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_medic_hyprocrete" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_medic_supersoldierprogram" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="shu_engineergaming">
+    <SubTree identifier="shu_engineergaming_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOption identifier="shu_explosion_boost" />
+        <TalentOption identifier="shu_damagecontrol_expert" />
+        <TalentOption identifier="shu_technology" />
+        <TalentOption identifier="shu_flexible" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="5">
+        <TalentOption identifier="shu_security_team" />
+        <TalentOption identifier="shu_engineer_crisis" />
+        <TalentOption identifier="shu_ballast_controller" />
+        <TalentOption identifier="shu_electromechanic_expert" />
+        <TalentOption identifier="shu_tracking_device" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_engineergaming_outrange" type="specialization" requires="shu_engineergaming_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_efficient_rotation" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_preemptive_strike" />
+        <TalentOption identifier="shu_kidou_butai" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_projection" />
+        <TalentOption identifier="shu_furioso" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_sangvis_falco" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_engineergaming_home" type="specialization" requires="shu_engineergaming_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_home_caring" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_home_renovation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_ballast_gardening" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_home_sweet_home" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_engineergaming_trustme" type="specialization" requires="shu_engineergaming_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_queue_doom_music" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_maximo_poder" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_flank_ahead" />
+        <TalentOption identifier="shu_steady_ahead" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_tenkai" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="shu_rifleman">
+    <SubTree identifier="shu_rifleman_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_rifleman_training1" />
+        <TalentOption identifier="shu_basics_of_survivability" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_dakkado" />
+        <TalentOption identifier="shu_ittoryu" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOption identifier="shu_rifleman_training2" />
+        <TalentOption identifier="shu_harem_expansion" />
+        <TalentOption identifier="shu_tennou_heika" />
+        <TalentOption identifier="shu_mobile_warfare" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_superior_firepower" type="specialization" requires="shu_rifleman_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_torpex" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_railgun_primacy" />
+        <TalentOption identifier="shu_chaingun_primacy" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_dca" />
+        <TalentOption identifier="shu_territory" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_kantai_kessen" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_ira_liaison" type="specialization" requires="shu_rifleman_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_ira_marine" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_spearhead" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="shu_red_knight" />
+        <TalentOption identifier="shu_dark_knight" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_determination" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_imperial_doctrine" type="specialization" requires="shu_rifleman_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_dengekisen" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_raigekisen" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_daisentokeikaku" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_minadein" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="shu_admiral">
+    <SubTree identifier="shu_admiral_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="3">
+        <TalentOption identifier="shu_inspirationandimprovement" />
+        <TalentOption identifier="shu_soothedsedated" />
+        <TalentOption identifier="shu_rat_strategy" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="3">
+        <TalentOption identifier="shu_abandon_ship" />
+        <TalentOption identifier="shu_leftover" />
+        <TalentOption identifier="shu_manager_presence" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_medical_team" type="specialization" requires="shu_admiral_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_medical_supply" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_market_liaison" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_medical_command" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_cleanup_team" type="specialization" requires="shu_admiral_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_preventive_maintenance" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_repairpartyreadiness" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_emergencyrepairexpert" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_fourth_pack" type="specialization" requires="shu_admiral_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_grazethegrass" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_quicksuppression" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_battlecommand" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="shu_admiralty" type="specialization" requires="shu_admiral_primary">
+      <TalentOptions>
+        <TalentOption identifier="shu_kaigun_shosho" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_political_presence" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_expedition_force" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="shu_kaigun_taisho" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>

@@ -3,16 +3,17 @@
 <TalentTrees>
   <TalentTree jobidentifier="acolyte">
     <SubTree identifier="acolyte_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="7">
+      <TalentOptions requiredtalents="2" maxchosentalents="8">
+        <TalentOption identifier="boostershot" />
         <TalentOption identifier="crusade" />
         <TalentOption identifier="faithismyshield" />
+        <TalentOption identifier="fallfromgrace" />
         <TalentOption identifier="martyr" />
         <TalentOption identifier="medievalmedication" />
-        <TalentOption identifier="powerofprayer" />
         <TalentOption identifier="sanctuary" />
         <TalentOption identifier="willinghost" />
       </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="7">
+      <TalentOptions requiredtalents="2" maxchosentalents="8">
         <TalentOption identifier="chainthebeast" />
         <TalentOption identifier="dunleashthebeast" />
         <TalentOption identifier="freesamples" />
@@ -20,6 +21,7 @@
         <TalentOption identifier="itsalive" />
         <TalentOption identifier="jekyllandhyde" />
         <TalentOption identifier="naturalorder" />
+        <TalentOption identifier="powerofprayer" />
       </TalentOptions>
     </SubTree>
     <SubTree identifier="Symbiosis" type="specialization" requires="acolyte_primary">

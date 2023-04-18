@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.10" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.8.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.11" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.9.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Agriculturist.xml" />
@@ -12,7 +12,8 @@
   <TalentTrees file="%ModDir%/Content/Talents/Diver.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Force Warrior.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Harlequin.xml" />
-  <TalentTrees file="%ModDir%/Content/Talents/IRN Medical Officer.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Hungry Europans - Chef.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/IRN Crew.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Renegade.xml" />

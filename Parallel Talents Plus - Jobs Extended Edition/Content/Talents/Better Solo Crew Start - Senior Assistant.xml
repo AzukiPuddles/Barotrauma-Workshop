@@ -22,16 +22,16 @@
         <TalentOption identifier="finalsolution" />
       </TalentOptions>
     </SubTree>
-    <!--	<SubTree identifier="juniorexecutiveofficer_tetriary" nameidentifier="talenttree.primary" type="primary"> 
+    <SubTree identifier="juniorexecutiveofficer_tetriary" nameidentifier="talenttree.primary" type="primary">
 	  <TalentOptions maxchosentalents="1">
-        <ShowCaseTalent identifier="factionbasedpardonsbase" maxchosentalents="1">
-          <TalentOption identifier="factionbasedpardonscoalition"/>
-          <TalentOption identifier="factionbasedpardonsseparatists"/>
-          <TalentOption identifier="factionbasedpardonsclowns"/>
-          <TalentOption identifier="factionbasedpardonshuskcult"/>
+        <ShowCaseTalent identifier="factionbasedpardonsbase" >
+          <TalentOption identifier="factionbasedpardonscoalition" />
+          <TalentOption identifier="factionbasedpardonsseparatists" />
+          <TalentOption identifier="factionbasedpardonsclowns" />
+          <TalentOption identifier="factionbasedpardonshuskcult" />
         </ShowCaseTalent>
       </TalentOptions>
-    </SubTree> -->
+    </SubTree>
     <SubTree identifier="the_veteran_soldier" type="specialization" requires="juniorexecutiveofficer_primary,juniorexecutiveofficer_secondary">
       <TalentOptions requiredtalents="1" maxchosentalents="5">
         <ShowCaseTalent identifier="weaponsspecialistdeluxe">

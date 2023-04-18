@@ -57,6 +57,9 @@
         <TalentOption identifier="implacable" />
         <TalentOption identifier="miracleworker" />
       </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="PolymathFW" />
+      </TalentOptions>
     </SubTree>
     <SubTree identifier="Sith" type="specialization" requires="ForceWarrior_primary" blocks="Jedi">
       <TalentOptions requiredtalents="1" maxchosentalents="2">
