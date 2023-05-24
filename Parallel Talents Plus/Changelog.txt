@@ -2,6 +2,16 @@ Changelog for Parallel Talents Plus
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949082804
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus
 
+0.0.12 May 23
+Added:
+Admiral
+VIP
+
+Updated talen trees:
+Blade
+Clownotrauma - Clown
+Force Warrior
+
 0.0.11 Apr 17
 Updated talent trees:
 Acolyte, Better Solo Crew Start Reborn, Force Warrior Job, 

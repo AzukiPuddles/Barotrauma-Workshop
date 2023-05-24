@@ -10,6 +10,7 @@ Load order generally doesn't matter unless something overrides the trees already
 
 Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870519815]Acolyte[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2955612327]Admiral[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946558743]Agruculturist[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2702957052]Better Solo Crew Start - Senior Assistant[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880774658]Blade[/url]
@@ -28,6 +29,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2921079225]Scavenger[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2790455798]Surgeon[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2968244070]VIP[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2687741461]Warden[/url]
 
 Talent Tree Patches:
@@ -37,6 +39,7 @@ Talent Tree Patches:
 Prepatched mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2929084649]Needs - Chef[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]Vanilla Plus - Prisoner[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2972500944]Botanophobia[/url] (No talents)
 
 Unsupported mods: 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2526236489]Jobs Extended[/url] (Duplicate job, JE, and Diver do not use overrides either) If you would prefer this job mod instead look at [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2949678245]Parallel Talents Plus - Jobs Extended Edition[/url]

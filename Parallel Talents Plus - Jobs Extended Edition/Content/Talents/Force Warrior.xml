@@ -81,6 +81,21 @@
         <TalentOption identifier="" />
       </TalentOptions>
     </SubTree>
+    <SubTree identifier="Force_Skills" type="specialization" requires="ForceWarrior_primary">
+      <TalentOptions>
+        <TalentOption identifier="Force_Push" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="Force_Cloak" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="" />
+        <!-- Force_Repair 测试中-->
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="" />
+      </TalentOptions>
+    </SubTree>
   </TalentTree>
 </TalentTrees>
 </Override>

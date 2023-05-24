@@ -5,8 +5,8 @@
     <SubTree identifier="clownotrauma_primary" nameidentifier="talenttree.clownotrauma_clown_primary" type="primary">
       <TalentOptions requiredtalents="2" maxchosentalents="4">
         <TalentOption identifier="clownotrauma_clownconnections" />
-        <TalentOption identifier="clownotrauma_honkmotherdevelopmentfund" />
         <TalentOption identifier="clownotrauma_funpolice" />
+        <TalentOption identifier="clownotrauma_onemanband" />
         <TalentOption identifier="clownotrauma_humourfoundation" />
       </TalentOptions>
       <TalentOptions requiredtalents="2" maxchosentalents="3">
