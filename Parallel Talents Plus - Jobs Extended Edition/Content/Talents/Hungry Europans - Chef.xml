@@ -11,12 +11,13 @@
         <!--<TalentOption identifier="selfcare"/>
         <TalentOption identifier="stayinalive"/>-->
       </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="4">
+      <TalentOptions requiredtalents="2" maxchosentalents="5">
         <TalentOption identifier="firemanscarry" />
         <TalentOption identifier="drunkensailor" />
         <TalentOption identifier="he-chefattire" />
         <TalentOption identifier="daringdolphin" />
-        <!--<TalentOption identifier="medicalcompanion"/>
+        <TalentOption identifier="he-masterbrewer" />
+        <!--
         <TalentOption identifier="dontdieonme"/>
         <TalentOption identifier="nopressure"/>
         <TalentOption identifier="blooddonor"/>-->

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="ek_suppressor" aliases="suppressor,silencer,ekcompatibility_suppressor" category="Equipment" Tags="smallitem,weapon,gun,ekcompatibility_suppressor" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_suppressor" aliases="suppressor,silencer,ekcompatibility_suppressor" category="Weapon" Tags="smallitem,weapon,gun,ekcompatibility_suppressor" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="80" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -23,7 +23,7 @@
     <Body width="67" height="16" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" holdangle="-90" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="ek_lightattachment" aliases="taclight,light attachment,flashlight attachment,ekcompatibility_taclight" category="Equipment" Tags="smallitem,ekcompatibility_taclight" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_lightattachment" aliases="taclight,light attachment,flashlight attachment,ekcompatibility_taclight" category="Weapon" Tags="smallitem,ekcompatibility_taclight" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="120" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -33,10 +33,13 @@
       <Price storeidentifier="merchantarmory" multiplier="1.1" sold="true" minavailable="2" />
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredItem identifier="aluminium" />
       <RequiredItem identifier="aluminium" />
       <RequiredItem tag="lightcomponent" />
     </Fabricate>
     <Deconstruct time="10">
+      <Item identifier="aluminium" />
       <Item identifier="aluminium" />
       <Item identifier="lightcomponent" />
     </Deconstruct>
@@ -44,7 +47,7 @@
     <Body width="38" height="14" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" holdangle="-90" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="ek_laserattachment" aliases="laser attachment, laser sight attachment,ekcompatibility_lasersight" category="Equipment" Tags="smallitem,ekcompatibility_lasersight" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserattachment" aliases="laser attachment, laser sight attachment,ekcompatibility_lasersight" category="Weapon" Tags="smallitem,ekcompatibility_lasersight" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="150" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -54,6 +57,7 @@
       <Price storeidentifier="merchantarmory" multiplier="1.1" sold="true" minavailable="2" />
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="electrical" level="40" />
       <RequiredItem identifier="aluminium" />
       <RequiredItem identifier="fpgacircuit" />
       <RequiredItem tag="lightcomponent" />
@@ -67,7 +71,7 @@
     <Body width="38" height="14" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" holdangle="-90" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="ek_sonarattachment" aliases="sonar attachment, sonar scope attachment,ekcompatibility_sonarscope" category="Equipment" Tags="smallitem,ekcompatibility_sonarscope" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_sonarattachment" aliases="sonar attachment, sonar scope attachment,ekcompatibility_sonarscope" category="Weapon" Tags="smallitem,ekcompatibility_sonarscope" canbepicked="true" cargocontaineridentifier="ek_weapons_case" scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="180" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -92,8 +96,9 @@
     <Body width="64" height="32" density="15" />
     <Holdable slots="Any,RightHand,LeftHand" handle1="0,0" holdangle="-90" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="ek_piperifle_flashlight" aliases="pipe rifle taclight,pipegun taclight, pipe rifle flashlight" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_piperifle_flashlight" aliases="pipe rifle taclight,pipegun taclight, pipe rifle flashlight" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_piperifle" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -137,8 +142,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_piperifle_laser" aliases="pipe rifle laser,pipegun laser, pipe rifle laser" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_piperifle_laser" aliases="pipe rifle laser,pipegun laser, pipe rifle laser" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_piperifle" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -182,8 +188,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_piperifle_suppressed" aliases="suppressed pipegun, pipegun suppressed, suppressed pipe gun, pipe gun suppressed" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_piperifle_suppressed" aliases="suppressed pipegun, pipegun suppressed, suppressed pipe gun, pipe gun suppressed" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_piperifle" />
       <RequiredItem tag="ekcompatibility_suppressor" />
     </Fabricate>
@@ -220,8 +227,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_piperifle_suppressed_flashlight" aliases="suppressed pipegun taclight, pipegun suppressed taclight, suppressed pipe gun taclight, pipe gun suppressed taclight" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_piperifle_suppressed_flashlight" aliases="suppressed pipegun taclight, pipegun suppressed taclight, suppressed pipe gun taclight, pipe gun suppressed taclight" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_piperifle" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_taclight" />
@@ -267,8 +275,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_piperifle_suppressed_laser" aliases="suppressed pipegun laser, pipegun suppressed laser, suppressed pipe gun laser, pipe gun suppressed laser" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_piperifle_suppressed_laser" aliases="suppressed pipegun laser, pipegun suppressed laser, suppressed pipe gun laser, pipe gun suppressed laser" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_piperifle" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_lasersight" />
@@ -314,8 +323,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_handgun_flashlight" aliases="handgun taclight" category="Equipment,Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_handgun_flashlight" aliases="handgun taclight" category="Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_handgun" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -370,8 +380,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_handgun_laser" aliases="handgun laser" category="Equipment,Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_handgun_laser" aliases="handgun laser" category="Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_handgun" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -426,8 +437,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_handgun_suppressed" aliases="suppressed handgun, handgun suppressed" category="Equipment,Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_handgun_suppressed" aliases="suppressed handgun, handgun suppressed" category="Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_handgun" />
       <RequiredItem tag="ekcompatibility_suppressor" />
     </Fabricate>
@@ -474,8 +486,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_handgun_suppressed_flashlight" aliases="suppressed handgun taclight, handgun taclight suppressed" category="Equipment,Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_handgun_suppressed_flashlight" aliases="suppressed handgun taclight, handgun taclight suppressed" category="Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_handgun" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_taclight" />
@@ -534,8 +547,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_handgun_suppressed_laser" aliases="suppressed handgun laser, handgun laser suppressed" category="Equipment,Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_handgun_suppressed_laser" aliases="suppressed handgun laser, handgun laser suppressed" category="Weapon" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_handgun" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_lasersight" />
@@ -594,8 +608,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_mini_smg_flashlight" aliases="mini smg taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_mini_smg_flashlight" aliases="mini smg taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_mini_smg" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -647,8 +662,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_mini_smg_laser" aliases="mini smg laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_mini_smg_laser" aliases="mini smg laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_mini_smg" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -700,8 +716,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_mini_smg_suppressed" aliases="compact smg suppressed, suppressed mini smg, mini smg suppressed,ek_mini_smg_supressed" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_mini_smg_suppressed" aliases="compact smg suppressed, suppressed mini smg, mini smg suppressed,ek_mini_smg_supressed" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_mini_smg" />
       <RequiredItem tag="ekcompatibility_suppressor" />
     </Fabricate>
@@ -743,8 +760,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_mini_smg_suppressed_flashlight" aliases="compact smg taclight suppressed, suppressed mini smg taclight, mini smg taclight suppressed,ek_mini_smg_supressed_flashlight" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_mini_smg_suppressed_flashlight" aliases="compact smg taclight suppressed, suppressed mini smg taclight, mini smg taclight suppressed,ek_mini_smg_supressed_flashlight" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_mini_smg" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_taclight" />
@@ -798,8 +816,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_mini_smg_suppressed_laser" aliases="compact smg laser suppressed, suppressed mini smg laser, mini smg laser suppressed,ek_mini_smg_supressed_laser" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_mini_smg_suppressed_laser" aliases="compact smg laser suppressed, suppressed mini smg laser, mini smg laser suppressed,ek_mini_smg_supressed_laser" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_mini_smg" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_lasersight" />
@@ -853,8 +872,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_smg_flashlight" aliases="marine smg taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_flashlight" aliases="marine smg taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_smg" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -909,8 +929,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_smg_laser" aliases="marine smg laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_laser" aliases="marine smg laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_smg" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -965,8 +986,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_smg_suppressed" aliases="suppressed smg, smg suppressed,ek_smg_supressed" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_suppressed" aliases="suppressed smg, smg suppressed,ek_smg_supressed" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_smg" />
       <RequiredItem tag="ekcompatibility_suppressor" />
     </Fabricate>
@@ -1011,8 +1033,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_smg_suppressed_flashlight" aliases="suppressed smg taclight, smg taclight suppressed,ek_smg_supressed_flashlight" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_suppressed_flashlight" aliases="suppressed smg taclight, smg taclight suppressed,ek_smg_supressed_flashlight" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_smg" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_taclight" />
@@ -1069,8 +1092,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_smg_suppressed_laser" aliases="suppressed smg laser, smg laser suppressed,ek_smg_supressed_laser" category="Equipment,Weapon" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_suppressed_laser" aliases="suppressed smg laser, smg laser suppressed,ek_smg_supressed_laser" category="Weapon" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_smg" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_lasersight" />
@@ -1127,8 +1151,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_tactical_shotgun_flashlight" aliases="shotgun taclight, tactical shotgun taclight,ek_shotgun_flashlight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_tactical_shotgun_flashlight" aliases="shotgun taclight, tactical shotgun taclight,ek_shotgun_flashlight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_tactical_shotgun" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1176,8 +1201,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_tactical_shotgun_laser" aliases="shotgun laser, tactical shotgun laser,ek_shotgun_laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_tactical_shotgun_laser" aliases="shotgun laser, tactical shotgun laser,ek_shotgun_laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_tactical_shotgun" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -1225,8 +1251,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_tazer_flashlight" aliases="tazer taclight, stun gun taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_tazer" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_tazer_flashlight" aliases="tazer taclight, stun gun taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_tazer" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_tazer" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1275,8 +1302,9 @@
       </TickBox>
     </CustomInterface>
   </Item>
-  <Item name="" identifier="ek_drumlmg_flashlight" aliases="machinegun taclight, machine gun taclight, lmg taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556drum,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_drumlmg_flashlight" aliases="machinegun taclight, machine gun taclight, lmg taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556drum,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_drumlmg" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1328,8 +1356,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_dartgun_flashlight" aliases="dart gun taclight,dartgun taclight,ek_dartgun_flashlugh" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_dart" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_dartgun_flashlight" aliases="dart gun taclight,dartgun taclight,ek_dartgun_flashlugh" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_dart" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_dartgun" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1368,8 +1397,9 @@
       </TickBox>
     </CustomInterface>
   </Item>
-  <Item name="" identifier="ek_gausspistol_flashlight" aliases="gauss pistol taclight, coil pistol taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,loadable,ek_ammotag_gausspistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_gausspistol_flashlight" aliases="gauss pistol taclight, coil pistol taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,loadable,ek_ammotag_gausspistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_gausspistol" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1422,8 +1452,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_gausspistol_laser" aliases="gauss pistol laser, coil pistol laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,loadable,ek_ammotag_gausspistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_gausspistol_laser" aliases="gauss pistol laser, coil pistol laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,loadable,ek_ammotag_gausspistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_gausspistol" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -1476,8 +1507,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_gaussrifle_flashlight" aliases="gauss rifle taclight, coil rifle taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,loadable,ek_ammotag_gaussrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_gaussrifle_flashlight" aliases="gauss rifle taclight, coil rifle taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,loadable,ek_ammotag_gaussrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_gaussrifle" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1530,8 +1562,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_gaussrifle_laser" aliases="gauss rifle laser, coil rifle laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,loadable,ek_ammotag_gaussrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_gaussrifle_laser" aliases="gauss rifle laser, coil rifle laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,loadable,ek_ammotag_gaussrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_gaussrifle" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -1584,8 +1617,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_torpedorifle_sonarscope" aliases="torpedorifle sonar, torpedo rifle sonar" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_microtorpedo" Scale="0.32" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_torpedorifle_sonarscope" aliases="torpedorifle sonar, torpedo rifle sonar" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_microtorpedo" Scale="0.32" impactsoundtag="impact_metal_heavy">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="electrical" level="30" />
       <RequiredItem identifier="ek_torpedorifle" />
       <RequiredItem identifier="ek_sonarattachment" />
     </Fabricate>
@@ -1653,8 +1687,9 @@
       <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5" />
     </Sonar>
   </Item>
-  <Item name="" identifier="ek_rocketlauncher_sonarscope" aliases="marine rpg sonar,rocketlauncher sonar,rocket launcher sonar,ek rocketlauncher sonar,ek rocket launcher sonar,rpg sonar,ek rpg sonar" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_rocket" Scale="0.38" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_rocketlauncher_sonarscope" aliases="marine rpg sonar,rocketlauncher sonar,rocket launcher sonar,ek rocketlauncher sonar,ek rocket launcher sonar,rpg sonar,ek rpg sonar" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_rocket" Scale="0.38" impactsoundtag="impact_metal_heavy">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="electrical" level="30" />
       <RequiredItem identifier="ek_rocketlauncher" />
       <RequiredItem identifier="ek_sonarattachment" />
     </Fabricate>
@@ -1722,8 +1757,9 @@
       <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5" />
     </Sonar>
   </Item>
-  <Item name="" identifier="ek_beast_ssl_flashlight" aliases="beast ssl taclight,ssl taclight,beast taclight,ek beast taclight,beast autocannon taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_30mmfc,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_beast_ssl_flashlight" aliases="beast ssl taclight,ssl taclight,beast taclight,ek beast taclight,beast autocannon taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_30mmfc,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_beast_ssl" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1774,8 +1810,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_battlerifle_flashlight" aliases="marine battle rifle taclight,marine assault rifle taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_flashlight" aliases="marine battle rifle taclight,marine assault rifle taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_battlerifle" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -1830,8 +1867,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_battlerifle_laser" aliases="marine battle rifle laser,marine assault rifle laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_laser" aliases="marine battle rifle laser,marine assault rifle laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_battlerifle" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -1883,8 +1921,9 @@
       </TickBox>
     </CustomInterface>
   </Item>
-  <Item name="" identifier="ek_battlerifle_suppressed" aliases="marine assault rifle suppressed,marine battle rifle suppressed,ek_battlerifle_supressed" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_suppressed" aliases="marine assault rifle suppressed,marine battle rifle suppressed,ek_battlerifle_supressed" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_battlerifle" />
       <RequiredItem tag="ekcompatibility_suppressor" />
     </Fabricate>
@@ -1929,8 +1968,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_battlerifle_suppressed_flashlight" aliases="marine assault rifle taclight suppressed,marine battle rifle taclight suppressed,ek_battlerifle_supressed_flashlight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_suppressed_flashlight" aliases="marine assault rifle taclight suppressed,marine battle rifle taclight suppressed,ek_battlerifle_supressed_flashlight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_battlerifle" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_taclight" />
@@ -1987,8 +2027,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_battlerifle_suppressed_laser" aliases="marine assault rifle laser suppressed,marine battle rifle laser suppressed,ek_battlerifle_supressed_laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_suppressed_laser" aliases="marine assault rifle laser suppressed,marine battle rifle laser suppressed,ek_battlerifle_supressed_laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_battlerifle" />
       <RequiredItem tag="ekcompatibility_suppressor" />
       <RequiredItem tag="ekcompatibility_lasersight" />
@@ -2045,9 +2086,10 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserpistol_flashlight" aliases="laser pistol taclight,laserpistol taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_laserpistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserpistol_flashlight" aliases="laser pistol taclight,laserpistol taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_laserpistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_laserpistol" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -2100,9 +2142,10 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserpistol_laser" aliases="laser pistol laser,laserpistol laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_laserpistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserpistol_laser" aliases="laser pistol laser,laserpistol laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_laserpistol,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_laserpistol" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -2155,9 +2198,10 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserrifle_flashlight" aliases="laser rifle taclight,laserrifle taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserrifle_flashlight" aliases="laser rifle taclight,laserrifle taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_laserrifle" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -2210,9 +2254,10 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserrifle_laser" aliases="laser rifle laser,laserrifle laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserrifle_laser" aliases="laser rifle laser,laserrifle laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <!--<Price storeidentifier="merchantResearch" buyprice="80" />-->
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_laserrifle" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -2265,8 +2310,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolver_flashlight" aliases="ek revolver flashlight,ek revolver taclight" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_revolver_flashlight" aliases="ek revolver flashlight,ek revolver taclight" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_revolver" />
       <RequiredItem tag="ekcompatibility_taclight" />
     </Fabricate>
@@ -2341,8 +2387,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolver_laser" aliases="ek revolver laser" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_revolver_laser" aliases="ek revolver laser" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="20" />
       <RequiredItem identifier="ek_revolver" />
       <RequiredItem tag="ekcompatibility_lasersight" />
     </Fabricate>
@@ -2417,8 +2464,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolver_suppressed" aliases="ek revolver suppressed,suppressed ek revolver,ek_revolver_suppressed" hideinmenus="true" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_revolver_suppressed" aliases="ek revolver suppressed,suppressed ek revolver,ek_revolver_suppressed" hideinmenus="true" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
     <!--<Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="30" />
       <RequiredItem identifier="ek_revolver"/>
       <RequiredItem tag="ekcompatibility_suppressor"/>
     </Fabricate>-->
@@ -2483,8 +2531,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolver_suppressed_flashlight" aliases="suppressed ek revolver flashlight,suppressed ek revolver taclight,ek_revolver_supressed_flashlight" hideinmenus="true" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_revolver_suppressed_flashlight" aliases="suppressed ek revolver flashlight,suppressed ek revolver taclight,ek_revolver_supressed_flashlight" hideinmenus="true" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
     <!--<Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_revolver"/>
       <RequiredItem tag="ekcompatibility_suppressor"/>
       <RequiredItem tag="ekcompatibility_taclight"/>
@@ -2561,8 +2610,9 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolver_suppressed_laser" aliases="suppressed ek revolver laser,ek_revolver_supressed_laser" hideinmenus="true" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_revolver_suppressed_laser" aliases="suppressed ek revolver laser,ek_revolver_supressed_laser" hideinmenus="true" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,mountableweapon" Scale="0.34" impactsoundtag="impact_metal_light">
     <!--<Fabricate suitablefabricators="fabricator" requiredtime="1.5">
+      <RequiredSkill identifier="weapons" level="40" />
       <RequiredItem identifier="ek_revolver"/>
       <RequiredItem tag="ekcompatibility_suppressor"/>
       <RequiredItem tag="ekcompatibility_lasersight"/>

@@ -3,19 +3,17 @@
 <TalentTrees>
   <TalentTree jobidentifier="blade">
     <SubTree identifier="blade_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="6">
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <TalentOption identifier="firstaidtraining" />
         <TalentOption identifier="swole" />
-        <TalentOption identifier="buff" />
         <TalentOption identifier="prodigy" />
         <TalentOption identifier="physicalconditioning" />
-        <TalentOption identifier="medicalcompanion" />
         <TalentOption identifier="warstories" />
       </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="5">
+      <TalentOptions requiredtalents="1" maxchosentalents="4">
         <TalentOption identifier="easyturtle" />
         <TalentOption identifier="bootcamp" />
         <TalentOption identifier="exampleofhealth" />
-        <TalentOption identifier="boardingparty" />
         <TalentOption identifier="protectandserve" />
       </TalentOptions>
     </SubTree>
@@ -23,10 +21,9 @@
       <TalentOptions>
         <TalentOption identifier="swordfurnace" />
       </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="3">
-        <TalentOption identifier="crustyseaman" />
-        <TalentOption identifier="lonewolf" />
-        <TalentOption identifier="inordinateexsanguination" />
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="swordsmithfury" />
+        <TalentOption identifier="blacksmithtraining" />
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="notdeadyet" />
@@ -53,18 +50,19 @@
         <TalentOption identifier="massacre" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="wanderer" type="specialization" requires="blade_primary">
-      <TalentOptions>
-        <TalentOption identifier="wanderingstranger" />
-      </TalentOptions>
+    <SubTree identifier="warriorspirit" type="specialization" requires="blade_primary">
       <TalentOptions>
         <TalentOption identifier="anappleaday" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="berserker" />
-        <TalentOption identifier="foolhardy" />
+        <TalentOption identifier="samuraihonor" />
+        <TalentOption identifier="roninway" />
       </TalentOptions>
       <TalentOptions>
+        <TalentOption identifier="wanderingstranger" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="gloriousdeath" />
         <TalentOption identifier="wontworktwice" />
       </TalentOptions>
     </SubTree>

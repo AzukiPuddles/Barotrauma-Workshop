@@ -59,7 +59,7 @@
     </ItemComponent>
   </Item>
   <!-- Railgun Ammo-->
-  <Item name="" identifier="ek_railshell_decoy" aliases="railgun sonar shell, railgun decoy shell, railgun decoy" tags="railgunequipment,railgunammo,decoy" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_decoy" aliases="railgun sonar shell, railgun decoy shell, railgun decoy" tags="railgunequipment,railgunammo,decoy" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="4" spawnprobability="0.04" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.04" />
     <Price baseprice="200" sold="false" minleveldifficulty="10">
@@ -117,7 +117,7 @@
       <StatusEffect type="OnActive" target="This" condition="-2" />
     </LightComponent>
   </Item>
-  <Item name="" identifier="ek_railshell_nucleardecoy" aliases="nuclear sonar shell,nuclear decoy shell,nuclear railgun decoy" tags="railgunequipment,railgunammo,decoy" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_nucleardecoy" aliases="nuclear sonar shell,nuclear decoy shell,nuclear railgun decoy" tags="railgunequipment,railgunammo,decoy" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.01" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.01" />
     <Price baseprice="525" sold="false" minleveldifficulty="25">
@@ -189,7 +189,7 @@
       <StatusEffect type="OnActive" target="This" condition="-2" />
     </LightComponent>
   </Item>
-  <Item name="" identifier="ek_railshell_flechette" aliases="railgun flechette" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_flechette" aliases="railgun flechette" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="2" maxamount="4" spawnprobability="0.05" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="3" spawnprobability="0.05" />
     <Price baseprice="90" sold="false" minleveldifficulty="15">
@@ -240,7 +240,7 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,1,1" />
     </ItemContainer>
   </Item>
-  <Item name="ek_railgun_flechette_pellet" identifier="ek_railgun_flechette_pellet" category="Misc,Weapon" scale="0.32" sonarsize="2" hideinmenus="true">
+  <Item name="ek_railgun_flechette_pellet" identifier="ek_railgun_flechette_pellet" category="Weapon" scale="0.32" sonarsize="2" hideinmenus="true">
     <!--<Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="143,414,113,9" depth="0.55" />-->
     <Sprite texture="weapons_ek.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="40" density="15" />
@@ -276,7 +276,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railgun_halfshells" aliases="railgun halfshell holder,ek_halfshell_case" tags="railgunequipment,railgunammo,ek_railgun_halfshellcontainer" category="Misc,Weapon" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railgun_halfshells" aliases="railgun halfshell holder,ek_halfshell_case" tags="railgunequipment,railgunammo,ek_railgun_halfshellcontainer" category="Weapon" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="2" spawnprobability="0.05" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="1" spawnprobability="0.05" />
     <Price baseprice="75" sold="false" minleveldifficulty="5">
@@ -313,7 +313,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_railgun_halfshell" tags="railgunequipment,railgunammo,ek_railgun_halfshells" category="Misc,Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+  <Item name="" identifier="ek_railgun_halfshell" tags="railgunequipment,railgunammo,ek_railgun_halfshells" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
     <PreferredContainer primary="ek_railgun_halfshellcontainer" />
     <Deconstruct time="10">
       <Item identifier="ek_railgun_halfshell_piercingslug" outcondition="0.5" />
@@ -355,7 +355,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railgun_halfshells_piercingslug" tags="railgunequipment,railgunammo,ek_railgun_halfshellcontainer" category="Misc,Weapon" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railgun_halfshells_piercingslug" tags="railgunequipment,railgunammo,ek_railgun_halfshellcontainer" category="Weapon" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="2" spawnprobability="0.03" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.03" />
     <Price baseprice="95" sold="false" minleveldifficulty="10">
@@ -394,7 +394,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_railgun_halfshell_piercingslug" tags="railgunequipment,railgunammo,ek_railgun_halfshells" category="Misc,Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+  <Item name="" identifier="ek_railgun_halfshell_piercingslug" tags="railgunequipment,railgunammo,ek_railgun_halfshells" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
     <PreferredContainer primary="ek_railgun_halfshellcontainer" />
     <Deconstruct time="15">
       <Item identifier="steel" outcondition="0.5" />
@@ -448,7 +448,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railgun_halfshells_alien" tags="railgunequipment,railgunammo,ek_railgun_halfshellcontainer" category="Misc,Weapon" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railgun_halfshells_alien" tags="railgunequipment,railgunammo,ek_railgun_halfshellcontainer" category="Weapon" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="0" maxamount="1" spawnprobability="0.01" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.01" />
     <Price baseprice="250" sold="false" minleveldifficulty="15">
@@ -485,7 +485,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_railgun_halfshell_alien" aliases="railgun alien halfshell,railgun halfshell alien" tags="railgunequipment,railgunammo,ek_railgun_halfshells" category="Misc,Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+  <Item name="" identifier="ek_railgun_halfshell_alien" aliases="railgun alien halfshell,railgun halfshell alien" tags="railgunequipment,railgunammo,ek_railgun_halfshells" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
     <PreferredContainer primary="ek_railgun_halfshellcontainer" />
     <Deconstruct time="10">
       <Item identifier="ek_railgun_halfshell_piercingslug" outcondition="0.5" />
@@ -527,7 +527,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_homing" aliases="railgun homing shell,homing railgun shell,railgun torpedo" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_homing" aliases="railgun homing shell,homing railgun shell,railgun torpedo" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.02" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="1" spawnprobability="0.02" />
     <Price baseprice="275" sold="false" minleveldifficulty="20">
@@ -588,7 +588,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_nuclearhoming" aliases="nuclear homing shell,homing nuclear shell,nuclear torpedo" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_nuclearhoming" aliases="nuclear homing shell,homing nuclear shell,nuclear torpedo" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="0" maxamount="1" spawnprobability="0.01" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.01" />
     <Price baseprice="620" sold="false" minleveldifficulty="25">
@@ -653,7 +653,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_flak" aliases="flak railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_flak" aliases="flak railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="4" spawnprobability="0.03" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.03" />
     <Price baseprice="280" sold="false" minleveldifficulty="20">
@@ -748,7 +748,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_flak_smartfuse" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_flak_smartfuse" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.02" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="1" spawnprobability="0.02" />
     <Price baseprice="330" sold="false" minleveldifficulty="25">
@@ -849,7 +849,7 @@
       </StatusEffect>
     </MotionSensor>
   </Item>
-  <Item name="" identifier="ek_railshell_piercingslug" aliases="piercing railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_piercingslug" aliases="piercing railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="4" spawnprobability="0.05" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.04" />
     <Price baseprice="95" sold="false" minleveldifficulty="20">
@@ -922,7 +922,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_armorpiercing" aliases="railgun armor piercing shell, armor piercing railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_armorpiercing" aliases="railgun armor piercing shell, armor piercing railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="2" spawnprobability="0.02" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.02" />
     <Price baseprice="300" sold="false" minleveldifficulty="30">
@@ -1025,7 +1025,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_railshell_fusion" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_fusion" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="1" spawnprobability="0.01" />
     <Price baseprice="1000" sold="false" minleveldifficulty="35">
@@ -1096,7 +1096,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_fusion_smartfuse" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_fusion_smartfuse" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" />
     <Price baseprice="1080" sold="false" minleveldifficulty="35">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1217,7 +1217,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_railshell_flare" aliases="flare railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_flare" aliases="flare railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.04" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="85" sold="false" minleveldifficulty="5">
@@ -1292,7 +1292,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_incendiary" aliases="incendiary railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_incendiary" aliases="incendiary railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="2" spawnprobability="0.025" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.025" />
     <Price baseprice="250" sold="false" minleveldifficulty="25">
@@ -1356,7 +1356,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_railshell_highvelocity" aliases="high-velocity railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_highvelocity" aliases="high-velocity railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="95" sold="false" minleveldifficulty="10">
@@ -1431,7 +1431,7 @@
       <Containable items="smallitem" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_railshell_chaff" aliases="chaff railgun shell" tags="railgunequipment,railgunammo" category="Misc,Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_railshell_chaff" aliases="chaff railgun shell" tags="railgunequipment,railgunammo" category="Weapon" sonarsize="7" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="railgunammoloader,railgunammocontainer" minamount="1" maxamount="3" spawnprobability="0.02" />
     <PreferredContainer primary="wreckrailgun,wreckrailgunammocontainer" minamount="0" maxamount="3" spawnprobability="0.03" />
     <Price baseprice="150" sold="false" minleveldifficulty="5">
@@ -1490,7 +1490,7 @@
     </Projectile>
   </Item>
   <!-- Depth Charges -->
-  <Item name="" identifier="ek_depthcharge_container" aliases="cargo depth charge" tags="depthchargeammo" waterproof="true" fireproof="true" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_container" aliases="cargo depth charge" tags="depthchargeammo" waterproof="true" fireproof="true" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="45" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1521,7 +1521,7 @@
       <Containable identifiers="smallitem,mediumitem,weapon,ek_ammocrate_small,ammobox" excludeditems="toolbelt,toolbox" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_depthcharge_radiation" tags="depthchargeammo,decoy,provocative" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_radiation" tags="depthchargeammo,decoy,provocative" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="300" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1581,7 +1581,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_depthcharge_cyanide" tags="depthchargeammo,decoy,provocative" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_cyanide" tags="depthchargeammo,decoy,provocative" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="280" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1638,7 +1638,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_depthcharge_paralyzant" tags="depthchargeammo,decoy,provocative" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_paralyzant" tags="depthchargeammo,decoy,provocative" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="400" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1695,7 +1695,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_depthcharge_radiotoxin" tags="depthchargeammo,decoy,provocative" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_radiotoxin" tags="depthchargeammo,decoy,provocative" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="275" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1736,7 +1736,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_depthcharge_flare" tags="depthchargeammo" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_flare" tags="depthchargeammo" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="85" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1825,7 +1825,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_depthcharge_chaff" tags="depthchargeammo" category="Misc,Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_depthcharge_chaff" tags="depthchargeammo" category="Weapon" sonarsize="3" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="depthchargeloader" secondary="ammoboxcontainer" />
     <Price baseprice="150" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1874,7 +1874,7 @@
     </Projectile>
   </Item>
   <!-- Heavy Railgun Ammo -->
-  <Item name="" identifier="ekgunnery_heavyrailgunshell" tags="heavyrailgunammo,ekgunnery_largeshell,largeammo,ammobox,crate" showcontentsintooltip="true" category="Misc,Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_heavyrailgunshell" tags="heavyrailgunammo,ekgunnery_largeshell,largeammo,ammobox,crate" showcontentsintooltip="true" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="heavyrailgunammocontainer,ekgunnery_heavyrailgunammosource" />
     <Price baseprice="125" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1966,7 +1966,7 @@
       <Containable items="smallitem,ekshared_largeshellexplosive" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_heavyrailgunflechetteshell" tags="heavyrailgunammo,ekgunnery_largeshell,largeammo,ammobox,crate" showcontentsintooltip="true" category="Misc,Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_heavyrailgunflechetteshell" tags="heavyrailgunammo,ekgunnery_largeshell,largeammo,ammobox,crate" showcontentsintooltip="true" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="heavyrailgunammocontainer,ekgunnery_heavyrailgunammosource" />
     <Price baseprice="160" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2023,7 +2023,7 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,1,1" />
     </ItemContainer>
   </Item>
-  <Item name="ekgunnery_heavyrailgunflechettepellet" identifier="ekgunnery_heavyrailgunflechettepellet" category="Misc,Weapon" scale="0.32" sonarsize="2" hideinmenus="true">
+  <Item name="ekgunnery_heavyrailgunflechettepellet" identifier="ekgunnery_heavyrailgunflechettepellet" category="Weapon" scale="0.32" sonarsize="2" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Weapons/ekgunnery_heavyrailgunammo.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="40" density="15" />
     <Projectile characterusable="false" launchimpulse="100.0" impulsespread="0.25" spread="30" maxtargetstohit="2">
@@ -2081,7 +2081,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ekgunnery_heavyrailgunshellnuclear" tags="heavyrailgunammo,ekgunnery_largeshell,largeammo,ammobox,crate" showcontentsintooltip="true" category="Misc,Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_heavyrailgunshellnuclear" tags="heavyrailgunammo,ekgunnery_largeshell,largeammo,ammobox,crate" showcontentsintooltip="true" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="heavyrailgunammocontainer,ekgunnery_heavyrailgunammosource" />
     <Price baseprice="675" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2165,7 +2165,7 @@
     </Projectile>
   </Item>
   <!-- Light Chaigun Ammo -->
-  <Item name="" identifier="ekgunnery_chaingunammo" aliases="Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_chaingunammo" aliases="Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_chaingunammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="60" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2221,7 +2221,7 @@
       <Containable identifiers="ekgunnery_chaingunround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_chaingunround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,0,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -2247,7 +2247,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunpiercingammo" aliases="Light Chaingun Piercing Ammunition Box,Piercing Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_chaingunpiercingammo" aliases="Light Chaingun Piercing Ammunition Box,Piercing Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_chaingunammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="150" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2304,7 +2304,7 @@
       <Containable identifiers="ekgunnery_chaingunpiercinground" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunpiercinground" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_chaingunpiercinground" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,16,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -2330,7 +2330,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunphysicoriumammo" aliases="Light Chaingun Physicorium Ammunition Box,Physicorium Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_chaingunphysicoriumammo" aliases="Light Chaingun Physicorium Ammunition Box,Physicorium Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_chaingunammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="300" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2387,7 +2387,7 @@
       <Containable identifiers="ekgunnery_chaingunphysicoriumround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunphysicoriumround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_chaingunphysicoriumround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,0,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -2413,7 +2413,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunpiercingexplosiveammo" aliases="Light Chaingun Armor-Piercing Explosive Ammunition Box,Armor-Piercing Explosive Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_chaingunpiercingexplosiveammo" aliases="Light Chaingun Armor-Piercing Explosive Ammunition Box,Armor-Piercing Explosive Light Chaingun Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_chaingunammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="250" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2473,7 +2473,7 @@
       <Containable identifiers="ekgunnery_chaingunpiercingexplosiveround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_chaingunpiercingexplosiveround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_chaingunpiercingexplosiveround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers2.png" sourcerect="0,64,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -2512,7 +2512,7 @@
     </Projectile>
   </Item>
   <!-- EKA Chaingun Ammo -->
-  <Item name="" identifier="ek_chaingunammo_large" aliases="Extended Chaingun Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_chaingunammo_large" aliases="Extended Chaingun Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="360" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2559,7 +2559,7 @@
       <Containable identifiers="chaingunbolt" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_chaingunammophysicorium_large" aliases="Extended Chaingun Physicorium Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_chaingunammophysicorium_large" aliases="Extended Chaingun Physicorium Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="820" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2604,7 +2604,7 @@
       <Containable identifiers="chaingunboltphysicorium" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_chaingunammoexplosive" aliases="Chaingun Explosive Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_chaingunammoexplosive" aliases="Chaingun Explosive Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="380" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2647,7 +2647,7 @@
       <Containable identifiers="ek_chaingunboltexplosive" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_chaingunammoexplosive_large" aliases="Extended Chaingun Explosive Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_chaingunammoexplosive_large" aliases="Extended Chaingun Explosive Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="720" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2735,7 +2735,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_chaingunammoheavy" aliases="Chaingun HEFC Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_chaingunammoheavy" aliases="Chaingun HEFC Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="600" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2778,7 +2778,7 @@
       <Containable identifiers="ek_chaingunboltheavy" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_chaingunammoheavy_large" aliases="Extended Chaingun HEFC Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_chaingunammoheavy_large" aliases="Extended Chaingun HEFC Ammunition" scale="0.5" tags="chaingunequipment,chaingunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="1200" sold="false" minleveldifficulty="50">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2872,7 +2872,7 @@
     </Projectile>
   </Item>
   <!-- Autocannon Ammo -->
-  <Item name="" identifier="ekgunnery_autocannonammo" aliases="Autocannon Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonammo" aliases="Autocannon Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="150" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -2931,7 +2931,7 @@
       <Containable identifiers="ekgunnery_autocannonround" />
     </ItemContainer>
   </Item>
-  <Item name="Autocannon Turret Round" identifier="ekgunnery_autocannonround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="Autocannon Turret Round" identifier="ekgunnery_autocannonround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,32,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -2979,7 +2979,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonexplosiveammo" aliases="Autocannon Explosive Ammo Box,Explosive Autocannon Ammunition Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonexplosiveammo" aliases="Autocannon Explosive Ammo Box,Explosive Autocannon Ammunition Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="300" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3042,7 +3042,7 @@
       <Containable identifiers="ekgunnery_autocannonexplosiveround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonexplosiveround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonexplosiveround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,48,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3088,7 +3088,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonpiercingammo" aliases="Autocannon Piercing Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonpiercingammo" aliases="Autocannon Piercing Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="275" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3148,7 +3148,7 @@
       <Containable identifiers="ekgunnery_autocannonpiercinground" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonpiercinground" category="Misc,Weapon" scale="0.5" hideinmenus="true" spritecolor="180,155,205,255">
+  <Item name="" identifier="ekgunnery_autocannonpiercinground" category="Weapon" scale="0.5" hideinmenus="true" spritecolor="180,155,205,255">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,32,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3196,7 +3196,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflechetteammo" aliases="Autocannon Flechette Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonflechetteammo" aliases="Autocannon Flechette Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="245" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3257,7 +3257,7 @@
       <Containable identifiers="ekgunnery_autocannonflechetteround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflechetteround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonflechetteround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,64,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3285,7 +3285,7 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,0,1,1" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflechettepellet" category="Misc,Weapon" scale="0.32" sonarsize="1" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonflechettepellet" category="Weapon" scale="0.32" sonarsize="1" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="40" density="15" />
     <Projectile characterusable="false" launchimpulse="100.0" spread="25" impulsespread="0.25">
@@ -3313,7 +3313,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflakammo" aliases="Autocannon Flak Ammo Box,ekgunnery_autocannonflakeammo" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonflakammo" aliases="Autocannon Flak Ammo Box,ekgunnery_autocannonflakeammo" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="320" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3373,7 +3373,7 @@
       <Containable identifiers="ekgunnery_autocannonflakround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflakround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonflakround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="1024,48,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3431,7 +3431,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflakammo_smartfuse" aliases="Autocannon Flak Proximity Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonflakammo_smartfuse" aliases="Autocannon Flak Proximity Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="360" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3494,7 +3494,7 @@
       <Containable identifiers="ekgunnery_autocannonflakround_smartfuse" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflakround_smartfuse" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonflakround_smartfuse" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="1024,48,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3568,7 +3568,7 @@
       </StatusEffect>
     </MotionSensor>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonphysicoriumammo" aliases="Autocannon Physicorium Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonphysicoriumammo" aliases="Autocannon Physicorium Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="450" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3630,7 +3630,7 @@
       <Containable identifiers="ekgunnery_autocannonphysicoriumround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonphysicoriumround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonphysicoriumround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,32,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3678,7 +3678,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonarmorpiercingammo" aliases="Autocannon Armor Piercing Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonarmorpiercingammo" aliases="Autocannon Armor Piercing Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="460" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3741,7 +3741,7 @@
       <Containable identifiers="ekgunnery_autocannonarmorpiercinground" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonarmorpiercinground" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonarmorpiercinground" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,48,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3797,7 +3797,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflareammo" aliases="Autocannon Flare Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_autocannonflareammo" aliases="Autocannon Flare Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_autocannonequipment,ekgunnery_autocannonammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_autocannonammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="120" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3860,7 +3860,7 @@
       <Containable identifiers="ekgunnery_autocannonflareround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_autocannonflareround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_autocannonflareround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,64,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3894,7 +3894,7 @@
     </Projectile>
   </Item>
   <!-- Micro SSL Ammo -->
-  <Item name="" identifier="ekgunnery_mircosslammo" aliases="Micro SSL Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mircosslammo" aliases="Micro SSL Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_microsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="150" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -3950,7 +3950,7 @@
       <Containable identifiers="ekgunnery_mircosslround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_mircosslround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_mircosslround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,0,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -3976,7 +3976,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_mircosslpiercingammo" aliases="Micro SSL Piercing Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mircosslpiercingammo" aliases="Micro SSL Piercing Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_microsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="190" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4032,7 +4032,7 @@
       <Containable identifiers="ekgunnery_mircosslpiercinground" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_mircosslpiercinground" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_mircosslpiercinground" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,16,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4058,7 +4058,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_mircosslphysicoriumammo" aliases="Micro SSL Physicorium Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mircosslphysicoriumammo" aliases="Micro SSL Physicorium Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_microsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="300" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4114,7 +4114,7 @@
       <Containable identifiers="ekgunnery_mircosslphysicoriumround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_mircosslphysicoriumround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_mircosslphysicoriumround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,16,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4140,7 +4140,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_mircosslpiercingexplosiveammo" aliases="Micro SSL Armor-Piercing Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mircosslpiercingexplosiveammo" aliases="Micro SSL Armor-Piercing Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_microsslequipment,ekgunnery_microsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_microsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="275" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4194,7 +4194,7 @@
     </ItemContainer>
   </Item>
   <!-- Small SSL Ammo -->
-  <Item name="" identifier="ekgunnery_smallsslammo" aliases="Small SSL Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_smallsslammo" aliases="Small SSL Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_smallsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="120" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4250,7 +4250,7 @@
       <Containable identifiers="ekgunnery_smallsslround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslround" category="Misc,Weapon" scale="0.75" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_smallsslround" category="Weapon" scale="0.75" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,0,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4297,7 +4297,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslpiercingammo" aliases="Small SSL Piercing Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_smallsslpiercingammo" aliases="Small SSL Piercing Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_smallsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="175" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4353,7 +4353,7 @@
       <Containable identifiers="ekgunnery_smallsslpiercinground" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslpiercinground" category="Misc,Weapon" scale="0.75" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_smallsslpiercinground" category="Weapon" scale="0.75" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,16,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4400,7 +4400,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslexplosiveammo" aliases="Small SSL Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_smallsslexplosiveammo" aliases="Small SSL Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_smallsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="200" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4456,7 +4456,7 @@
       <Containable identifiers="ekgunnery_smallsslexplosiveround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslexplosiveround" category="Misc,Weapon" scale="0.75" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_smallsslexplosiveround" category="Weapon" scale="0.75" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,48,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4502,7 +4502,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslphysicoriumammo" aliases="Small SSL Physicorium Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_smallsslphysicoriumammo" aliases="Small SSL Physicorium Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_smallsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="360" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4558,7 +4558,7 @@
       <Containable identifiers="ekgunnery_smallsslphysicoriumround" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslphysicoriumround" category="Misc,Weapon" scale="0.75" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_smallsslphysicoriumround" category="Weapon" scale="0.75" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,0,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4605,7 +4605,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslarmorpiercingammo" aliases="Small SSL Armor Piercing Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_smallsslarmorpiercingammo" aliases="Small SSL Armor Piercing Explosive Ammo Box" scale="0.5" tags="ammobox,crate,ekgunnery_smallsslequipment,ekgunnery_smallsslammo" category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_smallsslammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="450" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4659,7 +4659,7 @@
       <Containable identifiers="ekgunnery_smallsslarmorpiercinground" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekgunnery_smallsslarmorpiercinground" category="Misc,Weapon" scale="0.75" hideinmenus="true">
+  <Item name="" identifier="ekgunnery_smallsslarmorpiercinground" category="Weapon" scale="0.75" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="976,48,48,16" depth="0.55" />
     <Body width="160" height="16" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4716,7 +4716,7 @@
     </Projectile>
   </Item>
   <!-- Medium SSL Ammo -->
-  <Item name="" identifier="ekgunnery_mediumsslrocket_he" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Misc,Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mediumsslrocket_he" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_mediumsslammosource,railgunammocontainer" />
     <Price baseprice="70" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4801,7 +4801,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_mediumsslrocket_ap" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Misc,Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mediumsslrocket_ap" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_mediumsslammosource,railgunammocontainer" />
     <Price baseprice="120" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4896,7 +4896,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_mediumsslrocket_flak" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Misc,Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mediumsslrocket_flak" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_mediumsslammosource,railgunammocontainer" />
     <Price baseprice="75" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -4987,7 +4987,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ekgunnery_mediumsslrocket_flak_smartfuse" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Misc,Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ekgunnery_mediumsslrocket_flak_smartfuse" tags="ekgunnery_mediumsslammo,ekgunnery_tagsmallshell" cargocontaineridentifier="ekgunnery_mediumsslrocket_cargocontainer" category="Weapon" sonarsize="5" scale="0.4" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_mediumsslammosource,railgunammocontainer" />
     <Price baseprice="105" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -5091,7 +5091,7 @@
     </MotionSensor>
   </Item>
   <!-- Vortex-Ring Cannon Ammo -->
-  <Item name="ekgunnery_vortexringpellet" identifier="ekgunnery_vortexringpellet" category="Misc,Weapon" scale="1" sonarsize="2.5" hideinmenus="true">
+  <Item name="ekgunnery_vortexringpellet" identifier="ekgunnery_vortexringpellet" category="Weapon" scale="1" sonarsize="2.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Weapons/ekgunnery_vortexringcannon.png" sourcerect="0,0,1,1" depth="0.55" />
     <Body radius="160" density="75" />
     <AiTarget sightrange="0.0" maxsoundrange="500" minsoundrange="0" fadeouttime="2" sonardisruption="0.25" />
@@ -5133,7 +5133,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="ekgunnery_vortexringprojectile" identifier="ekgunnery_vortexringprojectile" tags="provocative" category="Equipment,Weapon" linkable="true" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+  <Item name="ekgunnery_vortexringprojectile" identifier="ekgunnery_vortexringprojectile" tags="provocative" category="Weapon" linkable="true" scale="0.5" impactsoundtag="impact_metal_heavy" hideinmenus="true">
     <Deconstruct time="5">
       <Item identifier="aluminium" copycondition="true" /> /&gt;
     </Deconstruct>
@@ -5153,7 +5153,7 @@
       <Containable items="ekgunnery_vortexringpellet" />
     </ItemContainer>
   </Item>
-  <Item name="Mining Laser Cell" identifier="ekgunnery_mininglaserammo" scale="0.5" tags="ammobox,crate,ekgunnery_mininglaserammo" description="Heavy non-rechargable capacitor which supplies the isolated power modulation needed to drive an acoustic laser system. The casing includes large heatsinks to accommodate the unit's tendancy to heat up during extended use." category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+  <Item name="Mining Laser Cell" identifier="ekgunnery_mininglaserammo" scale="0.5" tags="ammobox,crate,ekgunnery_mininglaserammo" description="Heavy non-rechargable capacitor which supplies the isolated power modulation needed to drive an acoustic laser system. The casing includes large heatsinks to accommodate the unit's tendancy to heat up during extended use." category="Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ekgunnery_mininglaserammosource,coilgunammocontainer,ammocontainer" />
     <Price baseprice="200" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -5190,7 +5190,7 @@
       <Containable identifiers="ekgunnery_mininglaserround" />
     </ItemContainer>
   </Item>
-  <Item name="Mining Laser Bolt" identifier="ekgunnery_mininglaserround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+  <Item name="Mining Laser Bolt" identifier="ekgunnery_mininglaserround" category="Weapon" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,0,48,16" depth="0.55" />
     <Body width="160" height="10" density="15" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -5218,7 +5218,7 @@
     </Projectile>
   </Item>
   <!-- Todo: The game doesn't like trying to solve the physics of a submarine being attached to another submarine -->
-  <Item name="ekgunnery_grapplinghookammo" identifier="ekgunnery_grapplinghookammo" tags="grapplinghookprojectile,provocative" health="100" hideinmenus="true" category="Equipment,Weapon" sonarsize="5" scale="1" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_metal_light">
+  <Item name="ekgunnery_grapplinghookammo" identifier="ekgunnery_grapplinghookammo" tags="grapplinghookprojectile,provocative" health="100" hideinmenus="true" category="Weapon" sonarsize="5" scale="1" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_metal_light">
     <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="560,560,88,64" depth="0.56" origin="0.5,0.5" />
     <BrokenSprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="656,560,48,96" depth="0.56" origin="0.5,0.5" maxcondition="90" />
     <Body width="215" height="30" density="30" />
@@ -5276,7 +5276,7 @@
     </Projectile>
   </Item>
   <!-- Coilgun Ammo -->
-  <Item name="" identifier="ek_coilgunammo_large" aliases="Extended Coilgun Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammo_large" aliases="Extended Coilgun Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" minamount="0" maxamount="2" spawnprobability="0.1" />
     <Price baseprice="240" sold="false" minleveldifficulty="15">
@@ -5322,7 +5322,7 @@
       <Containable identifiers="coilgunbolt" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammoexplosive_large" aliases="Extended Exploding Ammunition,Extended Explosive Ammunition Box,Extended Explosive Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammoexplosive_large" aliases="Extended Exploding Ammunition,Extended Explosive Ammunition Box,Extended Explosive Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="700" sold="false" minleveldifficulty="20">
@@ -5368,7 +5368,7 @@
       <Containable identifiers="coilgunboltexplosive" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammopiercing_large" aliases="Extended Piercing Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammopiercing_large" aliases="Extended Piercing Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="500" sold="false" minleveldifficulty="25">
@@ -5414,7 +5414,7 @@
       <Containable identifiers="coilgunboltpiercing" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammophysicorium_large" aliases="Extended Physicorium Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammophysicorium_large" aliases="Extended Physicorium Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="600" sold="false" minleveldifficulty="30">
@@ -5464,7 +5464,7 @@
       <Containable identifiers="physicoriumbolt" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammoboxheavy" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammoboxheavy" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer" minamount="1" maxamount="1" spawnprobability="0.05" />
     <PreferredContainer primary="ammocontainer" />
     <Price baseprice="660" sold="false" minleveldifficulty="30">
@@ -5508,7 +5508,7 @@
       <Containable identifiers="ek_coilgunboltheavy" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammoheavy_large" aliases="Extended HEFC Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammoheavy_large" aliases="Extended HEFC Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="1320" sold="false" minleveldifficulty="35">
@@ -5603,7 +5603,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybrid" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybrid" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer" minamount="1" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="ammocontainer" />
     <Price baseprice="280" sold="false" minleveldifficulty="20">
@@ -5657,7 +5657,7 @@
       <Containable identifiers="ek_coilgunbolt_hybrid" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybrid_large" aliases="Extended Hybrid Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybrid_large" aliases="Extended Hybrid Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="560" sold="false" minleveldifficulty="25">
@@ -5761,7 +5761,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridflak" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridflak" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer" spawnprobability="0.1" />
     <PreferredContainer primary="ammocontainer" />
     <Price baseprice="325" sold="false" minleveldifficulty="30">
@@ -5818,7 +5818,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridflak_large" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridflak_large" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.035" />
     <Price baseprice="650" sold="false" minleveldifficulty="35">
@@ -5943,7 +5943,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridflak_smartfuse" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridflak_smartfuse" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="400" sold="false" minleveldifficulty="35">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -6002,7 +6002,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridflak_smartfuse_large" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridflak_smartfuse_large" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <Price baseprice="800" sold="false" minleveldifficulty="38">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />
@@ -6141,7 +6141,7 @@
       </StatusEffect>
     </MotionSensor>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridap" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridap" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.035" />
     <Price baseprice="375" sold="false" minleveldifficulty="30">
@@ -6198,7 +6198,7 @@
       <Containable identifiers="ek_coilgunbolt_hybridap" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridap_large" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridap_large" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.035" />
     <Price baseprice="750" sold="false" minleveldifficulty="33">
@@ -6316,7 +6316,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammo_laser" aliases="Coilgun Laser Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammo_laser" aliases="Coilgun Laser Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.02" />
     <Price baseprice="1000" sold="false" minleveldifficulty="20">
@@ -6376,7 +6376,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridtoxin" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridtoxin" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.02" />
     <Price baseprice="540" sold="false" minleveldifficulty="40">
@@ -6472,7 +6472,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammohybridflare" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohybridflare" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="100" sold="false" minleveldifficulty="5">
@@ -6554,7 +6554,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_coilgunammohighvelocity" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohighvelocity" scale="0.5" tags="coilgunequipment,coilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" minamount="0" maxamount="2" spawnprobability="0.1" />
     <Price baseprice="100" sold="false" minleveldifficulty="10">
@@ -6595,7 +6595,7 @@
       <Containable identifiers="ek_coilgunbolthighvelocity" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_coilgunammohighvelocity_large" aliases="Extended High-Velocity Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_coilgunammohighvelocity_large" aliases="Extended High-Velocity Ammunition" scale="0.5" tags="coilgunequipment,coilgunammo,extendedcoilgunammo,crate,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="coilgunammocontainer,ammocontainer" />
     <PreferredContainer primary="wreckcoilgun" spawnprobability="0.05" />
     <Price baseprice="240" sold="false" minleveldifficulty="15">
@@ -6679,7 +6679,7 @@
     </Projectile>
   </Item>
   <!-- Pulse Laser Ammo (EKA)-->
-  <Item name="" identifier="ek_pulselaserplasmaammobox" scale="0.5" tags="pulselaserequipment,pulselaserammo,ammobox" category="Equipment,Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_pulselaserplasmaammobox" scale="0.5" tags="pulselaserequipment,pulselaserammo,ammobox" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="ammocontainer" spawnprobability="0.0" />
     <Price baseprice="325" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.3" />

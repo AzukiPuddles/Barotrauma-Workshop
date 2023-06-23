@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="ek_hatchet" aliases="ek hatchet" scale="0.32" category="Equipment,Weapon" tags="smallitem,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_hatchet" aliases="ek hatchet" scale="0.32" category="Weapon" tags="smallitem,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
     <Price baseprice="120" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="0.9" />
       <Price storeidentifier="merchantcity" multiplier=".85" />
@@ -53,7 +53,7 @@
       <QualityStat stattype="StrikingPowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_captains_sabre" aliases="captains sabre,ek captain's sabre,ek captains sabre,ek sabre,sabre" scale="0.32" category="Equipment,Weapon" tags="smallitem,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_captains_sabre" aliases="captains sabre,ek captain's sabre,ek captains sabre,ek sabre,sabre" scale="0.32" category="Weapon" tags="smallitem,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
     <Price baseprice="100" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.2" />
       <Price storeidentifier="merchantcity" multiplier="1.2" />
@@ -96,7 +96,7 @@
       <QualityStat stattype="StrikingPowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_tonfa" aliases="ek baton,tonfa,ek tonfa" scale="0.32" category="Equipment,Weapon" tags="smallitem,stunner,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_tonfa" aliases="ek baton,tonfa,ek tonfa" scale="0.32" category="Weapon" tags="smallitem,stunner,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
     <Price baseprice="35" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="0.9" />
       <Price storeidentifier="merchantcity" multiplier=".85" />
@@ -127,7 +127,7 @@
       <QualityStat stattype="StrikingPowerMultiplier" value="0.25" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_throwingknife" aliases="throwing knife,ek throwing knife,ek throwing knives" scale="0.22" category="Equipment,Weapon" tags="smallitem,weapon" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" HideConditionBar="true" maxstacksize="6">
+  <Item name="" identifier="ek_throwingknife" aliases="throwing knife,ek throwing knife,ek throwing knives" scale="0.22" category="Weapon" tags="smallitem,weapon" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" HideConditionBar="true" maxstacksize="6">
     <Price baseprice="12" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="0.9" />
       <Price storeidentifier="merchantcity" multiplier=".85" />

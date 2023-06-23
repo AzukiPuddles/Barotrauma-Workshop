@@ -92,7 +92,7 @@
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.9" setvalue="true" />
     </Wearable>
     <ItemContainer capacity="8" slotsperrow="4" keepopenwhenequipped="false" movableframe="true">
-      <Containable items="smallitem" excludeditems="toolbox,metalcrate,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem" excludeditems="toolbox,metalcrate,rucksack,backpack,waistbelt" />
     </ItemContainer>
   </Item>
   <Item name="" identifier="ek_marine_helmet" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_heavy">
@@ -219,7 +219,7 @@
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.92" setvalue="true" />
     </Wearable>
     <ItemContainer capacity="8" slotsperrow="4" keepopenwhenequipped="false" movableframe="true">
-      <Containable items="smallitem" excludeditems="toolbox,cargoscooter,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem" excludeditems="toolbox,cargoscooter,rucksack,backpack,waistbelt" />
     </ItemContainer>
   </Item>
   <Item name="" identifier="ek_renegade_helmet" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_heavy">
@@ -347,7 +347,7 @@
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.88" setvalue="true" />
     </Wearable>
     <ItemContainer capacity="8" slotsperrow="4" keepopenwhenequipped="false" movableframe="true">
-      <Containable items="smallitem" excludeditems="toolbox,cargoscooter,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem" excludeditems="toolbox,cargoscooter,rucksack,backpack,waistbelt" />
     </ItemContainer>
   </Item>
   <!-- ek_merd_helmet is typo? Test or dig. -->
@@ -586,7 +586,7 @@
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" />
     </Wearable>
     <ItemContainer capacity="4" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
-      <Containable items="smallitem" excludeditems="toolbox,uniform,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem" excludeditems="toolbox,uniform,rucksack,backpack,waistbelt" />
     </ItemContainer>
   </Item>
   <Item name="" identifier="ek_security_radio" scale="0.35" category="Equipment" tags="smallitem,headset" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
@@ -650,7 +650,7 @@
     <Sprite texture="%ModDir%/Items/Jobgear/ek_armor_accessories.png" depth="0.6" sourcerect="0,272,96,48" origin="0.5,0.5" />
     <Body width="80" height="40" density="12" />
     <ItemContainer capacity="12" depth="0.5">
-      <Containable items="smallitem,smallarmsammo,ek_microtorpedo,ek_rocketammo,harpoonammo" excludeditems="toolbelt,toolbox,uniform,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem,smallarmsammo,ek_microtorpedo,ek_rocketammo,harpoonammo" excludeditems="toolbelt,toolbox,uniform,rucksack,backpack,waistbelt" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
@@ -688,7 +688,7 @@
       <RequiredItem identifier="organicfiber" />
     </Fabricate>
     <ItemContainer capacity="24" depth="0.5">
-      <Containable items="smallitem,smallarmsammo,ek_microtorpedo,ek_rocketammo,explosive,harpoonammo" excludeditems="toolbelt,toolbox,cargoscooter,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem,smallarmsammo,ek_microtorpedo,ek_rocketammo,explosive,harpoonammo" excludeditems="toolbelt,toolbox,cargoscooter,rucksack,backpack,waistbelt" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">

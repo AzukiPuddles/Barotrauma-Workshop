@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="ekutility_reinforcedtank_weldingfuel" aliases="ekutility_heavytank_weldingfuel,heavy fuel tank,heavy welding fuel tank" category="Equipment" Tags="smallitem,weldingfuel,weldingtoolfuel,weldingfueltank" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ekutility_reinforcedtank_weldingfuel" aliases="ekutility_heavytank_weldingfuel,heavy fuel tank,heavy welding fuel tank" category="Equipment,Fuel" Tags="smallitem,weldingfuel,weldingtoolfuel,weldingfueltank" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="weldingtool,flamer" spawnprobability="0.5" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="4" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.15" />
@@ -18,23 +18,25 @@
       <Item identifier="ethanol" copycondition="true" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="30" />
       <RequiredItem identifier="titaniumaluminiumalloy" mincondition="0.5" usecondition="true" />
       <RequiredItem identifier="ballisticfiber" mincondition="0.25" usecondition="true" />
       <RequiredItem identifier="ethanol" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="5">
+      <RequiredSkill identifier="mechanical" level="25" />
       <RequiredItem identifier="ethanol" />
       <RequiredItem identifier="ekutility_reinforcedtank_weldingfuel" mincondition="0.0" maxcondition="0.1" usecondition="false" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="64,0,64,64" />
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="0,0,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="42" height="108" density="8" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
     <Quality>
       <QualityStat stattype="Condition" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ekutility_heavytank_incendium" aliases="heavy incendium tank,heavy incendium fuel tank" category="Equipment" Tags="smallitem,weldingfuel,weldingtoolfuel,weldingfueltank,incendiumfueltank" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ekutility_heavytank_incendium" aliases="heavy incendium tank,heavy incendium fuel tank" category="Equipment,Fuel" Tags="smallitem,weldingfuel,weldingtoolfuel,weldingfueltank,incendiumfueltank" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="8">
     <Price baseprice="325" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" maxavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1" sold="true" maxavailable="1" />
@@ -49,18 +51,20 @@
       <Item identifier="incendium" copycondition="true" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="50" />
       <RequiredItem identifier="titaniumaluminiumalloy" mincondition="0.5" usecondition="true" />
       <RequiredItem identifier="ballisticfiber" mincondition="0.25" usecondition="true" />
       <RequiredItem identifier="incendium" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="5">
+      <RequiredSkill identifier="mechanical" level="45" />
       <RequiredItem identifier="incendium" />
       <RequiredItem identifier="ekutility_heavytank_incendium" mincondition="0.0" maxcondition="0.1" usecondition="false" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="64,64,64,64" />
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="0,112,48,112" depth="0.55" origin="0.5,0.5" />
     <Body width="42" height="108" density="8" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
     <Quality>
       <QualityStat stattype="Condition" value="0.15" />
     </Quality>
@@ -130,7 +134,7 @@
       <QualityStat stattype="RepairToolDeattachTimeMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ekutility_metalfoam_tank" aliases="metal foam canister, metal foam tank, metallic foam tank" category="Equipment" Tags="smallitem,weldingfuel,weldingtoolfuel,explosive" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ekutility_metalfoam_tank" aliases="metal foam canister, metal foam tank, metallic foam tank" category="Equipment,Fuel" Tags="smallitem,weldingfuel,weldingtoolfuel,explosive" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ekutility_metalfoam_gun" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="175" sold="false" minleveldifficulty="20">
@@ -216,7 +220,7 @@
     <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,64,64,64" origin="0.5,0.5" />-->
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="0,448,272,160" depth="0.55" origin="0.5,0.27" />
     <Body width="256" height="92" density="40" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-16,-64" handle2="8,-48" msg="ItemMsgPickUpSelect" />
+    <Holdable canbecombined="true" slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-16,-64" handle2="8,-48" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="30.0" structurefixamount="7.5" extinguishamount="60.0" range="250" barrelpos="45,1" repairmultiple="true" repairthroughwalls="false" combatpriority="30" spread="35" unskilledspread="35">
       <RequiredItems identifier="ekutility_metalfoam_tank" type="Contained" msg="ItemMsgWeldingFuelRequired" />
       <StatusEffect type="OnUse" targettype="Contained" targets="ekutility_metalfoam_tank" Condition="-1.0" />
@@ -970,7 +974,7 @@
   </Item>
   <!-- Test at some point to confirm functionality. -->
   <!-- Substantially increases radio communications range at the cost of high power use. Omitted because battery use no longer exists -->
-  <Item name="" identifier="ekutility_longrangeradio" scale="0.5" category="Equipment" tags="mediumitem,headset,mobilecontainer" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ekutility_longrangeradio" scale="0.5" category="Equipment" tags="mediumitem,headset,toolbelt,toolbox,mobilecontainer" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <Price baseprice="280" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" minavailable="1" />
@@ -1007,7 +1011,7 @@
     </ItemContainer>
 	-->
     <ItemContainer capacity="6">
-      <Containable items="smallitem,explosive,tool,ore" excludeditems="toolbelt,toolbox,mobilecontainer,rucksack,backpack,waistbelt" />
+      <Containable items="smallitem,explosive,tool,ore" excludeditems="toolbelt,toolbox,rucksack,backpack,waistbelt" />
     </ItemContainer>
     <!-- Headset+Bag -->
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
@@ -1300,7 +1304,7 @@
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" depth="0.6" sourcerect="656,0,96,160" origin="0.5,0.6" />
     <Body width="95" height="115" density="15" />
     <ItemContainer capacity="32" depth="0.5">
-      <Containable items="smallitem,explosive,tool,ore,ek_densifiedresource" excludeditems="rucksack,backpack,waistbelt,toolbox,toolbelt" />
+      <Containable items="smallitem,explosive,tool,ore" excludeditems="rucksack,backpack,waistbelt,toolbox,toolbelt" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
@@ -1332,7 +1336,7 @@
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" depth="0.6" sourcerect="768,128,112,112" origin="0.5,0.5" />
     <Body width="112" height="98" density="12" />
     <ItemContainer capacity="16" depth="0.5" displaycontainedstatus="true">
-      <Containable items="smallitem,medical,chem" excludeditems="rucksack,backpack,waistbelt" />
+      <Containable items="smallitem,medical,chem" excludeditems="rucksack,backpack,waistbelt,toolbox,toolbelt" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
@@ -1343,7 +1347,7 @@
   </Item>
   <!-- Non-implemented item -->
   <!-- 9/Dec/2021 Devs have fixed the constant power consumption bug and has as been added to vanilla -->
-  <Item name="" identifier="ekutility_portablepump" aliases="portable pump,portable drain" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,light" Scale="0.32" impactsoundtag="impact_soft" hideinmenus="true">
+  <Item name="" identifier="ekutility_portablepump" aliases="portable pump,portable drain" category="Machine" cargocontaineridentifier="metalcrate" tags="smallitem,light" Scale="0.32" impactsoundtag="impact_soft" hideinmenus="true">
     <!--
 	<Price baseprice="25" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -1393,7 +1397,7 @@
       </Containable>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekutility_incendiumfuelrod" Tags="smallitem,reactorfuel,fulguriumfuelrod" cargocontaineridentifier="metalcrate" health="200" scale="0.5">
+  <Item name="" identifier="ekutility_incendiumfuelrod" category="Fuel" Tags="smallitem,reactorfuel,fulguriumfuelrod" cargocontaineridentifier="metalcrate" health="200" scale="0.5">
     <PreferredContainer primary="reactorcab,storagecab" />
     <PreferredContainer primary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.15" />
     <Price baseprice="300" sold="false" minleveldifficulty="40">
@@ -1410,10 +1414,15 @@
       <Item identifier="incendium" copycondition="true" />
     </Deconstruct>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
-      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredSkill identifier="electrical" level="40" />
       <RequiredItem identifier="incendium" />
       <RequiredItem identifier="lead" />
       <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10">
+      <RequiredSkill identifier="electrical" level="30" />
+      <RequiredItem identifier="incendium" />
+      <RequiredItem identifier="ekutility_incendiumfuelrod" mincondition="0.0" maxcondition="0.1" usecondition="false" />
     </Fabricate>
     <InventoryIcon texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="768,64,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" depth="0.55" sourcerect="704,368,32,80" />

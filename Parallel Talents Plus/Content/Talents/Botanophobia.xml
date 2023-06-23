@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+  <TalentTree jobidentifier="botanophobia_botanist">
+    <SubTree identifier="botanophobia_botanist_primary" nameidentifier="botanophobia_talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="5">
+        <TalentOption identifier="botanophobia_seedharvester" />
+        <TalentOption identifier="botanophobia_blackmarketseeds" />
+        <TalentOption identifier="botanophobia_labcontacts" />
+        <TalentOption identifier="botanophobia_fertilizer" />
+        <TalentOption identifier="botanophobia_sprinkler" />
+        <TalentOption identifier="botanophobia_organicscraps" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_talent2" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="botanophobia_horticulturalist" type="specialization" requires="botanophobia_botanist_primary"></SubTree>
+    <SubTree identifier="botanophobia_chemical_warfare" type="specialization" requires="botanophobia_botanist_primary">
+      <!-- <TalentOptions>
+        <TalentOption identifier="botanophobia_chemical_delivery"/>
+      </TalentOptions>   -->
+    </SubTree>
+    <SubTree identifier="botanophobia_chemist" type="specialization" requires="botanophobia_botanist_primary"></SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>

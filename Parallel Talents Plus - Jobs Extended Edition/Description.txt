@@ -15,6 +15,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2702957052]Better Solo Crew Start - Senior Assistant[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880774658]Blade[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2936664151]Blahaj[/url] (Place patch above)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2972500944]Botanophobia[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2891792017]BSA - Iron Rider[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2861491326]Clown-O-Trauma - Clown[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935939204]Dead Space - CEC Engineer[/url] (+Fixes talent tree progression)
@@ -32,10 +33,6 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2968244070]VIP[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2687741461]Warden[/url]
 
-Prepatched mods:
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2929084649]Needs - Chef[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]Vanilla Plus - Prisoner[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2972500944]Botanophobia[/url] (No talents)
 
 Unsupported mods: 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2920304251]Diver[/url] (Duplicate job, JE, and Diver do not use overrides either) If you would prefer this job mod instead look at [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2949082804]Parallel Talents Plus[/url]

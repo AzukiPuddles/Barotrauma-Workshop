@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="ekutility_divingsuitlocker" tags="container,divingsuitcontainer,divingsuitcontainerwindow" pickdistance="150" scale="0.5" HideConditionBar="true">
+  <Item name="" identifier="ekutility_divingsuitlocker" category="Machine,Diving" tags="container,divingsuitcontainer,divingsuitcontainerwindow" pickdistance="150" scale="0.5" HideConditionBar="true">
     <Price baseprice="110" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" maxavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1" sold="true" maxavailable="1" />
@@ -53,7 +53,7 @@
       <StatusEffect type="OnNotContained" target="This" setvalue="true" drawinventory="true" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekutility_oxygentankshelf" nameidentifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.5" HideConditionBar="true">
+  <Item name="" identifier="ekutility_oxygentankshelf" category="Machine,Diving" nameidentifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.5" HideConditionBar="true">
     <Price baseprice="125" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" maxavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1" sold="true" maxavailable="1" />
@@ -109,7 +109,7 @@
       <StatusEffect type="OnNotContained" target="This" setvalue="true" drawinventory="true" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekutility_placeabletextdisplay" scale="0.5">
+  <Item name="" identifier="ekutility_placeabletextdisplay" category="Electrical" scale="0.5">
     <Price baseprice="125" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" maxavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1" sold="true" maxavailable="1" />
@@ -144,7 +144,7 @@
       <input name="set_text_color" displayname="connection.settextcolor" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="ekutility_placeabletextdisplaylong" scale="0.5">
+  <Item name="" identifier="ekutility_placeabletextdisplaylong" category="Electrical" scale="0.5">
     <Price baseprice="125" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" maxavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1" sold="true" maxavailable="1" />
@@ -179,7 +179,7 @@
       <input name="set_text_color" displayname="connection.settextcolor" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="ekutility_portablespinkler" category="Equipment" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate" requireaimtouse="true" characterusable="false" Scale="0.32" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ekutility_portablespinkler" category="Machine,Misc" Tags="smallitem,tool,signal" cargocontaineridentifier="metalcrate" requireaimtouse="true" characterusable="false" Scale="0.32" impactsoundtag="impact_metal_light" maxstacksize="2">
     <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="704,496,104,128" depth="0.55" canflipx="false" origin="0.38,0.5" />
     <Price baseprice="85" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="true" maxavailable="1" />

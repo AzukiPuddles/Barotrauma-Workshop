@@ -97,7 +97,7 @@
     </CustomInterface>
     <AiTarget sightrange="1000.0" maxsoundrange="5000" minsoundrange="0" />
   </Item>
-  <Item name="" identifier="ek_gundrone" aliases="gun drone" tags="crate,ek_deployable_drone" waterproof="true" fireproof="true" category="Misc" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_gundrone" aliases="gun drone" tags="crate,ek_deployable_drone" waterproof="true" fireproof="true" category="Machine" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy">
     <!--<Price storeidentifier="merchantMilitary" buyprice="500" />-->
     <Price baseprice="500" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" sold="false" />
@@ -158,7 +158,7 @@
       </CustomInterface>
     </Holdable>
   </Item>
-  <Item name="" identifier="ek_gundrone_wreck" aliases="gun drone wreck" tags="crate" waterproof="true" fireproof="true" category="Misc" hideinmenus="true" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
+  <Item name="" identifier="ek_gundrone_wreck" aliases="gun drone wreck" tags="crate" waterproof="true" fireproof="true" category="Machine" hideinmenus="true" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
     <Price baseprice="150" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
       <Price storeidentifier="merchantcity" multiplier="0.7" sold="false" />
@@ -187,7 +187,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="ek_walkerdrone" aliases="walker drone" tags="crate,ek_deployable_drone" waterproof="true" fireproof="true" category="Misc" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_walkerdrone" aliases="walker drone" tags="crate,ek_deployable_drone" waterproof="true" fireproof="true" category="Machine" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy">
     <!--<Price storeidentifier="merchantMilitary" buyprice="500" />-->
     <Price baseprice="500" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" sold="false" />
@@ -272,7 +272,7 @@
       <Containable items="ek_drumlmg_round" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_walkerdrone_wreck" aliases="walker drone wreck" tags="crate" waterproof="true" fireproof="true" category="Misc" hideinmenus="true" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
+  <Item name="" identifier="ek_walkerdrone_wreck" aliases="walker drone wreck" tags="crate" waterproof="true" fireproof="true" category="Machine" hideinmenus="true" sonarsize="3" scale="0.55" impactsoundtag="impact_metal_heavy" HideConditionBar="true">
     <Price baseprice="150" soldeverywhere="false">
       <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
       <Price storeidentifier="merchantcity" multiplier="0.7" sold="false" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="ek_piperifle" aliases="pipe_rifle, pipegun, pipe_gun, pipe gun" category="Equipment,Weapon" tags="mediumitem,weapon,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_piperifle" aliases="pipe_rifle, pipegun, pipe_gun, pipe gun" category="Weapon" tags="mediumitem,weapon,ek_ammotag_piperound,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="steel" />
       <Item identifier="aluminium" />
@@ -39,7 +39,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_piperound" aliases="pipe_rifle_round, pipe round, pipe_round, piperound" spritecolor="175,155,135,255" inventoryiconcolor="175,155,135,255" scale="0.32" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,round,ammo,smallarmsammo,revolverround,revolverammo,ek_piperound,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="12">
+  <Item name="" identifier="ek_piperound" aliases="pipe_rifle_round, pipe round, pipe_round, piperound" spritecolor="175,155,135,255" inventoryiconcolor="175,155,135,255" scale="0.32" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,round,ammo,smallarmsammo,revolverround,revolverammo,ek_piperound,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="12">
     <PreferredContainer primary="ek_ammotag_piperound" />
     <Deconstruct time="6">
       <Item identifier="lead" outcondition="0.2" />
@@ -75,7 +75,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_piperound_alien" aliases="pipe_rifle_alien_round, pipe rifle alien round, pipe alien round, pipe_alien_round, alien pipe round, alien piperound, pipe round alien, piperound alien" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" scale="0.32" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,round,ammo,smallarmsammo,revolverround,revolverammo,ek_piperound,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="12">
+  <Item name="" identifier="ek_piperound_alien" aliases="pipe_rifle_alien_round, pipe rifle alien round, pipe alien round, pipe_alien_round, alien pipe round, alien piperound, pipe round alien, piperound alien" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" scale="0.32" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,round,ammo,smallarmsammo,revolverround,revolverammo,ek_piperound,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="12">
     <Deconstruct time="6">
       <Item identifier="physicorium" outcondition="0.2" />
       <Item identifier="potassium" outcondition="0.2" />
@@ -115,7 +115,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_revolver_flare" aliases="revolver flare round" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,revolverround,ammo,smallarmsammo,revolverammo,light,decoy,provocative,ek_flare,pistolammoitem" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_revolver_flare" aliases="revolver flare round" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,revolverround,ammo,smallarmsammo,revolverammo,light,decoy,provocative,ek_flare,pistolammoitem" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="revolver" />
     <Price baseprice="50" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -177,7 +177,7 @@
       </StatusEffect>
     </LightComponent>
   </Item>
-  <Item name="" identifier="ek_handgun" aliases="handgun" focusonselected="true" offsetonselected="800" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_handgun" aliases="handgun" focusonselected="true" offsetonselected="800" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_9mm,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="weaponholder" spawnprobability="0.1" />
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.1" />
@@ -255,7 +255,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_handgun_mag" aliases="handgun mag, handgun_mag, 9mm_magazine" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem,ek_handgun_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_handgun_mag" aliases="handgun mag, handgun_mag, 9mm_magazine" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem,ek_handgun_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_9mm" />
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="4" spawnprobability="0.25" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.33" />
@@ -305,7 +305,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_handgun_magextended" aliases="handgun high-capacity mag, handgun_mag_extended, handgun mag extended, 9mm_magazine_extended, 9mm_magazine_high_capacity" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem,ek_handgun_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_handgun_magextended" aliases="handgun high-capacity mag, handgun_mag_extended, handgun mag extended, 9mm_magazine_extended, 9mm_magazine_high_capacity" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem,ek_handgun_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_9mm" />
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="4" spawnprobability="0.25" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.33" />
@@ -354,7 +354,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_handgun_round" category="Misc" interactthroughwalls="true" tags="smallitem,round,pistolammoitem" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_handgun_round" category="Weapon" interactthroughwalls="true" tags="smallitem,round,pistolammoitem" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -378,7 +378,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_handgun_alienmag" aliases="handgun alien mag, handgun physicorium mag, handgun_alien_mag, Physicorium_9mm_magazine" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_handgun_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_handgun_alienmag" aliases="handgun alien mag, handgun physicorium mag, handgun_alien_mag, Physicorium_9mm_magazine" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_handgun_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_9mm" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="160" sold="false" minleveldifficulty="20">
@@ -426,7 +426,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_handgun_alienround" category="Misc" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem,round,pistolammoitem" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_handgun_alienround" category="Weapon" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem,round,pistolammoitem" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -455,7 +455,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_handgun_riot_mag" aliases="handgun riot mag, handgun_riot_mag, 9mm_magazine_riot" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem, ek_handgun_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_handgun_riot_mag" aliases="handgun riot mag, handgun_riot_mag, 9mm_magazine_riot" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem, ek_handgun_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_9mm" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="20" sold="false" minleveldifficulty="15">
@@ -503,7 +503,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_handgun_riot_round" category="Misc" spritecolor="220,150,116,255" inventoryiconcolor="220,150,116,255" interactthroughwalls="true" tags="smallitem,round,pistolammoitem" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_handgun_riot_round" category="Weapon" spritecolor="220,150,116,255" inventoryiconcolor="220,150,116,255" interactthroughwalls="true" tags="smallitem,round,pistolammoitem" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -524,7 +524,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <!--   <Item name="9mm Magazine (Thud Rounds)" identifier="ek_handgun_thudmag" aliases="handgun thud mag, handgun mag thud" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem, ek_handgun_mags, magazine" impactsoundtag="impact_metal_light">
+  <!--   <Item name="9mm Magazine (Thud Rounds)" identifier="ek_handgun_thudmag" aliases="handgun thud mag, handgun mag thud" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem, ek_handgun_mags, magazine" impactsoundtag="impact_metal_light">
     <Price storeidentifier="merchantMilitary" buyprice="35" />
     <Price storeidentifier="merchantCity" buyprice="60" />
     <Price storeidentifier="merchantOutpost" buyprice="70" />
@@ -553,7 +553,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item> -->
-  <!--   <Item name="9mm Thud Round" identifier="ek_handgun_thudround" category="Misc" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <!--   <Item name="9mm Thud Round" identifier="ek_handgun_thudround" category="Weapon" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="80,48,4,4" depth="0.55" origin="0.5,0.5" />
     <Body width="160" height="10" density="40" />
@@ -579,7 +579,7 @@
       </StatusEffect>
     </Projectile>
   </Item> -->
-  <Item name="" identifier="ek_smg" aliases="marine_smg,ek marine smg,ek smg" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg" aliases="marine_smg,ek marine smg,ek smg" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_57mm,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="weaponholder" spawnprobability="0.05" />
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
@@ -642,7 +642,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_smg_mag" aliases="smg mag,smg_mag,5.7x28mm_magazine,marine smg mag" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_smg" tags="smallitem, ek_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_mag" aliases="smg mag,smg_mag,5.7x28mm_magazine,marine smg mag" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_smg" tags="smallitem, ek_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_57mm" />
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="0.25" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.25" />
@@ -692,7 +692,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_smg_round" category="Misc" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
+  <Item name="" identifier="ek_smg_round" category="Weapon" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -716,7 +716,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_smg_alienmag" aliases="smg alien mag, smg physicorium mag,smg_alien_mag, Physicorium_5.7x28mm_magazine" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_alienmag" aliases="smg alien mag, smg physicorium mag,smg_alien_mag, Physicorium_5.7x28mm_magazine" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_57mm" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="240" sold="false" minleveldifficulty="30">
@@ -764,7 +764,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_smg_alienround" category="Misc" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
+  <Item name="" identifier="ek_smg_alienround" category="Weapon" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -786,7 +786,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_smg_riot_mag" aliases="smg riot mag, handgun_smg_mag, 5.7x28mm_magazine_riot" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_smg" tags="smallitem, ek_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_smg_riot_mag" aliases="smg riot mag, handgun_smg_mag, 5.7x28mm_magazine_riot" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_smg" tags="smallitem, ek_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_57mm" />
     <Price baseprice="60" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -833,7 +833,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_smg_riot_round" category="Misc" spritecolor="220,150,116,255" inventoryiconcolor="220,150,116,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
+  <Item name="" identifier="ek_smg_riot_round" category="Weapon" spritecolor="220,150,116,255" inventoryiconcolor="220,150,116,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -854,7 +854,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_riotshield" aliases="small shield, small riot shield" scale="0.35" category="Equipment,Weapon" tags="mediumitem" impactsoundtag="impact_metal_light" cargocontaineridentifier="ek_weapons_case" health="500" damagedbyprojectiles="true" damagedbyexplosions="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.2">
+  <Item name="" identifier="ek_riotshield" aliases="small shield, small riot shield" scale="0.35" category="Weapon" tags="mediumitem" impactsoundtag="impact_metal_light" cargocontaineridentifier="ek_weapons_case" health="500" damagedbyprojectiles="true" damagedbyexplosions="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.2">
     <Price baseprice="225" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" sold="true" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1.25" sold="true" minavailable="2" />
@@ -903,7 +903,7 @@
       <QualityStat stattype="Condition" value="0.2" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_torpedorifle" aliases="torpedorifle, torpedo rifle" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_microtorpedo,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_torpedorifle" aliases="torpedorifle, torpedo rifle" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_microtorpedo,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_heavy">
     <Price baseprice="500" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -953,7 +953,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_torpedorifle_round_slug" aliases="microtorpedo slug, torpedo rifle round slug, torpedo_rifle_round_slug" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem, ek_microtorpedo" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_torpedorifle_round_slug" aliases="microtorpedo slug, torpedo rifle round slug, torpedo_rifle_round_slug" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem, ek_microtorpedo" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_microtorpedo" />
     <Price baseprice="35" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1010,7 +1010,7 @@
       <StatusEffect type="OnActive" target="This" disabledeltatime="true" Condition="-200.0" delay="2.0" />
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_torpedorifle_round" aliases="torpedo rifle round, torpedo_rifle_round" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem,ek_microtorpedo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_torpedorifle_round" aliases="torpedo rifle round, torpedo_rifle_round" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem,ek_microtorpedo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_microtorpedo" />
     <Price baseprice="105" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1082,7 +1082,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_torpedorifle_round_shortfuse" aliases="microtorpedo shortfuse, torpedo rifle round short fuse, torpedo_rifle_round_short_fuse" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem,ek_microtorpedo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_torpedorifle_round_shortfuse" aliases="microtorpedo shortfuse, torpedo rifle round short fuse, torpedo_rifle_round_short_fuse" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem,ek_microtorpedo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_microtorpedo" />
     <Price baseprice="145" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1156,7 +1156,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="Microtorpedo (Shock Pulse)" identifier="ek_torpedorifle_round_tazer" aliases="microtorpedo shockpulse, torpedo rifle round tazer, torpedo_rifle_round_tazer" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem,ek_microtorpedo" Scale="0.36" impactsoundtag="impact_metal_light" description="Miniaturized stun probe, launched from a torpedo rifle." maxstacksize="4">
+  <Item name="Microtorpedo (Shock Pulse)" identifier="ek_torpedorifle_round_tazer" aliases="microtorpedo shockpulse, torpedo rifle round tazer, torpedo_rifle_round_tazer" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_microtorpedo" tags="smallitem,ek_microtorpedo" Scale="0.36" impactsoundtag="impact_metal_light" description="Miniaturized stun probe, launched from a torpedo rifle." maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_microtorpedo" />
     <Price baseprice="145" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1271,7 +1271,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="Microtorpedo (Physicorium)" identifier="ek_torpedorifle_round_alien" aliases="microtorpedo physicorium, torpedo rifle round physicorium, torpedo_rifle_round_physicorium, microtorpedo alien, microtorpedo_alien" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem,ek_microtorpedo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" description="Experimental high-yeild warhead, launched from a torpedo rifle." maxstacksize="4">
+  <Item name="Microtorpedo (Physicorium)" identifier="ek_torpedorifle_round_alien" aliases="microtorpedo physicorium, torpedo rifle round physicorium, torpedo_rifle_round_physicorium, microtorpedo alien, microtorpedo_alien" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem,ek_microtorpedo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" description="Experimental high-yeild warhead, launched from a torpedo rifle." maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_microtorpedo" />
     <Price baseprice="250" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -1347,7 +1347,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="Flare Gun" identifier="ek_flaregun" aliases="flaregun, flare_gun" description="An emergency flare gun intended for signaling ships. Fires flare shells to provide illumination." category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,ek_ammotag_flareshell" Scale="0.33" impactsoundtag="impact_metal_light">
+  <Item name="Flare Gun" identifier="ek_flaregun" aliases="flaregun, flare_gun" description="An emergency flare gun intended for signaling ships. Fires flare shells to provide illumination." category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,ek_ammotag_flareshell" Scale="0.33" impactsoundtag="impact_metal_light">
     <Price baseprice="160" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" sold="true" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="1.25" sold="true" minavailable="2" />
@@ -1394,7 +1394,7 @@
       <Containable identifiers="ek_flare_rounds" />
     </ItemContainer>
   </Item>
-  <Item name="Flare Cartridge" identifier="ek_flare_round" aliases="flare_cartridge, flare shot, flare_shot, flare round, flare_round" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_flare_rounds,light,decoy,provocative,ek_flare,ek_shotgun_shells,shotgunshell,shotgunammo,ammo,smallarmsammo,pistolammoitem" Scale="0.36" impactsoundtag="impact_soft" description="Waterproof signal flare that illuminates a large area. Fired from a flare gun." maxstacksize="4">
+  <Item name="Flare Cartridge" identifier="ek_flare_round" aliases="flare_cartridge, flare shot, flare_shot, flare round, flare_round" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_flare_rounds,light,decoy,provocative,ek_flare,ek_shotgun_shells,shotgunshell,shotgunammo,ammo,smallarmsammo,pistolammoitem" Scale="0.36" impactsoundtag="impact_soft" description="Waterproof signal flare that illuminates a large area. Fired from a flare gun." maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_flareshell" />
     <Price baseprice="50" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" sold="true" minavailable="6" />
@@ -1481,7 +1481,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_impact_mine" aliases="impact_mine, impact mine" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" impacttolerance="0.5" maxstacksize="4">
+  <Item name="" identifier="ek_impact_mine" aliases="impact_mine, impact mine" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" impacttolerance="0.5" maxstacksize="4">
     <Price baseprice="250" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" sold="true" minavailable="1" />
@@ -1559,7 +1559,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_proximity_mine" aliases="proximity_mine,proximity mine" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="4">
+  <Item name="" identifier="ek_proximity_mine" aliases="proximity_mine,proximity mine" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="4">
     <Price baseprice="300" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" sold="true" minavailable="1" />
@@ -1662,7 +1662,7 @@
       <Containable identifiers="batterycell,fulguriumbatterycell"/>
     </ItemContainer>
   </Item> -->
-  <Item name="" identifier="ek_double_shotgun" aliases="double barrel shotgun, double_barrel_shotgun, shorty, ek_double_shotgun" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_double_shotgun" aliases="double barrel shotgun, double_barrel_shotgun, shorty, ek_double_shotgun" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Price baseprice="350" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" sold="true" minavailable="1" />
@@ -1712,7 +1712,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_tactical_shotgun" aliases="ek_shotgun" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_tactical_shotgun" aliases="ek_shotgun" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_shotgunshell,shotgun,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Price baseprice="500" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
       <Price storeidentifier="merchantcity" multiplier="1.25" />
@@ -1764,7 +1764,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_shotgun_shell" aliases="12gauge_shell, shotgun shell, shotgun_shell" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells,round,shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_shell" aliases="12gauge_shell, shotgun shell, shotgun_shell" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells,round,shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.33" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="3" spawnprobability="0.33" />
@@ -1858,7 +1858,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_shotgun_beanbag" aliases="beanbag_shell,shotgun beanbag,shotgun_beanbag" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,ek_shotgun_shells,round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_beanbag" aliases="beanbag_shell,shotgun beanbag,shotgun_beanbag" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,ek_shotgun_shells,round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <Price baseprice="30" sold="false" minleveldifficulty="3">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" sold="true" minavailable="2" />
@@ -1901,7 +1901,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_shotgun_slug" aliases="shotgun_slug" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_slug" aliases="shotgun_slug" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
@@ -1955,7 +1955,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_shotgun_hollowpoint" aliases="shotgun_hollowpoint" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_hollowpoint" aliases="shotgun_hollowpoint" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
@@ -2004,7 +2004,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_shotgun_alien_slug" aliases="physicorium_slug, shotgun_alien_slug, shotgun alien slug" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_alien_slug" aliases="physicorium_slug, shotgun_alien_slug, shotgun alien slug" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <Price baseprice="50" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.5" />
@@ -2055,7 +2055,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_shotgun_grenade" aliases="shotgun_grenade" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells,round,shell,shotgunshell,shotgunammo,ammo,smallarmsammo,demolitionsexpert" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_grenade" aliases="shotgun_grenade" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells,round,shell,shotgunshell,shotgunammo,ammo,smallarmsammo,demolitionsexpert" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
@@ -2113,7 +2113,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_shotgun_flechette" aliases="shotgun_flechette" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_shotgun_flechette" aliases="shotgun_flechette" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_shotgun_shells, round, shell,shotgunshell,shotgunammo,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_shotgunshell" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
@@ -2163,7 +2163,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_tazer" aliases="tazer, stun gun" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,stunner,ek_ammotag_tazer" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_tazer" aliases="tazer, stun gun" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,stunner,ek_ammotag_tazer" Scale="0.30" impactsoundtag="impact_metal_light">
     <Price baseprice="280" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -2216,7 +2216,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_tazer_mag" aliases="tazer_cartridge, tazer mag, tazer_mag" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_tazer_mags, loadable" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_tazer_mag" aliases="tazer_cartridge, tazer mag, tazer_mag" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_tazer_mags, loadable" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_tazer" />
     <Price baseprice="180" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -2251,7 +2251,7 @@
       </StatusEffect> -->
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_tazer_round" scale="0.35" category="Misc" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true">
+  <Item name="" identifier="ek_tazer_round" scale="0.35" category="Weapon" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="224,384,32,16" depth="0.55" />
     <Body width="64" height="32" density="20" />
@@ -2276,7 +2276,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_flamethrower" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_flamerfuel" Scale="0.35" impactsoundtag="impact_metal_light" fireproof="true">
+  <Item name="" identifier="ek_flamethrower" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_flamerfuel" Scale="0.35" impactsoundtag="impact_metal_light" fireproof="true">
     <Price baseprice="450" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -2325,7 +2325,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_flamer_fuel" aliases="flamer fuel, flamer_fuel, flamethrower fuel, flamethrower_fuel" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,magazine,ek_flamer_tank,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4" waterproof="true">
+  <Item name="" identifier="ek_flamer_fuel" aliases="flamer fuel, flamer_fuel, flamethrower fuel, flamethrower_fuel" scale="0.35" category="Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,magazine,ek_flamer_tank,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4" waterproof="true">
     <PreferredContainer primary="ek_ammotag_flamerfuel" />
     <Price baseprice="80" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -2335,18 +2335,18 @@
       <Price storeidentifier="merchantmine" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="1.2" sold="true" minavailable="2" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="25" amount="2">
+    <Fabricate suitablefabricators="fabricator" requiredtime="24" amount="2">
       <RequiredSkill identifier="mechanical" level="25" />
       <RequiredItem identifier="aluminium" amount="2" />
       <RequiredItem identifier="ethanol" amount="2" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" requiredtime="12">
-      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="mechanical" level="25" />
       <RequiredItem identifier="aluminium" />
       <RequiredItem identifier="ethanol" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="8">
-      <RequiredSkill identifier="mechanical" level="45" />
+      <RequiredSkill identifier="mechanical" level="20" />
       <RequiredItem tag="ek_flamer_tank" mincondition="0.0" usecondition="false" />
       <RequiredItem identifier="ethanol" />
     </Fabricate>
@@ -2383,7 +2383,7 @@
       <QualityStat stattype="Condition" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_flame_fuel" category="Misc" interactthroughwalls="true" hideinmenus="true">
+  <Item name="" identifier="ek_flame_fuel" category="Weapon" interactthroughwalls="true" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,1,1" depth="0.55" />
     <Body width="16" height="16" density="40" />
@@ -2420,7 +2420,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_flamer_incendium" aliases="flamer fuel incendium, flamer_fuel_incendium,flamethrower fuel incendium,flamethrower_fuel_incendium" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,ek_flamer_tank,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4" waterproof="true">
+  <Item name="" identifier="ek_flamer_incendium" aliases="flamer fuel incendium, flamer_fuel_incendium,flamethrower fuel incendium,flamethrower_fuel_incendium" scale="0.35" category="Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,ek_flamer_tank,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4" waterproof="true">
     <PreferredContainer primary="ek_ammotag_flamerfuel" />
     <Price baseprice="100" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -2430,7 +2430,7 @@
       <Price storeidentifier="merchantmine" multiplier="1.25" />
       <Price storeidentifier="merchantarmory" multiplier="1.2" sold="true" minavailable="1" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="15" amount="2">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30" amount="2">
       <RequiredSkill identifier="mechanical" level="50" />
       <RequiredItem identifier="aluminium" amount="2" />
       <RequiredItem identifier="incendium" amount="2" />
@@ -2478,7 +2478,7 @@
       <QualityStat stattype="Condition" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_flame_incendium" category="Misc" interactthroughwalls="true" hideinmenus="true">
+  <Item name="" identifier="ek_flame_incendium" category="Weapon" interactthroughwalls="true" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,1,1" depth="0.55" />
     <Body width="16" height="16" density="40" />
@@ -2516,7 +2516,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_hypergolic_fuel" aliases="hypergolic fuel,flamethrower hypergolic fuel" scale="0.35" maxstacksize="4" category="Equipment,Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,ek_flamer_tank,ammo,smallarmsammo" impactsoundtag="impact_metal_light" waterproof="true">
+  <Item name="" identifier="ek_hypergolic_fuel" aliases="hypergolic fuel,flamethrower hypergolic fuel" scale="0.35" maxstacksize="4" category="Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,ek_flamer_tank,ammo,smallarmsammo" impactsoundtag="impact_metal_light" waterproof="true">
     <PreferredContainer primary="ek_ammotag_flamerfuel" />
     <Price baseprice="125" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -2542,8 +2542,8 @@
       <RequiredItem identifier="sufforin" mincondition="0.5" usecondition="true" />
       <RequiredItem identifier="magnesium" mincondition="0.5" usecondition="true" />
     </Fabricate>
-    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="20">
-      <RequiredSkill identifier="mechanical" level="45" />
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="mechanical" level="35" />
       <RequiredSkill identifier="medical" level="45" />
       <RequiredItem tag="ek_flamer_tank" mincondition="0.0" usecondition="false" />
       <RequiredItem identifier="ethanol" />
@@ -2586,7 +2586,7 @@
       <QualityStat stattype="Condition" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_flame_hypergolic" category="Misc" interactthroughwalls="true" hideinmenus="true">
+  <Item name="" identifier="ek_flame_hypergolic" category="Weapon" interactthroughwalls="true" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,1,1" depth="0.55" />
     <Body width="16" height="16" density="40" />
@@ -2622,7 +2622,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_alienrifle" aliases="alien_rifle, alien rifle" category="Alien" tags="mediumitem,weapon,gun,alien,ek_ammotag_alienmag" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_alienrifle" aliases="alien_rifle, alien rifle" category="Weapon" tags="mediumitem,weapon,gun,alien,ek_ammotag_alienmag" Scale="0.35" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="aliencontainer" minamount="0" maxamount="1" spawnprobability="0.1" />
     <PreferredContainer primary="wrecksecurearmcab,wreckarmcab,wreckshuttlecrate" minamount="0" maxamount="1" spawnprobability="0.05" />
     <Price baseprice="1000" soldeverywhere="false" minleveldifficulty="66">
@@ -2662,7 +2662,7 @@
       <Containable identifier="ek_alienrifle_mag" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_alienrifle_mag" aliases="alien rifle mag, alien_rifle_mag, Physicorium_5.7x28mm_magazine" scale="0.35" maxstacksize="2" category="Alien" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem,ek_smg_mags,magazine,alien,riflemanbonus" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_alienrifle_mag" aliases="alien rifle mag, alien_rifle_mag, Physicorium_5.7x28mm_magazine" scale="0.35" maxstacksize="2" category="Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem,ek_smg_mags,magazine,alien,riflemanbonus" impactsoundtag="impact_metal_light">
     <!--<Price storeidentifier="merchantResearch" buyprice="240" />-->
     <PreferredContainer primary="ek_ammotag_alienmag" />
     <PreferredContainer primary="aliencontainer" minamount="0" maxamount="2" spawnprobability="0.1" />
@@ -2691,7 +2691,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_alienrifle_round" category="Misc" spritecolor="75,215,250,225" inventoryiconcolor="75,215,250,225" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" hideinmenus="true">
+  <Item name="" identifier="ek_alienrifle_round" category="Weapon" spritecolor="75,215,250,225" inventoryiconcolor="75,215,250,225" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="1,1,16,9" depth="0.55" />
     <Body width="8" height="3" density="40" />
@@ -2719,7 +2719,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_petrobomb" aliases="molotov,petrobomb" impacttolerance="8" maxstacksize="8" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_petrobomb" aliases="molotov,petrobomb" impacttolerance="8" maxstacksize="8" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.35" impactsoundtag="impact_metal_light">
     <Price baseprice="100" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -2779,7 +2779,7 @@
     </Quality>
   </Item>
   <!-- Wasn't available previously, might be broken. -->
-  <Item name="" identifier="ek_micro_dartgun" aliases="mini dart gun, dart pistol" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_dart" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_micro_dartgun" aliases="mini dart gun, dart pistol" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_dart" Scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="150" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -2813,7 +2813,7 @@
     </ItemContainer>
   </Item>
   <!-- Darts do not appear to impact characters. If they do, OnUse effects are not applying. Emulate syringes or try OnImpact effects. -->
-  <Item name="" identifier="ek_dartgun" aliases="dart_gun, dartgun" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_dart" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_dartgun" aliases="dart_gun, dartgun" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_dart" Scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="200" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -2856,7 +2856,7 @@
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,152,120,32" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_dart_hemostat" aliases="dart hemostat" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_hemostat" aliases="dart hemostat" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -2878,7 +2878,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_stabilozine" aliases="dart stabilozine" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_stabilozine" aliases="dart stabilozine" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -2900,7 +2900,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_morphine" aliases="dart morphine" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_morphine" aliases="dart morphine" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -2926,7 +2926,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_fentanyl" aliases="dart fentanyl" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_fentanyl" aliases="dart fentanyl" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -2952,7 +2952,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_deusizine" aliases="dart deusizine" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_deusizine" aliases="dart deusizine" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -2976,7 +2976,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_calyxanide" aliases="dart calyxanide" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_calyxanide" aliases="dart calyxanide" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3016,7 +3016,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_haloperidol" aliases="dart haloperidol" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_haloperidol" aliases="dart haloperidol" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3037,7 +3037,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_oxygenite" aliases="dart oxygenite" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_oxygenite" aliases="dart oxygenite" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3059,7 +3059,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_steroids" aliases="dart steroids,dart steroid" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_steroids" aliases="dart steroids,dart steroid" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3081,7 +3081,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_antiparalysis" aliases="dart antiparalysis,dart paralysis antidote" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_antiparalysis" aliases="dart antiparalysis,dart paralysis antidote" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3103,7 +3103,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_ethanol" aliases="dart ethanol" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_ethanol" aliases="dart ethanol" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3128,7 +3128,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_chloralhydrate" aliases="dart sedative,dart chloralhydrate" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_chloralhydrate" aliases="dart sedative,dart chloralhydrate" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3150,7 +3150,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_deliriumine" aliases="dart psycosis,dart deliriumine" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_deliriumine" aliases="dart psycosis,dart deliriumine" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3171,7 +3171,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_acid" aliases="dart acid,dart sulphuricacid" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_acid" aliases="dart acid,dart sulphuricacid" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3193,7 +3193,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_cyanide" aliases="dart cyanide" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_cyanide" aliases="dart cyanide" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3214,7 +3214,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_radiotoxin" aliases="dart radiotoxin" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_radiotoxin" aliases="dart radiotoxin" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3235,7 +3235,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_morbusine" aliases="dart morbusine" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_morbusine" aliases="dart morbusine" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3256,7 +3256,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_sufforin" aliases="dart sufforin" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_sufforin" aliases="dart sufforin" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3277,7 +3277,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_paralyzant" aliases="dart paralyzant,dart paralysis" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_paralyzant" aliases="dart paralyzant,dart paralysis" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3298,7 +3298,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_raptorbane" aliases="dart raptorbane,raptorbane dart" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_raptorbane" aliases="dart raptorbane,raptorbane dart" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3323,7 +3323,7 @@
       </StatusEffect>|
 	  <StatusEffect tags="poison" type="OnImpact" target="UseTarget" duration="20"><Conditional group="mudraptor" /><Affliction identifier="organdamage" amount="5" /></StatusEffect></Projectile>
   </Item>
-  <Item name="" identifier="ek_dart_explosive" aliases="dart explosive,dart grenade" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
+  <Item name="" identifier="ek_dart_explosive" aliases="dart explosive,dart grenade" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,ek_dart" Scale="0.32" impactsoundtag="impact_soft" maxstacksize="8">
     <PreferredContainer primary="ek_ammotag_dart" />
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
@@ -3347,7 +3347,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_mini_smg" aliases="mini smg" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_mini_smg" aliases="mini smg" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_10mm,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="weaponholder" spawnprobability="0.05" />
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="2" spawnprobability="0.1" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.1" />
@@ -3404,7 +3404,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_mini_smg_mag" aliases="compact smg mag, mini smg mag, mini_smg_mag, 10mm mag, 10mm_magazine" scale="0.27" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem, ek_mini_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_mini_smg_mag" aliases="compact smg mag, mini smg mag, mini_smg_mag, 10mm mag, 10mm_magazine" scale="0.27" category="Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem, ek_mini_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_10mm" />
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="0.25" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.33" />
@@ -3454,7 +3454,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_mini_smg_round" category="Misc" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_mini_smg_round" category="Weapon" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -3478,7 +3478,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_mini_smg_alienmag" aliases="compact smg alien mag, mini smg alien mag, mini_smg_alien_mag, 10mm alien mag, 10mm_magazine_physicorium" scale="0.27" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_mini_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_mini_smg_alienmag" aliases="compact smg alien mag, mini smg alien mag, mini_smg_alien_mag, 10mm alien mag, 10mm_magazine_physicorium" scale="0.27" category="Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_mini_smg_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_10mm" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.05" />
     <Price baseprice="200" sold="false" minleveldifficulty="20">
@@ -3526,7 +3526,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_mini_smg_alienround" category="Misc" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_mini_smg_alienround" category="Weapon" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -3553,7 +3553,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_mini_smg_riot_mag" aliases="compact smg riot mag, mini smg riot mag, mini_smg_riot_mag, 10mm mag riot, 10mm_magazine_riot" scale="0.27" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem,ek_mini_smg_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_mini_smg_riot_mag" aliases="compact smg riot mag, mini smg riot mag, mini_smg_riot_mag, 10mm mag riot, 10mm_magazine_riot" scale="0.27" category="Weapon" cargocontaineridentifier="ek_ammocrate_9mm" tags="smallitem,ek_mini_smg_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_10mm" />
     <Price baseprice="75" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="true" minavailable="1" />
@@ -3600,7 +3600,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_mini_smg_riot_round" category="Misc" spritecolor="220,150,116,255" inventoryiconcolor="220,150,116,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_mini_smg_riot_round" category="Weapon" spritecolor="220,150,116,255" inventoryiconcolor="220,150,116,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -3621,7 +3621,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_rocketlauncher" aliases="marine_rocket_launcher,marine_rpg,marine rpg,rocket_launcher,rocketlauncher,rocket launcher,ek rocketlauncher,ek rocket launcher,rpg,ek rpg" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_rocket,mountableweapon" Scale="0.38" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_rocketlauncher" aliases="marine_rocket_launcher,marine_rpg,marine rpg,rocket_launcher,rocketlauncher,rocket launcher,ek rocketlauncher,ek rocket launcher,rpg,ek rpg" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_rocket,mountableweapon" Scale="0.38" impactsoundtag="impact_metal_heavy">
     <Price baseprice="750" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -3666,7 +3666,7 @@
       <ContainedStateIndicator texture="%ModDir%/UI/ek_containerindicators.png" sourcerect="0,32,128,32" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_rocketammo_explosive" aliases="rocket,he rocket,rocket he,he_rocket,rocket_he,rocket high explosive,rocket explosive,rocket_explosive" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_rocketammo_explosive" aliases="rocket,he rocket,rocket he,he_rocket,rocket_he,rocket high explosive,rocket explosive,rocket_explosive" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_rocket" />
     <Price baseprice="240" sold="false" minleveldifficulty="33">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -3744,7 +3744,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_rocketammo_shortfuse" aliases="shortfuse rocket,rocket shortfuse,shortfuse_rocket,rocket_shortfuse" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_rocketammo_shortfuse" aliases="shortfuse rocket,rocket shortfuse,shortfuse_rocket,rocket_shortfuse" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_rocket" />
     <Price baseprice="275" sold="false" minleveldifficulty="33">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -3823,7 +3823,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_rocketammo_armorpiercing" aliases="ap rocket,rocket ap,ap_rocket,rocket_ap,rocket armor piercing,rocket_armor_piercing" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_rocketammo_armorpiercing" aliases="ap rocket,rocket ap,ap_rocket,rocket_ap,rocket armor piercing,rocket_armor_piercing" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_rocket" />
     <Price baseprice="300" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -3909,7 +3909,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_rocketammo_alien" aliases="alien rocket,rocket alien,rocket physicorium,physicorium rocket" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_rocketammo_alien" aliases="alien rocket,rocket alien,rocket physicorium,physicorium rocket" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_rocketammo,demolitionsexpert" Scale="0.36" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_rocket" />
     <Price baseprice="400" sold="false" minleveldifficulty="50">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -3991,7 +3991,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_gausspistol" aliases="coil pistol" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,loadable,gun,ek_ammotag_gausspistol,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_gausspistol" aliases="coil pistol" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,loadable,gun,ek_ammotag_gausspistol,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Price baseprice="800" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -4050,7 +4050,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_gausspistol_mag" aliases="gauss pistol mag,coil pistol mag" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_gausspistol_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_gausspistol_mag" aliases="gauss pistol mag,coil pistol mag" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_gausspistol_mags, magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_gausspistol" />
     <Price baseprice="800" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4096,7 +4096,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_gausspistol_round" tags="pistolammoitem" category="Misc" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_gausspistol_round" tags="pistolammoitem" category="Weapon" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="160" height="10" density="20" />
@@ -4127,7 +4127,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_gaussrifle" aliases="coil rifle" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,loadable,gun,ek_ammotag_gaussrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_gaussrifle" aliases="coil rifle" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,loadable,gun,ek_ammotag_gaussrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <Price baseprice="1200" sold="false" minleveldifficulty="50">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -4186,7 +4186,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_gaussrifle_mag" aliases="gauss rifle mag,coil rifle mag" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_gaussrifle_mags, magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_gaussrifle_mag" aliases="gauss rifle mag,coil rifle mag" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem, ek_gaussrifle_mags, magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_gaussrifle" />
     <Price baseprice="300" sold="false" minleveldifficulty="50">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4228,7 +4228,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_gaussrifle_round" category="Misc" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_gaussrifle_round" category="Weapon" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -4264,7 +4264,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_drumlmg" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556drum,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_drumlmg" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556drum,gunsmith,mountableweapon" Scale="0.35" impactsoundtag="impact_metal_light">
     <Price baseprice="450" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -4322,7 +4322,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_drumlmg_mag" aliases="drum lmg mag,lmg mag,lmg drum" maxstacksize="2" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_rifle" tags="smallitem, ek_drumlmg_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_drumlmg_mag" aliases="drum lmg mag,lmg mag,lmg drum" maxstacksize="2" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_rifle" tags="smallitem, ek_drumlmg_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_556drum" />
     <Price baseprice="210" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4371,7 +4371,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_drumlmg_round" category="Misc" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
+  <Item name="" identifier="ek_drumlmg_round" category="Weapon" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -4395,7 +4395,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_drumlmg_alienmag" aliases="drum lmg alien mag,lmg alien mag,lmg alien drum,lmg drum alien" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem,ek_drumlmg_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_drumlmg_alienmag" aliases="drum lmg alien mag,lmg alien mag,lmg alien drum,lmg drum alien" scale="0.35" category="Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem,ek_drumlmg_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_556drum" />
     <Price baseprice="300" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4443,7 +4443,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_drumlmg_alienround" category="Misc" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
+  <Item name="" identifier="ek_drumlmg_alienround" category="Weapon" spritecolor="255,210,125,255" inventoryiconcolor="255,210,125,255" interactthroughwalls="true" tags="smallitem, round" impactsoundtag="impact_metal_light" scale="0.2" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -4465,7 +4465,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_smokegrenade" category="Equipment,Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_smokegrenade" category="Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
     <Price baseprice="110" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -4522,7 +4522,7 @@
     </RepairTool>
     <Throwable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" throwforce="4.0" msg="ItemMsgPickUpSelect"></Throwable>
   </Item>
-  <Item name="" identifier="ek_battlerifle" aliases="marine assault rifle" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle" aliases="marine assault rifle" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_556,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="550" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -4585,7 +4585,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_battlerifle_mag" aliases="battle rifle mag,assault rifle mag,marine battle rifle mag,marine assault rifle mag" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_rifle" tags="smallitem,ek_battlerifle_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_mag" aliases="battle rifle mag,assault rifle mag,marine battle rifle mag,marine assault rifle mag" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_rifle" tags="smallitem,ek_battlerifle_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_556" />
     <Price baseprice="95" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4632,7 +4632,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_battlerifle_alien_mag" aliases="battle rifle alien mag,assault rifle alien mag,marine battle rifle alien mag,marine assault rifle alien mag" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_battlerifle_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_alien_mag" aliases="battle rifle alien mag,assault rifle alien mag,marine battle rifle alien mag,marine assault rifle alien mag" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_physicorium" tags="smallitem, ek_battlerifle_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_556" />
     <Price baseprice="210" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4679,7 +4679,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_battlerifle_riot_mag" aliases="battle rifle riot mag,assault rifle riot mag,marine battle rifle riot mag,marine assault rifle riot mag" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_rifle" tags="smallitem,ek_battlerifle_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_battlerifle_riot_mag" aliases="battle rifle riot mag,assault rifle riot mag,marine battle rifle riot mag,marine assault rifle riot mag" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_rifle" tags="smallitem,ek_battlerifle_mags,magazine,ammo,smallarmsammo,riflemanbonus" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_556" />
     <Price baseprice="75" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="true" minavailable="1" />
@@ -4726,7 +4726,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_beast_ssl" aliases="beast ssl,ssl,beast,ek beast,beast autocannon" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_30mmfc,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_beast_ssl" aliases="beast ssl,ssl,beast,ek beast,beast autocannon" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_30mmfc,gunsmith,mountableweapon" Scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="500" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -4778,8 +4778,11 @@
         <Use />
       </StatusEffect>
     </ItemContainer>
+    <Quality>
+      <QualityStat stattype="FirepowerMultiplier" value="0.1" />
+    </Quality>
   </Item>
-  <Item name="" identifier="ek_ssl_magazine" aliases="30mm fc clip,ssl mag,ssl clip,beast mag,beast clip" maxstacksize="2" scale="0.32" category="Equipment,Weapon" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_ssl_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_ssl_magazine" aliases="30mm fc clip,ssl mag,ssl clip,beast mag,beast clip" maxstacksize="2" scale="0.32" category="Weapon" cargocontaineridentifier="ek_ammocrate_rockets" tags="smallitem,ek_ssl_mags,magazine,ammo,smallarmsammo" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="ek_ammotag_30mmfc" />
     <Price baseprice="200" sold="false" minleveldifficulty="30">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -4825,7 +4828,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_ssl_round" category="Misc" scale="0.32" sonarsize="2" hideinmenus="true">
+  <Item name="" identifier="ek_ssl_round" category="Weapon" scale="0.32" sonarsize="2" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Containers/containers_ek.png" sourcerect="368,784,128,32" depth="0.55" />
     <Body width="160" height="10" density="20" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -4870,7 +4873,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_ied" aliases="fuel bomb,improvised bomb" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="3">
+  <Item name="" identifier="ek_ied" aliases="fuel bomb,improvised bomb" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="3">
     <Deconstruct time="15">
       <Item identifier="fpgacircuit" />
       <Item identifier="copper" />
@@ -4933,7 +4936,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_breachingcharge" aliases="ek breaching charge" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,explosive" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" hideinmenus="false" maxstacksize="4">
+  <Item name="" identifier="ek_breachingcharge" aliases="ek breaching charge" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,explosive" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" hideinmenus="false" maxstacksize="4">
     <Price baseprice="125" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5053,7 +5056,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_explosivecharge_uex" aliases="satchel charge uex,uex bomb" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
+  <Item name="" identifier="ek_explosivecharge_uex" aliases="satchel charge uex,uex bomb" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
     <Price baseprice="200" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5173,7 +5176,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_explosivecharge_c4" aliases="satchel charge c4,c4 bomb" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
+  <Item name="" identifier="ek_explosivecharge_c4" aliases="satchel charge c4,c4 bomb" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
     <Price baseprice="300" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5305,7 +5308,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item> -->
-  <Item name="" identifier="ek_thermiteblock" category="Equipment,Weapon" Tags="smallitem,explosive,demolitionsexpert" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft" damagedbyexplosions="true" maxstacksize="8">
+  <Item name="" identifier="ek_thermiteblock" category="Weapon" Tags="smallitem,explosive,demolitionsexpert" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft" damagedbyexplosions="true" maxstacksize="8">
     <Price baseprice="200" sold="false" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5377,7 +5380,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_thermitegrenade" category="Equipment,Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy" maxstacksize="8">
+  <Item name="" identifier="ek_thermitegrenade" category="Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy" maxstacksize="8">
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.25" />
     <Price baseprice="150" sold="false" minleveldifficulty="20">
@@ -5432,7 +5435,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_explosivecharge_thermite" aliases="satchel charge thermite,thermite bomb" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
+  <Item name="" identifier="ek_explosivecharge_thermite" aliases="satchel charge thermite,thermite bomb" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
     <Price baseprice="250" sold="false" minleveldifficulty="25">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5553,7 +5556,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="ek_laserpistol" aliases="laserpistol,ek laser pistol" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_laserpistol,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserpistol" aliases="laserpistol,ek laser pistol" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_laserpistol,gunsmith,pistolitem" Scale="0.30" impactsoundtag="impact_metal_light">
     <Price baseprice="800" sold="false" minleveldifficulty="33">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5612,7 +5615,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserpistol_mag" aliases="laser pistol magazine,laser pistol mag" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,ek_laserpistol_mags,magazine,loadable" impactsoundtag="impact_metal_light" maxstacksize="4">
+  <Item name="" identifier="ek_laserpistol_mag" aliases="laser pistol magazine,laser pistol mag" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,ek_laserpistol_mags,magazine,loadable" impactsoundtag="impact_metal_light" maxstacksize="4">
     <PreferredContainer primary="ek_ammotag_laserpistol" />
     <Price baseprice="80" sold="false" minleveldifficulty="33">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -5652,7 +5655,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_laserpistol_round" tags="pistolammoitem" category="Misc" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_laserpistol_round" tags="pistolammoitem" category="Weapon" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="238,6,29,11" depth="0.55" origin="0.5,0.5" />
     <Body width="160" height="10" density="20" />
@@ -5687,7 +5690,7 @@
       <QualityStat stattype="Condition" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserrifle" aliases="coil rifle" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_laserrifle" aliases="coil rifle" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="mediumitem,weapon,gun,ek_ammotag_laserrifle,gunsmith,mountableweapon" Scale="0.30" impactsoundtag="impact_metal_light">
     <Price baseprice="1200" sold="false" minleveldifficulty="33">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5746,7 +5749,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_laserrifle_mag" aliases="laser rifle mag,laserrifle mag" scale="0.35" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,ek_laserrifle_mags,magazine,loadable,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="2">
+  <Item name="" identifier="ek_laserrifle_mag" aliases="laser rifle mag,laserrifle mag" scale="0.35" category="Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,ek_laserrifle_mags,magazine,loadable,riflemanbonus" impactsoundtag="impact_metal_light" maxstacksize="2">
     <PreferredContainer primary="ek_ammotag_laserrifle" />
     <Price baseprice="120" sold="false" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -5786,7 +5789,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ek_laserrifle_round" category="Misc" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
+  <Item name="" identifier="ek_laserrifle_round" category="Weapon" spritecolor="150,140,120,255" inventoryiconcolor="150,140,120,255" scale="0.32" hideinmenus="true">
     <InventoryIcon texture="%ModDir%/Items/InventoryIcons.png" sourcerect="384,384,64,64" />
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="336,688,48,16" depth="0.55" />
     <Body width="40" height="14" density="40" />
@@ -5824,7 +5827,7 @@
       <QualityStat stattype="Condition" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_dynamite" category="Equipment,Weapon" Tags="smallitem,explosive,demolitionsexpert" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft" damagedbyexplosions="true" maxstacksize="8">
+  <Item name="" identifier="ek_dynamite" category="Weapon" Tags="smallitem,explosive,demolitionsexpert" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft" damagedbyexplosions="true" maxstacksize="8">
     <Price baseprice="60" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -5896,7 +5899,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_explosivecharge_dynamite" aliases="satchel charge dynamite,dynamite bomb" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
+  <Item name="" identifier="ek_explosivecharge_dynamite" aliases="satchel charge dynamite,dynamite bomb" category="Weapon" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,explosive,ekshared_largeshellexplosive,demolitionsexpert" scale="0.32" impactsoundtag="impact_metal_heavy" isshootable="true" maxstacksize="2">
     <Price baseprice="250" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -6017,7 +6020,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolver" aliases="ek revolver" category="Equipment,Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,pistolitem" Scale="0.34" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ek_revolver" aliases="ek revolver" category="Weapon" cargocontaineridentifier="ek_weapons_case" tags="smallitem,weapon,gun,ek_ammotag_357,gunsmith,pistolitem" Scale="0.34" impactsoundtag="impact_metal_light">
     <Price baseprice="100" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -6104,7 +6107,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_revolverammo" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverammo,ek_ammotag357,ammo,smallarmsammo,pistolammoitem" impactsoundtag="impact_metal_light" maxstacksize="12">
+  <Item name="" identifier="ek_revolverammo" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverammo,ek_ammotag357,ammo,smallarmsammo,pistolammoitem" impactsoundtag="impact_metal_light" maxstacksize="12">
     <PreferredContainer primary="ek_ammotag_357" />
     <Price baseprice="20" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="true" minavailable="18" />
@@ -6156,7 +6159,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_revolverspeedloader" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverloader,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="3" hideinmenus="true">
+  <Item name="" identifier="ek_revolverspeedloader" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverloader,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="3" hideinmenus="true">
     <PreferredContainer primary="ek_ammotag_357" />
     <!--<Price storeidentifier="merchantMilitary" buyprice="120" />
     <Price storeidentifier="merchantCity" buyprice="180" />
@@ -6193,7 +6196,7 @@
       </StatusEffect>
     </Pickable>
   </Item>
-  <Item name="" identifier="ek_revolverammo_physicorium" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverammo,ek_ammotag357,ammo,smallarmsammo,pistolammoitem" impactsoundtag="impact_metal_light" maxstacksize="12">
+  <Item name="" identifier="ek_revolverammo_physicorium" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverammo,ek_ammotag357,ammo,smallarmsammo,pistolammoitem" impactsoundtag="impact_metal_light" maxstacksize="12">
     <PreferredContainer primary="ek_ammotag_357" />
     <Price baseprice="50" sold="false" minleveldifficulty="20">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
@@ -6245,7 +6248,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_revolverspeedloader_physicorium" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverloader,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="3" hideinmenus="true">
+  <Item name="" identifier="ek_revolverspeedloader_physicorium" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverloader,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="3" hideinmenus="true">
     <PreferredContainer primary="ek_ammotag_357" />
     <!--<Price storeidentifier="merchantMilitary" buyprice="120" />
     <Price storeidentifier="merchantCity" buyprice="180" />
@@ -6282,7 +6285,7 @@
       </StatusEffect>
     </Pickable>
   </Item>
-  <Item name="" identifier="ek_revolverammo_riot" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverammo,ek_ammotag357,ammo,smallarmsammo,pistolammoitem" impactsoundtag="impact_metal_light" maxstacksize="12">
+  <Item name="" identifier="ek_revolverammo_riot" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverammo,ek_ammotag357,ammo,smallarmsammo,pistolammoitem" impactsoundtag="impact_metal_light" maxstacksize="12">
     <PreferredContainer primary="ek_ammotag_357" />
     <Price baseprice="16" sold="false" minleveldifficulty="5">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="true" minavailable="18" />
@@ -6325,7 +6328,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_revolverspeedloader_riot" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverloader,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="3" hideinmenus="true">
+  <Item name="" identifier="ek_revolverspeedloader_riot" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.32" tags="smallitem,ek_revolverloader,ammo,smallarmsammo" impactsoundtag="impact_metal_light" maxstacksize="3" hideinmenus="true">
     <PreferredContainer primary="ek_ammotag_357" />
     <!--<Price storeidentifier="merchantMilitary" buyprice="105" />
     <Price storeidentifier="merchantCity" buyprice="150" />
@@ -6360,7 +6363,7 @@
       </StatusEffect>
     </Pickable>
   </Item>
-  <Item name="" identifier="ek_flashgrenade" aliases="ek flashbang,flashbang ek" category="Equipment,Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
+  <Item name="" identifier="ek_flashgrenade" aliases="ek flashbang,flashbang ek" category="Weapon" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="8">
     <Price baseprice="110" sold="false" minleveldifficulty="10">
       <Price storeidentifier="merchantoutpost" multiplier="1.25" />
       <Price storeidentifier="merchantcity" multiplier="1.1" />
@@ -6425,7 +6428,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="ek_spear_rocket" category="Equipment,Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="mediumitem,harpoonammo" Scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="6">
+  <Item name="" identifier="ek_spear_rocket" category="Weapon" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="mediumitem,harpoonammo" Scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="6">
     <PreferredContainer primary="armcab" minamount="0" maxamount="5" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="3" spawnprobability="0.25" />
     <Price baseprice="35" sold="false" minleveldifficulty="15">
@@ -6473,7 +6476,7 @@
       <!--<StatusEffect type="OnBroken" target="This" setvalue="true" IsOn="false">-->
     </Projectile>
   </Item>
-  <Item name="" identifier="ek_divinggrenade" category="Equipment,Weapon" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="ek_divinggrenade" category="Weapon" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="5" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.25" />
     <Price baseprice="200" sold="false" minleveldifficulty="15">
@@ -6534,7 +6537,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="ek_40mmsmoke_effect" identifier="ek_40mmsmoke_effect" category="Misc" tags="" scale="0.5" hideinmenus="true">
+  <Item name="ek_40mmsmoke_effect" identifier="ek_40mmsmoke_effect" category="Weapon" tags="" scale="0.5" hideinmenus="true">
     <Sprite texture="%ModDir%/Items/Weapons/weapons_ek.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5185185" />
     <Body width="100" height="100" density="10" />
     <ItemComponent characterusable="false">

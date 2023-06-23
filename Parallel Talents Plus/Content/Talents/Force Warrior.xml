@@ -36,6 +36,41 @@
         <TalentOption identifier="" />
       </TalentOptions>
     </SubTree>
+    <SubTree identifier="Force_Skills" type="specialization" requires="ForceWarrior_primary">
+      <TalentOptions>
+        <TalentOption identifier="Force_Repair" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="Force_Push" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="Force_Cloak" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="" />
+        <!--WIP-->
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Sith" type="specialization" requires="ForceWarrior_primary" blocks="Jedi">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="sith-furious" />
+        <TalentOption identifier="pyromaniac" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="sith-heavyhit" />
+        <TalentOption identifier="sith-darkguard" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="sith-psychosith" />
+        <TalentOption identifier="sith-criticaloutbreak" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="sith-forcelightning" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="" />
+      </TalentOptions>
+    </SubTree>
     <SubTree identifier="Polymath" type="specialization" requires="ForceWarrior_primary" blocks="">
       <TalentOptions requiredtalents="1" maxchosentalents="3">
         <TalentOption identifier="leadingbyexample" />
@@ -59,41 +94,6 @@
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="PolymathFW" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="Sith" type="specialization" requires="ForceWarrior_primary" blocks="Jedi">
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="sith-furious" />
-        <TalentOption identifier="pyromaniac" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="sith-heavyhit" />
-        <TalentOption identifier="sith-darkguard" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="sith-psychosith" />
-        <TalentOption identifier="sith-criticaloutbreak" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="sith-forcelightning" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="Force_Skills" type="specialization" requires="ForceWarrior_primary">
-      <TalentOptions>
-        <TalentOption identifier="Force_Push" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="Force_Cloak" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="" />
-        <!-- Force_Repair 测试中-->
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="" />
       </TalentOptions>
     </SubTree>
   </TalentTree>
