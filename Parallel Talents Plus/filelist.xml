@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.14" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.21.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.15" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.21.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Admiral.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Agriculturist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Aquatic Arsenal - LeadDiver.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Better Solo Crew Start - Senior Assistant.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Blade.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Blahaj.xml" />

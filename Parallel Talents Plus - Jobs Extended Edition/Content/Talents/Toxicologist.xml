@@ -21,26 +21,24 @@
         <TalentOption identifier="harmonicahero" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="gunner" requires="toxicologist_primary">
+    <SubTree identifier="gunner" type="specialization" requires="toxicologist_primary">
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="toxicologist_shotgun_specialisation" />
         <TalentOption identifier="swole" />
-        <!--Security talent-->x
+        <!--Security talent-->
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="toxicologist_weapons_specialisation" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="easyturtle" />
-        <!--Security talent-->
-        <TalentOption identifier="daringdolphin" />
-        <!--Security talent-->
+        <TalentOption identifier="toxicologist_aquatic" />
+        <TalentOption identifier="toxicologist_bountyhunter" />
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="toxicologist_shotgun_specialist" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="cyanide" requires="toxicologist_primary">
+    <SubTree identifier="cyanide" type="specialization" requires="toxicologist_primary">
       <TalentOptions>
         <TalentOption identifier="cyanidemilitaryapplications" />
       </TalentOptions>
@@ -48,10 +46,9 @@
         <TalentOption identifier="cyanidemunitions" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="gunrunner" />
+        <TalentOption identifier="toxicologist_chemist" />
         <!--Security talent-->
-        <TalentOption identifier="whatastench" />
-        <!--Doctor talent-->
+        <TalentOption identifier="toxicologist_explosives" />
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="cyanidespecialisation" />
@@ -66,10 +63,8 @@
         <TalentOption identifier="toxicologist_medical_virtuoso" />
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="vitaminsupplements" />
-        <!--Doctor talent-->
-        <TalentOption identifier="labcontacts" />
-        <!--Doctor talent-->
+        <TalentOption identifier="toxicologist_bedsidemanner" />
+        <TalentOption identifier="toxicologist_toolsofthetrade" />
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="toxicologist_medical_specialist" />

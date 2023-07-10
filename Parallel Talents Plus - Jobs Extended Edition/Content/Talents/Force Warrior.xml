@@ -47,6 +47,7 @@
         <TalentOption identifier="Force_Cloak" />
       </TalentOptions>
       <TalentOptions>
+        <TalentOption identifier="Force_Aid" />
         <TalentOption identifier="" />
         <!--WIP-->
       </TalentOptions>

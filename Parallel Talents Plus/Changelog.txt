@@ -2,6 +2,14 @@ Changelog for Parallel Talents Plus
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949082804
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus
 
+0.0.15 July 10
+Added:
+Aquatic Arsenal - Lead Driver
+
+Updated talent trees:
+Force Warrior
+Toxicologist
+
 0.0.14 June 23
 Added:
 Toxicologist
@@ -18,7 +26,7 @@ Added:
 Admiral
 VIP
 
-Updated talen trees:
+Updated talent trees:
 Blade
 Clownotrauma - Clown
 Force Warrior
