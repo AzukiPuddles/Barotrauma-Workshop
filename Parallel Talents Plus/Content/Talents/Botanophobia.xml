@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Override>
 <TalentTrees>
   <TalentTree jobidentifier="botanophobia_botanist">
     <SubTree identifier="botanophobia_botanist_primary" nameidentifier="botanophobia_talenttree.primary" type="primary">
@@ -11,38 +10,63 @@
         <TalentOption identifier="botanophobia_sprinkler" />
         <TalentOption identifier="botanophobia_organicscraps" />
       </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="11">
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
         <TalentOption identifier="botanophobia_herbalremedies" />
         <TalentOption identifier="botanophobia_focused_nozzle" />
-        <TalentOption identifier="botanophobia_chemical_delivery" />
-        <TalentOption identifier="botanophobia_purifiedcompounds" />
-        <TalentOption identifier="botanophobia_plantsavant" />
+        <TalentOption identifier="botanophobia_chemical_delivery"/>
+        <TalentOption identifier="botanophobia_purifiedcompounds"/>
+        <TalentOption identifier="botanophobia_plantsavant"/>
         <ShowCaseTalent identifier="botanophobia_intellectualcuriosity">
-          <TalentOption identifier="botanophobia_intellectualcuriosity_captain" />
-          <TalentOption identifier="botanophobia_intellectualcuriosity_doctor" />
-          <TalentOption identifier="botanophobia_intellectualcuriosity_security" />
-          <TalentOption identifier="botanophobia_intellectualcuriosity_mechanic" />
-          <TalentOption identifier="botanophobia_intellectualcuriosity_engineer" />
-          <TalentOption identifier="botanophobia_intellectualcuriosity_assistant" />
+          <TalentOption identifier="botanophobia_intellectualcuriosity_captain"/>
+          <TalentOption identifier="botanophobia_intellectualcuriosity_doctor"/>
+          <TalentOption identifier="botanophobia_intellectualcuriosity_security"/>
+          <TalentOption identifier="botanophobia_intellectualcuriosity_mechanic"/>
+          <TalentOption identifier="botanophobia_intellectualcuriosity_engineer"/>
+          <TalentOption identifier="botanophobia_intellectualcuriosity_assistant"/>
         </ShowCaseTalent>
       </TalentOptions>
     </SubTree>
     <SubTree identifier="botanophobia_horticulturalist" type="specialization" requires="botanophobia_botanist_primary">
       <TalentOptions>
-        <TalentOption identifier="botanophobia_seedsplicingbasic" />
+        <TalentOption identifier="botanophobia_seedsplicingbasic"/>
       </TalentOptions>
       <TalentOptions>
-        <TalentOption identifier="botanophobia_seedsplicingintermediate" />
+        <TalentOption identifier="botanophobia_seedsplicingintermediate"/>
       </TalentOptions>
       <TalentOptions>
-        <TalentOption identifier="botanophobia_seedsplicingadvanced" />
+        <TalentOption identifier="botanophobia_seedsplicingadvanced"/>
       </TalentOptions>
       <TalentOptions>
-        <TalentOption identifier="botanophobia_seedsplicingdangerous" />
+        <TalentOption identifier="botanophobia_seedsplicingdangerous"/>
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="botanophobia_chemical_warfare" type="specialization" requires="botanophobia_botanist_primary"></SubTree>
-    <SubTree identifier="botanophobia_chemist" type="specialization" requires="botanophobia_botanist_primary"></SubTree>
+    <SubTree identifier="botanophobia_chemical_warfare" type="specialization" requires="botanophobia_botanist_primary">
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfarebasic"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfareintermediate"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfareadvanced"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfaredangerous"/>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="botanophobia_chemist" type="specialization" requires="botanophobia_botanist_primary">
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistbasic"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistintermediate"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistadvanced"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistdangerous"/>
+      </TalentOptions>
+    </SubTree>
   </TalentTree>
 </TalentTrees>
-</Override>
