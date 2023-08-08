@@ -3,7 +3,7 @@
 <TalentTrees>
   <TalentTree jobidentifier="technician">
     <SubTree identifier="technician_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="6">
+      <TalentOptions requiredtalents="2" maxchosentalents="5">
         <TalentOption identifier="stationengineer" />
         <!-- +30% exp if you repair a beacon -->
         <TalentOption identifier="salvagecrew" />
@@ -14,8 +14,6 @@
         <!-- +20 max health -->
         <TalentOption identifier="mineralmaster" />
         <!-- +15% exp and money if you mining mission -->
-        <TalentOption identifier="technician_mrfixit" />
-        <!-- 10XP every time you repair a device, can happen 20 times per mission -->
       </TalentOptions>
       <TalentOptions requiredtalents="2" maxchosentalents="4">
         <TalentOption identifier="technician_musicalexperience" />
@@ -30,14 +28,16 @@
     </SubTree>
     <SubTree identifier="repairman" type="specialization" requires="technician_primary">
       <TalentOptions>
+        <TalentOption identifier="technician_mrfixit" />
+        <!-- 10XP every time you repair a device, can happen 20 times per mission -->
+      </TalentOptions>
+      <TalentOptions>
         <TalentOption identifier="technician_maintainanceman" />
         <!-- +50% repair speed and +50% hull repair speed -->
       </TalentOptions>
-      <TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="technician_extraeffort" />
         <!-- can repair to +25% -->
-      </TalentOptions>
-      <TalentOptions>
         <TalentOption identifier="technician_resilientrepairs" />
         <!-- Devices you repair deteriorate 25% slower -->
       </TalentOptions>

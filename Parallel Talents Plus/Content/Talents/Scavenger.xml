@@ -17,7 +17,7 @@
         <TalentOption identifier="heavylifting" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="xenoarcaeologist" requires="scavenger_primary">
+    <SubTree identifier="xenoarcaeologist" type="specialization" requires="scavenger_primary">
       <TalentOptions>
         <TalentOption identifier="researchersintuition" />
       </TalentOptions>
@@ -33,7 +33,7 @@
         <TalentOption identifier="atmosmachine" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="scrounger" requires="scavenger_primary">
+    <SubTree identifier="scrounger" type="specialization" requires="scavenger_primary">
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="elbowgrease" />
         <TalentOption identifier="scrapmagnet" />
@@ -49,7 +49,7 @@
         <TalentOption identifier="scrapmaster" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="expedition" requires="scavenger_primary">
+    <SubTree identifier="expedition" type="specialization" requires="scavenger_primary">
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="aliensmith" />
         <TalentOption identifier="alienarmsrace" />

@@ -2,6 +2,18 @@ Parallel Talents Plus - Jobs Extended Edition
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949678245
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus%20-%20Jobs%20Extended%20Edition
 
+0.0.17 August 8
+Added: 
+Separatist
+Smith
+
+Updated:
+Botanophobia
+ClownotraumaRenegade
+Scavenger
+Technician
+Toxicologist
+
 0.0.16 July
 Added:
 Technician

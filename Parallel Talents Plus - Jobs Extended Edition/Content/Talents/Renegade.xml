@@ -8,23 +8,20 @@
         <TalentOption identifier="logisticsexpert" />
         <TalentOption identifier="skedaddle" />
         <TalentOption identifier="warstories" />
-        <TalentOption identifier="multifunctional" />
+        <TalentOption identifier="bootcamp" />
       </TalentOptions>
       <TalentOptions requiredtalents="2" maxchosentalents="5">
         <TalentOption identifier="prodigy" />
         <TalentOption identifier="renegadeweaponsmith" />
-        <TalentOption identifier="aggressiveengineering" />
         <TalentOption identifier="selfcare" />
         <TalentOption identifier="guitarhero" />
+        <TalentOption identifier="renegadephysicalconditioning" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="privateer" requires="Renegade_primary">
+    <SubTree identifier="privateer" type="specialization" requires="Renegade_primary">
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="renegadequickdraw" />
         <TalentOption identifier="tumble" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="renegadephysicalconditioning" />
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="buccaneer" />
@@ -32,8 +29,11 @@
       <TalentOptions>
         <TalentOption identifier="renegadebountyhunter" />
       </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="renegadecombatspecialist" />
+      </TalentOptions>
     </SubTree>
-    <SubTree identifier="pyro" nameidentifier="talentname.pyromaniac" requires="Renegade_primary">
+    <SubTree identifier="pyro" nameidentifier="talentname.pyromaniac" type="specialization" requires="Renegade_primary">
       <TalentOptions>
         <TalentOption identifier="incendiummilitaryapplications" />
       </TalentOptions>
@@ -49,7 +49,7 @@
         <TalentOption identifier="incendiumspecialisation" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="specialisation" nameidentifier="talentname.specialisation" requires="Renegade_primary">
+    <SubTree identifier="specialisation" nameidentifier="talentname.specialisation" type="specialization" requires="Renegade_primary">
       <TalentOptions requiredtalents="1" maxchosentalents="5"> 
         <ShowCaseTalent identifier="specialisation">
           <TalentOption identifier="specialisation_helm" />
@@ -66,7 +66,7 @@
         <TalentOption identifier="renegadevirtuoso" />
       </TalentOptions>
       <TalentOptions>
-        <TalentOption identifier="renegadecombatspecialist" />
+        <TalentOption identifier="renegadespecialisationrewards" />
       </TalentOptions>
     </SubTree>
   </TalentTree>

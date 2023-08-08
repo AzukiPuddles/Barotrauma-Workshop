@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+<TalentTrees>
+  <TalentTree jobidentifier="separatist">
+    <SubTree identifier="separatist_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="7">
+        <TalentOption identifier="aggressivenegotiations" />
+        <TalentOption identifier="anewhope" />
+        <TalentOption identifier="blastprotection" />
+        <TalentOption identifier="codered" />
+        <TalentOption identifier="directpressure" />
+        <TalentOption identifier="friendlyfire" />
+        <TalentOption identifier="whateverittakes" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="7">
+        <TalentOption identifier="arsonist" />
+        <TalentOption identifier="byathread" />
+        <TalentOption identifier="demolitionspecialist" />
+        <TalentOption identifier="kabam" />
+        <TalentOption identifier="retribution" />
+        <TalentOption identifier="strikingback" />
+        <TalentOption identifier="triggerhappy" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Extremist" type="specialization" requires="separatist_primary">
+      <TalentOptions>
+        <TalentOption identifier="specialdelivery" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="makinganimpact" />
+        <TalentOption identifier="toasty" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="immolation" />
+        <TalentOption identifier="saboteur" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="annihilation" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Rebel" type="specialization" requires="separatist_primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="4">
+        <TalentOption identifier="makingitwork" />
+        <ShowCaseTalent identifier="selfsufficient">
+          <TalentOption identifier="selfsufficient_magnesium" />
+          <TalentOption identifier="selfsufficient_phosphorus" />
+          <TalentOption identifier="selfsufficient_scrap" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions>
+        <ShowCaseTalent identifier="adaptable">
+          <TalentOption identifier="adaptable_biomedicalengineer" />
+          <TalentOption identifier="adaptable_combatmedic" />
+          <TalentOption identifier="adaptable_gearhead" />
+          <TalentOption identifier="adaptable_general" />
+          <TalentOption identifier="adaptable_unlimitedpower" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="5">
+        <ShowCaseTalent identifier="brothersinarms">
+          <TalentOption identifier="brothersinarms_backtoback" />
+          <TalentOption identifier="brothersinarms_bulwark" />
+          <TalentOption identifier="brothersinarms_fireteam" />
+          <TalentOption identifier="brothersinarms_motivator" />
+          <TalentOption identifier="brothersinarms_strengthinnumbers" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="8">
+        <ShowCaseTalent identifier="returnoftheseparatist">
+          <TalentOption identifier="adaptableII" />
+          <TalentOption identifier="friendlyfireII" />
+          <TalentOption identifier="immolationII" />
+          <TalentOption identifier="retributionII" />
+          <TalentOption identifier="saboteurII" />
+          <TalentOption identifier="selfsufficientII" />
+          <TalentOption identifier="survivorII" />
+          <TalentOption identifier="triggerhappyII" />
+        </ShowCaseTalent>
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Underdog" type="specialization" requires="separatist_primary">
+      <TalentOptions maxchosentalents="4">
+        <ShowCaseTalent identifier="survivor">
+          <TalentOption identifier="survivor_bitewounds" />
+          <TalentOption identifier="survivor_bleeding" />
+          <TalentOption identifier="survivor_blunttrauma" />
+          <TalentOption identifier="survivor_lacerations" />
+        </ShowCaseTalent>
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="asinkingfeeling" />
+        <TalentOption identifier="separatistcrisismanagement" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="desperation" />
+        <TalentOption identifier="survivalinstincts" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="unyieldingspirit" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
+</Override>

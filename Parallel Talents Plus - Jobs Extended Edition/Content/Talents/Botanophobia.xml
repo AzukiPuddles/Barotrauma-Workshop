@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Override>
+ <Override>
 <TalentTrees>
   <TalentTree jobidentifier="botanophobia_botanist">
     <SubTree identifier="botanophobia_botanist_primary" nameidentifier="botanophobia_talenttree.primary" type="primary">
@@ -41,8 +41,34 @@
         <TalentOption identifier="botanophobia_seedsplicingdangerous" />
       </TalentOptions>
     </SubTree>
-    <SubTree identifier="botanophobia_chemical_warfare" type="specialization" requires="botanophobia_botanist_primary"></SubTree>
-    <SubTree identifier="botanophobia_chemist" type="specialization" requires="botanophobia_botanist_primary"></SubTree>
+    <SubTree identifier="botanophobia_chemical_warfare" type="specialization" requires="botanophobia_botanist_primary">
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfarebasic" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfareintermediate" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfareadvanced" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemicalwarfaredangerous" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="botanophobia_chemist" type="specialization" requires="botanophobia_botanist_primary">
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistbasic" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistintermediate" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistadvanced" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="botanophobia_chemistdangerous" />
+      </TalentOptions>
+    </SubTree>
   </TalentTree>
 </TalentTrees>
 </Override>

@@ -47,7 +47,6 @@
       </TalentOptions>
       <TalentOptions requiredtalents="1" maxchosentalents="2">
         <TalentOption identifier="toxicologist_chemist" />
-        <!--Security talent-->
         <TalentOption identifier="toxicologist_explosives" />
       </TalentOptions>
       <TalentOptions>
