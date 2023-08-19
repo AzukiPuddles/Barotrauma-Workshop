@@ -48,12 +48,12 @@
       <TalentOptions>
         <TalentOption identifier="botanophobia_chemicalwarfareintermediate" />
       </TalentOptions>
-      <TalentOptions>
+      <!-- <TalentOptions>
         <TalentOption identifier="botanophobia_chemicalwarfareadvanced" />
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="botanophobia_chemicalwarfaredangerous" />
-      </TalentOptions>
+      </TalentOptions> -->
     </SubTree>
     <SubTree identifier="botanophobia_chemist" type="specialization" requires="botanophobia_botanist_primary">
       <TalentOptions>

@@ -15,13 +15,15 @@
       </TalentOptions>
       <TalentOptions requiredtalents="2" maxchosentalents="5">
         <TalentOption identifier="clownotrauma_watercomedian" />
-        <TalentOption identifier="clownotrauma_thelastlaugh" />
+        <TalentOption identifier="clownotrauma_chonkytunes" />
         <TalentOption identifier="clownotrauma_beastmaster" />
         <TalentOption identifier="clownotrauma_truestpotential" />
         <TalentOption identifier="clownotrauma_humourfoundation" />
       </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="8">
+      <TalentOptions requiredtalents="2" maxchosentalents="10">
         <TalentOption identifier="clownotrauma_clowntinkerer" />
+        <TalentOption identifier="clownotrauma_inspiringtunes" />
+        <TalentOption identifier="clownotrauma_thelastlaugh" />
         <TalentOption identifier="clownotrauma_derangedclown" />
         <ShowCaseTalent identifier="clownotrauma_skillboost">
           <TalentOption identifier="clownotrauma_skillboost_captain" />
