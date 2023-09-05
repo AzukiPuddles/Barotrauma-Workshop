@@ -1,74 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-<TalentTrees>
-  <TalentTree jobidentifier="Renegade">
-    <SubTree identifier="Renegade_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="bountyhunter" />
-        <TalentOption identifier="logisticsexpert" />
-        <TalentOption identifier="skedaddle" />
-        <TalentOption identifier="warstories" />
-        <TalentOption identifier="bootcamp" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="prodigy" />
-        <TalentOption identifier="renegadeweaponsmith" />
-        <TalentOption identifier="selfcare" />
-        <TalentOption identifier="guitarhero" />
-        <TalentOption identifier="renegadephysicalconditioning" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="privateer" type="specialization" requires="Renegade_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="renegadequickdraw" />
-        <TalentOption identifier="tumble" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="buccaneer" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="renegadebountyhunter" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="renegadecombatspecialist" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="pyro" nameidentifier="talentname.pyromaniac" type="specialization" requires="Renegade_primary">
-      <TalentOptions>
-        <TalentOption identifier="incendiummilitaryapplications" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="incendiummunitions" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="explosivesspecialisation" />
-        <TalentOption identifier="pyromaniac" />
-        <!--Engineer talent-->
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="incendiumspecialisation" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="specialisation" nameidentifier="talentname.specialisation" type="specialization" requires="Renegade_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="5"> 
-        <ShowCaseTalent identifier="specialisation">
-          <TalentOption identifier="specialisation_helm" />
-          <TalentOption identifier="specialisation_medical" />
-          <TalentOption identifier="specialisation_weapons" />
-          <TalentOption identifier="specialisation_mechanical" />
-          <TalentOption identifier="specialisation_electrical" />
-        </ShowCaseTalent>
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="skillmastery" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="renegadevirtuoso" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="renegadespecialisationrewards" />
-      </TalentOptions>
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+    <TalentTrees>
+        <TalentTree jobidentifier="Renegade">
+            <SubTree identifier="Renegade_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="bountyhunter" />
+                    <TalentOption identifier="logisticsexpert" />
+                    <TalentOption identifier="skedaddle" />
+                    <TalentOption identifier="warstories" />
+                    <TalentOption identifier="bootcamp" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="prodigy" />
+                    <TalentOption identifier="renegadeweaponsmith" />
+                    <TalentOption identifier="selfcare" />
+                    <TalentOption identifier="guitarhero" />
+                    <TalentOption identifier="renegadephysicalconditioning" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="privateer"
+                     type="specialization"
+                     requires="Renegade_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="renegadequickdraw" />
+                    <TalentOption identifier="tumble" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="buccaneer" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="renegadebountyhunter" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="renegadecombatspecialist" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="pyro"
+                     nameidentifier="talentname.pyromaniac"
+                     type="specialization"
+                     requires="Renegade_primary">
+                <TalentOptions>
+                    <TalentOption identifier="incendiummilitaryapplications" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="incendiummunitions" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="explosivesspecialisation" />
+                    <TalentOption identifier="pyromaniac" />
+                    <!-- Engineer talent -->
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="incendiumspecialisation" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="specialisation"
+                     nameidentifier="talentname.specialisation"
+                     type="specialization"
+                     requires="Renegade_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="5">
+                    <ShowCaseTalent identifier="specialisation">
+                        <TalentOption identifier="specialisation_helm" />
+                        <TalentOption identifier="specialisation_medical" />
+                        <TalentOption identifier="specialisation_weapons" />
+                        <TalentOption identifier="specialisation_mechanical" />
+                        <TalentOption identifier="specialisation_electrical" />
+                    </ShowCaseTalent>
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="skillmastery" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="renegadevirtuoso" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="renegadespecialisationrewards" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
 </Override>

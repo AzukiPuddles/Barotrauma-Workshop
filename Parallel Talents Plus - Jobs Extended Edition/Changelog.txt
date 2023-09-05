@@ -2,6 +2,12 @@ Parallel Talents Plus - Jobs Extended Edition
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949678245
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus%20-%20Jobs%20Extended%20Edition
 
+0.0.19 September 4
+Added:
+Thalassophobia:
+Clown
+Scientist
+
 0.0.18 August 19
 Updated:
 Botanophobia

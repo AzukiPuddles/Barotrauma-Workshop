@@ -1,73 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-<TalentTrees>
-  <TalentTree jobidentifier="toxicologist">
-    <SubTree identifier="toxicologist_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="6">
-        <TalentOption identifier="bountyhunter" />
-        <TalentOption identifier="buff" />
-        <TalentOption identifier="firstaidtraining" />
-        <TalentOption identifier="physicalconditioning" />
-        <TalentOption identifier="exampleofhealth" />
-        <TalentOption identifier="laresistance" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="6">
-        <TalentOption identifier="prodigy" />
-        <TalentOption identifier="selfcare" />
-        <TalentOption identifier="bootcamp" />
-        <TalentOption identifier="firemanscarry" />
-        <TalentOption identifier="toxicologist_weaponsmith" />
-        <TalentOption identifier="harmonicahero" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="gunner" type="specialization" requires="toxicologist_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="toxicologist_shotgun_specialisation" />
-        <TalentOption identifier="swole" />
-        <!--Security talent-->
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="toxicologist_weapons_specialisation" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="toxicologist_aquatic" />
-        <TalentOption identifier="toxicologist_bountyhunter" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="toxicologist_shotgun_specialist" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="cyanide" type="specialization" requires="toxicologist_primary">
-      <TalentOptions>
-        <TalentOption identifier="cyanidemilitaryapplications" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="cyanidemunitions" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="toxicologist_chemist" />
-        <TalentOption identifier="toxicologist_explosives" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="cyanidespecialisation" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="medic" type="specialization" requires="toxicologist_primary">
-      <TalentOptions>
-        <TalentOption identifier="toxicologist_medical_expertise" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="toxicologist_medical_specialisation" />
-        <TalentOption identifier="toxicologist_medical_virtuoso" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="toxicologist_bedsidemanner" />
-        <TalentOption identifier="toxicologist_toolsofthetrade" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="toxicologist_medical_specialist" />
-      </TalentOptions>
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+    <TalentTrees>
+        <TalentTree jobidentifier="toxicologist">
+            <SubTree identifier="toxicologist_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="6">
+                    <TalentOption identifier="bountyhunter" />
+                    <TalentOption identifier="buff" />
+                    <TalentOption identifier="firstaidtraining" />
+                    <TalentOption identifier="physicalconditioning" />
+                    <TalentOption identifier="exampleofhealth" />
+                    <TalentOption identifier="laresistance" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="6">
+                    <TalentOption identifier="prodigy" />
+                    <TalentOption identifier="selfcare" />
+                    <TalentOption identifier="bootcamp" />
+                    <TalentOption identifier="firemanscarry" />
+                    <TalentOption identifier="toxicologist_weaponsmith" />
+                    <TalentOption identifier="harmonicahero" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="gunner"
+                     type="specialization"
+                     requires="toxicologist_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="toxicologist_shotgun_specialisation" />
+                    <TalentOption identifier="swole" />
+                    <!-- Security talent -->
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="toxicologist_weapons_specialisation" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="toxicologist_aquatic" />
+                    <TalentOption identifier="toxicologist_bountyhunter" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="toxicologist_shotgun_specialist" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="cyanide"
+                     type="specialization"
+                     requires="toxicologist_primary">
+                <TalentOptions>
+                    <TalentOption identifier="cyanidemilitaryapplications" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="cyanidemunitions" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="toxicologist_chemist" />
+                    <TalentOption identifier="toxicologist_explosives" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="cyanidespecialisation" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="medic"
+                     type="specialization"
+                     requires="toxicologist_primary">
+                <TalentOptions>
+                    <TalentOption identifier="toxicologist_medical_expertise" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="toxicologist_medical_specialisation" />
+                    <TalentOption identifier="toxicologist_medical_virtuoso" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="toxicologist_bedsidemanner" />
+                    <TalentOption identifier="toxicologist_toolsofthetrade" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="toxicologist_medical_specialist" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
 </Override>

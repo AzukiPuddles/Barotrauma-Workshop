@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.18" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.21.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.19" corepackage="False" steamworkshopid="2949082804" gameversion="1.0.21.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Admiral.xml" />
@@ -25,6 +25,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/Smith.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Surgeon.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Technician.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Thalassophobia.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Toxicologist.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/VanillaPlus - Clown.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/VIP.xml" />

@@ -1,88 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-<TalentTrees>
-  <TalentTree jobidentifier="acolyte">
-    <SubTree identifier="acolyte_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="8">
-        <TalentOption identifier="boostershot" />
-        <TalentOption identifier="crusade" />
-        <TalentOption identifier="faithismyshield" />
-        <TalentOption identifier="fallfromgrace" />
-        <TalentOption identifier="martyr" />
-        <TalentOption identifier="medievalmedication" />
-        <TalentOption identifier="sanctuary" />
-        <TalentOption identifier="willinghost" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="8">
-        <TalentOption identifier="chainthebeast" />
-        <TalentOption identifier="dunleashthebeast" />
-        <TalentOption identifier="freesamples" />
-        <TalentOption identifier="herbalist" />
-        <TalentOption identifier="itsalive" />
-        <TalentOption identifier="jekyllandhyde" />
-        <TalentOption identifier="naturalorder" />
-        <TalentOption identifier="powerofprayer" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="Symbiosis" type="specialization" requires="acolyte_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="bettertogether" />
-        <TalentOption identifier="supplication" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="geneticenhancement" />
-        <TalentOption identifier="waterbornepathogen" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="blessed" />
-        <TalentOption identifier="cursed" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="resilientgenes" />
-        <TalentOption identifier="xbloodfeast" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="Missionary" type="specialization" requires="acolyte_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="7">
-        <TalentOption identifier="spreadthefaith" />
-        <ShowCaseTalent identifier="Onceuponatime">
-          <TalentOption identifier="Onceuponatime_assistant" />
-          <TalentOption identifier="Onceuponatime_captain" />
-          <TalentOption identifier="Onceuponatime_doctor" />
-          <TalentOption identifier="Onceuponatime_engineer" />
-          <TalentOption identifier="Onceuponatime_mechanic" />
-          <TalentOption identifier="Onceuponatime_security" />
-        </ShowCaseTalent>
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="communityservice" />
-        <TalentOption identifier="forcefulconversion" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="generousdonation" />
-        <TalentOption identifier="sacrifice" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="archbishop" />
-        <TalentOption identifier="fanatic" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="hivemind" type="specialization" requires="acolyte_primary">
-      <TalentOptions>
-        <TalentOption identifier="assimilation" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="enthrall" />
-        <TalentOption identifier="induction" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="greatmindsthinkalike" />
-        <TalentOption identifier="shiningexample" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1">
-        <TalentOption identifier="overmind" />
-      </TalentOptions>
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+    <TalentTrees>
+        <TalentTree jobidentifier="acolyte">
+            <SubTree identifier="acolyte_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="8">
+                    <TalentOption identifier="boostershot" />
+                    <TalentOption identifier="crusade" />
+                    <TalentOption identifier="faithismyshield" />
+                    <TalentOption identifier="fallfromgrace" />
+                    <TalentOption identifier="martyr" />
+                    <TalentOption identifier="medievalmedication" />
+                    <TalentOption identifier="sanctuary" />
+                    <TalentOption identifier="willinghost" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="8">
+                    <TalentOption identifier="chainthebeast" />
+                    <TalentOption identifier="dunleashthebeast" />
+                    <TalentOption identifier="freesamples" />
+                    <TalentOption identifier="herbalist" />
+                    <TalentOption identifier="itsalive" />
+                    <TalentOption identifier="jekyllandhyde" />
+                    <TalentOption identifier="naturalorder" />
+                    <TalentOption identifier="powerofprayer" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Symbiosis"
+                     type="specialization"
+                     requires="acolyte_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="bettertogether" />
+                    <TalentOption identifier="supplication" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="geneticenhancement" />
+                    <TalentOption identifier="waterbornepathogen" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="blessed" />
+                    <TalentOption identifier="cursed" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="resilientgenes" />
+                    <TalentOption identifier="xbloodfeast" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Missionary"
+                     type="specialization"
+                     requires="acolyte_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="7">
+                    <TalentOption identifier="spreadthefaith" />
+                    <ShowCaseTalent identifier="Onceuponatime">
+                        <TalentOption identifier="Onceuponatime_assistant" />
+                        <TalentOption identifier="Onceuponatime_captain" />
+                        <TalentOption identifier="Onceuponatime_doctor" />
+                        <TalentOption identifier="Onceuponatime_engineer" />
+                        <TalentOption identifier="Onceuponatime_mechanic" />
+                        <TalentOption identifier="Onceuponatime_security" />
+                    </ShowCaseTalent>
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="communityservice" />
+                    <TalentOption identifier="forcefulconversion" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="generousdonation" />
+                    <TalentOption identifier="sacrifice" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="archbishop" />
+                    <TalentOption identifier="fanatic" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="hivemind"
+                     type="specialization"
+                     requires="acolyte_primary">
+                <TalentOptions>
+                    <TalentOption identifier="assimilation" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="enthrall" />
+                    <TalentOption identifier="induction" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="greatmindsthinkalike" />
+                    <TalentOption identifier="shiningexample" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1">
+                    <TalentOption identifier="overmind" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
 </Override>

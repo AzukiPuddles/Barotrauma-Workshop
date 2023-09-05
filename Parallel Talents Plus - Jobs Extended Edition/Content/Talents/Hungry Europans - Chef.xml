@@ -1,72 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-<TalentTrees>
-  <TalentTree jobidentifier="he-chef">
-    <SubTree identifier="chef_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="4">
-        <TalentOption identifier="he-poacher" />
-        <TalentOption identifier="he-saltybusiness" />
-        <TalentOption identifier="he-fastfood" />
-        <TalentOption identifier="egghead" />
-        <!--<TalentOption identifier="selfcare"/>
-        <TalentOption identifier="stayinalive"/>-->
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="firemanscarry" />
-        <TalentOption identifier="drunkensailor" />
-        <TalentOption identifier="he-chefattire" />
-        <TalentOption identifier="daringdolphin" />
-        <TalentOption identifier="he-masterbrewer" />
-        <!--
-        <TalentOption identifier="dontdieonme"/>
+    <TalentTrees>
+        <TalentTree jobidentifier="he-chef">
+            <SubTree identifier="chef_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="4">
+                    <TalentOption identifier="he-poacher" />
+                    <TalentOption identifier="he-saltybusiness" />
+                    <TalentOption identifier="he-fastfood" />
+                    <TalentOption identifier="egghead" />
+                    <!-- <TalentOption identifier="selfcare"/>
+        <TalentOption identifier="stayinalive"/> -->
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="firemanscarry" />
+                    <TalentOption identifier="drunkensailor" />
+                    <TalentOption identifier="he-chefattire" />
+                    <TalentOption identifier="daringdolphin" />
+                    <TalentOption identifier="he-masterbrewer" />
+                    <!-- <TalentOption identifier="dontdieonme"/>
         <TalentOption identifier="nopressure"/>
-        <TalentOption identifier="blooddonor"/>-->
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="butcher" type="specialization" requires="chef_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="he-frenzy" />
-        <TalentOption identifier="swole" />
-        <!--<TalentOption identifier="he-coldblood"/>-->
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="crustyseaman" />
-        <TalentOption identifier="geneharvester" />
-      </TalentOptions>
-      <!--<TalentOptions>
+        <TalentOption identifier="blooddonor"/> -->
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="butcher"
+                     type="specialization"
+                     requires="chef_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="he-frenzy" />
+                    <TalentOption identifier="swole" />
+                    <!-- <TalentOption identifier="he-coldblood"/> -->
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="crustyseaman" />
+                    <TalentOption identifier="geneharvester" />
+                </TalentOptions>
+                <!-- <TalentOptions>
         <TalentOption identifier="blackmarketgenes"/>
         <TalentOption identifier="genetampering"/>
         <TalentOption identifier="easyturtle"/>
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="geneticgenious"/>
-      </TalentOptions>-->
-    </SubTree>
-    <SubTree identifier="chef" type="specialization" requires="chef_primary">
-      <!--<TalentOptions>
+      </TalentOptions> -->
+            </SubTree>
+            <SubTree identifier="chef"
+                     type="specialization"
+                     requires="chef_primary">
+                <!-- <TalentOptions>
         <TalentOption identifier="he-masterchef"/>
-      </TalentOptions>-->
-      <!--<TalentOptions>
+      </TalentOptions> -->
+                <!-- <TalentOptions>
         <TalentOption identifier="medicalassistance"/>
         <TalentOption identifier="emergencyresponse"/>
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="drsubmarine"/>
         <TalentOption identifier="vitaminsupplements"/>
-      </TalentOptions>-->
-      <!--<TalentOptions>
+      </TalentOptions> -->
+                <!-- <TalentOptions>
         <TalentOption identifier="he-qualityfood"/>
-      </TalentOptions>-->
-    </SubTree>
-    <SubTree identifier="recipes" type="specialization" requires="chef_primary">
-      <TalentOptions>
-        <TalentOption identifier="he-lifesaver" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="he-delicacies" />
-      </TalentOptions>
-      <!--
-      <TalentOptions>
+      </TalentOptions> -->
+            </SubTree>
+            <SubTree identifier="recipes"
+                     type="specialization"
+                     requires="chef_primary">
+                <TalentOptions>
+                    <TalentOption identifier="he-lifesaver" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="he-delicacies" />
+                </TalentOptions>
+                <!-- <TalentOptions>
         <TalentOption identifier="deliverysystem"/>
         <TalentOption identifier="labcontacts"/>
       </TalentOptions>
@@ -76,8 +86,8 @@
       </TalentOptions>
       <TalentOptions>
         <TalentOption identifier="macrodosing"/>
-      </TalentOptions>-->
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+      </TalentOptions> -->
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
 </Override>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+    <TalentTrees>
+        <TalentTree jobidentifier="thal_clown">
+            <SubTree identifier="clown_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="4">
+                    <TalentOption identifier="playingcatchup" />
+                    <TalentOption identifier="mailman" />
+                    <TalentOption identifier="skedaddle" />
+                    <TalentOption identifier="crewlayabout" />
+                    <!-- <TalentOption identifier="thearrival"/> -->
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="4">
+                    <TalentOption identifier="revengesquad" />
+                    <TalentOption identifier="inspiringtunes" />
+                    <TalentOption identifier="jackinthebox" />
+                    <TalentOption identifier="peerlearning" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="grayshirt"
+                     type="specialization"
+                     requires="assistant_primary">
+                <TalentOptions>
+                    <TalentOption identifier="thewaitinglist" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="nonthreatening" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="insurancepolicy" />
+                    <TalentOption identifier="anappleaday" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="thefriendswemade" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="apprentice"
+                     type="specialization"
+                     requires="assistant_primary">
+                <TalentOptions>
+                    <ShowCaseTalent identifier="apprenticeship">
+                        <TalentOption identifier="apprenticeship_captain" />
+                        <TalentOption identifier="apprenticeship_doctor" />
+                        <TalentOption identifier="apprenticeship_security" />
+                        <TalentOption identifier="apprenticeship_mechanic" />
+                        <TalentOption identifier="apprenticeship_engineer" />
+                    </ShowCaseTalent>
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="logisticssystems" />
+                    <TalentOption identifier="journeyman" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="loyalassistant" />
+                    <TalentOption identifier="disloyalscum" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="graduationceremony" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="clown"
+                     type="specialization"
+                     requires="assistant_primary">
+                <TalentOptions>
+                    <TalentOption identifier="enrollintoclowncollege" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="waterprankster" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="psychoclown" />
+                    <TalentOption identifier="chonkyhonks" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="truepotential" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+        <TalentTree jobidentifier="thal_scientist">
+            <SubTree identifier="science_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="6">
+                    <TalentOption identifier="healthinsurance" />
+                    <TalentOption identifier="nobodyimportantdies" />
+                    <TalentOption identifier="exampleofhealth" />
+                    <TalentOption identifier="laresistance" />
+                    <TalentOption identifier="selfcare" />
+                    <TalentOption identifier="stayinalive" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="firemanscarry" />
+                    <TalentOption identifier="medicalcompanion" />
+                    <TalentOption identifier="dontdieonme" />
+                    <TalentOption identifier="nopressure" />
+                    <TalentOption identifier="blooddonor" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="geneticist"
+                     type="specialization"
+                     requires="science_primary">
+                <TalentOptions>
+                    <TalentOption identifier="geneharvester" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="bloodybusiness" />
+                    <TalentOption identifier="genesplicer" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="blackmarketgenes" />
+                    <TalentOption identifier="genetampering" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="geneticgenious" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="physicist"
+                     type="specialization"
+                     requires="science_primary">
+                <TalentOptions>
+                    <TalentOption identifier="medicalexpertise" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="medicalassistance" />
+                    <TalentOption identifier="emergencyresponse" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="drsubmarine" />
+                    <TalentOption identifier="vitaminsupplements" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="miracleworker" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="botany"
+                     type="specialization"
+                     requires="science_primary">
+                <TalentOptions>
+                    <TalentOption identifier="plaguedoctor" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="deliverysystem" />
+                    <TalentOption identifier="labcontacts" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="supersoldiers" />
+                    <TalentOption identifier="whatastench" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="macrodosing" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
+</Override>

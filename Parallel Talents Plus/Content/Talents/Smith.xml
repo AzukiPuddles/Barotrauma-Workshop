@@ -1,71 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-<TalentTrees>
-  <TalentTree jobidentifier="Smith">
-    <SubTree identifier="Smith_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="prodigy" />
-        <TalentOption identifier="selfcare" />
-        <TalentOption identifier="exampleofhealth" />
-        <TalentOption identifier="mailman" />
-        <TalentOption identifier="logisticsexpert" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="firemanscarry" />
-        <TalentOption identifier="gunsmith" />
-        <TalentOption identifier="munitionsexpertise" />
-        <TalentOption identifier="ironman" />
-        <TalentOption identifier="blooddonor" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="Experimental_weaponry" requires="Smith_primary">
-      <TalentOptions>
-        <TalentOption identifier="Novice" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="EXcivil" />
-        <TalentOption identifier="EXsecurity" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="EXmilitary" />
-        <TalentOption identifier="EXexplosives" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="Master" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="self_preservation" requires="Smith_primary">
-      <TalentOptions>
-        <TalentOption identifier="builtdifferently" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="stonewall" />
-        <TalentOption identifier="easyturtle" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="Heprotects" />
-        <TalentOption identifier="SecretsofEX" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="WarMachine" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="Supplier" requires="Smith_primary">
-      <TalentOptions>
-        <TalentOption identifier="mechanicalassistance" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="massproduction" />
-        <TalentOption identifier="dealofthemonth" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="oresorting" />
-        <TalentOption identifier="materialsorting" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="ultimatesolution" />
-      </TalentOptions>
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+    <TalentTrees>
+        <TalentTree jobidentifier="Smith">
+            <SubTree identifier="Smith_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="prodigy" />
+                    <TalentOption identifier="selfcare" />
+                    <TalentOption identifier="exampleofhealth" />
+                    <TalentOption identifier="mailman" />
+                    <TalentOption identifier="logisticsexpert" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="firemanscarry" />
+                    <TalentOption identifier="gunsmith" />
+                    <TalentOption identifier="munitionsexpertise" />
+                    <TalentOption identifier="ironman" />
+                    <TalentOption identifier="blooddonor" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Experimental_weaponry"
+                     requires="Smith_primary">
+                <TalentOptions>
+                    <TalentOption identifier="Novice" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="EXcivil" />
+                    <TalentOption identifier="EXsecurity" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="EXmilitary" />
+                    <TalentOption identifier="EXexplosives" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="Master" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="self_preservation"
+                     requires="Smith_primary">
+                <TalentOptions>
+                    <TalentOption identifier="builtdifferently" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="stonewall" />
+                    <TalentOption identifier="easyturtle" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="Heprotects" />
+                    <TalentOption identifier="SecretsofEX" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="WarMachine" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Supplier"
+                     requires="Smith_primary">
+                <TalentOptions>
+                    <TalentOption identifier="mechanicalassistance" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="massproduction" />
+                    <TalentOption identifier="dealofthemonth" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="oresorting" />
+                    <TalentOption identifier="materialsorting" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="ultimatesolution" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
 </Override>

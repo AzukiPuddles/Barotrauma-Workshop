@@ -1,78 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-<TalentTrees>
-  <TalentTree jobidentifier="admiral">
-    <SubTree identifier="admiral_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="dualpurpose" />
-        <TalentOption identifier="riflesmith" />
-        <TalentOption identifier="upliftingpresence" />
-        <TalentOption identifier="cargodefender" />
-        <TalentOption identifier="expertsailor" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="5">
-        <TalentOption identifier="rifleexpert" />
-        <TalentOption identifier="excellentcommand" />
-        <TalentOption identifier="ammoless" />
-        <TalentOption identifier="morebandages" />
-        <TalentOption identifier="downwiththeship" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="spec" nameidentifier="talenttree.spec" type="primary" requires="admiral_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="3">
-        <ShowCaseTalent identifier="specialization">
-          <TalentOption identifier="specialization_security" />
-          <TalentOption identifier="specialization_captain" />
-          <TalentOption identifier="specialization_doctor" />
-        </ShowCaseTalent>
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="manofmanyguns" type="specialization" requires="spec">
-      <TalentOptions>
-        <TalentOption identifier="fireaway" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="metalsancients" />
-        <TalentOption identifier="ammorecovery" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="specializedammo" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="supremerifle" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="truesailor" type="specialization" requires="spec">
-      <TalentOptions>
-        <TalentOption identifier="intothenight" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="radiosupport" />
-        <TalentOption identifier="onthefrontlines" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="unisonfire" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="emergencyrepairs" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="fielddoctor" type="specialization" requires="spec">
-      <TalentOptions>
-        <TalentOption identifier="assistedhealing" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="speedyrescue" />
-        <TalentOption identifier="swiftrescue" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="getoffme" />
-        <TalentOption identifier="ontheground" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="healingexplosion" />
-      </TalentOptions>
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+    <TalentTrees>
+        <TalentTree jobidentifier="admiral">
+            <SubTree identifier="admiral_primary"
+                     nameidentifier="talenttree.primary"
+                     type="primary">
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="dualpurpose" />
+                    <TalentOption identifier="riflesmith" />
+                    <TalentOption identifier="upliftingpresence" />
+                    <TalentOption identifier="cargodefender" />
+                    <TalentOption identifier="expertsailor" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="2"
+                               maxchosentalents="5">
+                    <TalentOption identifier="rifleexpert" />
+                    <TalentOption identifier="excellentcommand" />
+                    <TalentOption identifier="ammoless" />
+                    <TalentOption identifier="morebandages" />
+                    <TalentOption identifier="downwiththeship" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="spec"
+                     nameidentifier="talenttree.spec"
+                     type="primary"
+                     requires="admiral_primary">
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="3">
+                    <ShowCaseTalent identifier="specialization">
+                        <TalentOption identifier="specialization_security" />
+                        <TalentOption identifier="specialization_captain" />
+                        <TalentOption identifier="specialization_doctor" />
+                    </ShowCaseTalent>
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="manofmanyguns"
+                     type="specialization"
+                     requires="spec">
+                <TalentOptions>
+                    <TalentOption identifier="fireaway" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="metalsancients" />
+                    <TalentOption identifier="ammorecovery" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="specializedammo" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="supremerifle" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="truesailor"
+                     type="specialization"
+                     requires="spec">
+                <TalentOptions>
+                    <TalentOption identifier="intothenight" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="radiosupport" />
+                    <TalentOption identifier="onthefrontlines" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="unisonfire" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="emergencyrepairs" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="fielddoctor"
+                     type="specialization"
+                     requires="spec">
+                <TalentOptions>
+                    <TalentOption identifier="assistedhealing" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="speedyrescue" />
+                    <TalentOption identifier="swiftrescue" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1"
+                               maxchosentalents="2">
+                    <TalentOption identifier="getoffme" />
+                    <TalentOption identifier="ontheground" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="healingexplosion" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
 </Override>
