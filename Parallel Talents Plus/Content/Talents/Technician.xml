@@ -1,114 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="technician">
-            <SubTree identifier="technician_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="5">
-                    <TalentOption identifier="stationengineer" />
-                    <!-- +30% exp if you repair a beacon -->
-                    <TalentOption identifier="salvagecrew" />
-                    <!-- +15% exp and money if you salvage mission -->
-                    <TalentOption identifier="egghead" />
-                    <!-- +100% skill gain speed -->
-                    <TalentOption identifier="exampleofhealth" />
-                    <!-- +20 max health -->
-                    <TalentOption identifier="mineralmaster" />
-                    <!-- +15% exp and money if you mining mission -->
-                </TalentOptions>
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="4">
-                    <TalentOption identifier="technician_musicalexperience" />
-                    <!-- you and nearest ally gain a randoms skill point 20 times per mission, and 5% chance 10XP random ally -->
-                    <TalentOption identifier="technician_powertools" />
-                    <!-- double damage with wrenches and screwdrivers -->
-                    <TalentOption identifier="technician_handheldmonitors" />
-                    <!-- Handheld monitors unlocks -->
-                    <TalentOption identifier="technician_electricalsystems" />
-                    <!-- unlock ship battery and ship junction box -->
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="repairman"
-                     type="specialization"
-                     requires="technician_primary">
-                <TalentOptions>
-                    <TalentOption identifier="technician_mrfixit" />
-                    <!-- 10XP every time you repair a device, can happen 20 times per mission -->
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="technician_maintainanceman" />
-                    <!-- +50% repair speed and +50% hull repair speed -->
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="technician_extraeffort" />
-                    <!-- can repair to +25% -->
-                    <TalentOption identifier="technician_resilientrepairs" />
-                    <!-- Devices you repair deteriorate 25% slower -->
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="technician_dayjob" />
-                    <!-- +100% repair speed and +100% hull repair speed and move 20% faster for 10 seconds after you repair a device -->
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="engineer"
-                     nameidentifier="jobname.engineer"
-                     type="specialization"
-                     requires="technician_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="technician_electricalengineer" />
-                    <!-- multiple bonuses to electrical skill -->
-                    <TalentOption identifier="technician_mechanicalengineer" />
-                    <!-- multiple bonuses to mechanical skill -->
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="technician_morejuice" />
-                    <!-- +1 quality crafting fuel rods and Batteries -->
-                    <TalentOption identifier="technician_qualitytools" />
-                    <!-- +1 quality crafting tools, and tanks -->
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="technician_electricalupgrades" />
-                    <!-- +10% reactor max output and Batteries and Super capacitors +20% capacity -->
-                    <TalentOption identifier="technician_mechanicalupgrades" />
-                    <!-- +20% engine max speed and pumps pump +10% faster -->
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="technician_advancedsuits" />
-                    <!-- move 25% faster in Exosuit, unlock Advanced Exosuit, and resistance to flow while wearing a PUCS, unlocks APUCS -->
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="combatengineer"
-                     type="specialization"
-                     requires="technician_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="technician_fleshwound" />
-                    <!-- +20% lacerations burn and stun resistance -->
-                    <TalentOption identifier="technician_resistance" />
-                    <!-- +15% physical damage resistance -->
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="technician_blasters" />
-                    <!-- Unlocks Blaster pistol and Power cells. +20% damage with blasters -->
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="technician_bonuspoints" />
-                    <!-- +20 bonus points to Electrical, Mechanical and Weapons skills. -->
-                    <TalentOption identifier="technician_weaponsmaster" />
-                    <!-- +1 weapon crafting quality, +20 bonus weapons skill, +50% weapons skill gain -->
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="technician_advancedblasters" />
-                    <!-- Unlocks the Blaster Rifle, Recharable Blaster Cell, and Blaster Cell Charging Dock. +25% burn resistance. +25% damage with blasters -->
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="technician">
+      <SubTree identifier="technician_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="stationengineer" />
+          <!-- +30% exp if you repair a beacon -->
+          <TalentOption identifier="salvagecrew" />
+          <!-- +15% exp and money if you salvage mission -->
+          <TalentOption identifier="egghead" />
+          <!-- +100% skill gain speed -->
+          <TalentOption identifier="exampleofhealth" />
+          <!-- +20 max health -->
+          <TalentOption identifier="mineralmaster" />
+          <!-- +15% exp and money if you mining mission -->
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="technician_musicalexperience" />
+          <!-- you and nearest ally gain a randoms skill point 20 times per mission, and 5% chance 10XP random ally -->
+          <TalentOption identifier="technician_powertools" />
+          <!-- double damage with wrenches and screwdrivers -->
+          <TalentOption identifier="technician_handheldmonitors" />
+          <!-- Handheld monitors unlocks -->
+          <TalentOption identifier="technician_electricalsystems" />
+          <!-- unlock ship battery and ship junction box -->
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="repairman" type="specialization" requires="technician_primary">
+        <TalentOptions>
+          <TalentOption identifier="technician_mrfixit" />
+          <!-- 10XP every time you repair a device, can happen 20 times per mission -->
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="technician_maintainanceman" />
+          <!-- +50% repair speed and +50% hull repair speed -->
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="technician_extraeffort" />
+          <!-- can repair to +25% -->
+          <TalentOption identifier="technician_resilientrepairs" />
+          <!-- Devices you repair deteriorate 25% slower -->
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="technician_dayjob" />
+          <!-- +100% repair speed and +100% hull repair speed and move 20% faster for 10 seconds after you repair a device -->
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="engineer" nameidentifier="jobname.engineer" type="specialization" requires="technician_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="technician_electricalengineer" />
+          <!-- multiple bonuses to electrical skill -->
+          <TalentOption identifier="technician_mechanicalengineer" />
+          <!-- multiple bonuses to mechanical skill -->
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="technician_morejuice" />
+          <!-- +1 quality crafting fuel rods and Batteries -->
+          <TalentOption identifier="technician_qualitytools" />
+          <!-- +1 quality crafting tools, and tanks -->
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="technician_electricalupgrades" />
+          <!-- +10% reactor max output and Batteries and Super capacitors +20% capacity -->
+          <TalentOption identifier="technician_mechanicalupgrades" />
+          <!-- +20% engine max speed and pumps pump +10% faster -->
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="technician_advancedsuits" />
+          <!-- move 25% faster in Exosuit, unlock Advanced Exosuit, and resistance to flow while wearing a PUCS, unlocks APUCS -->
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="combatengineer" type="specialization" requires="technician_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="technician_fleshwound" />
+          <!-- +20% lacerations burn and stun resistance -->
+          <TalentOption identifier="technician_resistance" />
+          <!-- +15% physical damage resistance -->
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="technician_blasters" />
+          <!-- Unlocks Blaster pistol and Power cells. +20% damage with blasters -->
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="technician_bonuspoints" />
+          <!-- +20 bonus points to Electrical, Mechanical and Weapons skills. -->
+          <TalentOption identifier="technician_weaponsmaster" />
+          <!-- +1 weapon crafting quality, +20 bonus weapons skill, +50% weapons skill gain -->
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="technician_advancedblasters" />
+          <!-- Unlocks the Blaster Rifle, Recharable Blaster Cell, and Blaster Cell Charging Dock. +25% burn resistance. +25% damage with blasters -->
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

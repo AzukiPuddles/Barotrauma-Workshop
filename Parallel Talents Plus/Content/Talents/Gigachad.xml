@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="GigachadJob">
+      <SubTree identifier="Gigachad_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="0" maxchosentalents="3">
+          <TalentOption identifier="firemanscarry" />
+          <TalentOption identifier="dontdieonme" />
+          <TalentOption identifier="peerlearning" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="4" maxchosentalents="4">
+          <TalentOption identifier="SuperhumanMetabolism" />
+          <TalentOption identifier="AerobicEndurance" />
+          <TalentOption identifier="LegDay" />
+          <TalentOption identifier="ImpenetrableSkin" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="EmperorOfMANkind" type="specialization" requires="Gigachad_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="PerfectedSkills" />
+          <TalentOption identifier="PerfectedWisdom" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="WheyInWaterSupply" />
+          <TalentOption identifier="EmboldeningPresence" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Mentor" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="StrongestManOnEarth" type="specialization" requires="Gigachad_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Unyielding" />
+          <TalentOption identifier="TheBonkening" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Based" />
+          <TalentOption identifier="ExposeAndExploit" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="SpartanRage" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Gains" type="specialization" requires="Gigachad_primary">
+        <TalentOptions>
+          <TalentOption identifier="strength1" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="strength2" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="strength3" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="strength4" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

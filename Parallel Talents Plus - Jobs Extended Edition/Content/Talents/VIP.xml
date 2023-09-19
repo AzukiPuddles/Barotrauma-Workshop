@@ -1,79 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="vipe">
-            <SubTree identifier="vipe_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="1">
-                    <TalentOption identifier="iamvip" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="5">
-                    <TalentOption identifier="steadytune" />
-                    <TalentOption identifier="melodicrespite" />
-                    <TalentOption identifier="downwiththeship" />
-                    <TalentOption identifier="stayinalive" />
-                    <TalentOption identifier="selfcare" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="veryimportant"
-                     type="specialization"
-                     requires="vipe_primary">
-                <TalentOptions>
-                    <TalentOption identifier="commendations" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="yourreputation" />
-                    <TalentOption identifier="affiliation" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="campaigning" />
-                    <TalentOption identifier="networking" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="figurehead" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="saveme"
-                     type="specialization"
-                     requires="vipe_primary">
-                <TalentOptions>
-                    <TalentOption identifier="thewaitinglist" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="medicalassistance" />
-                    <TalentOption identifier="exampleofhealth" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="anappleaday" />
-                    <TalentOption identifier="crustyseaman" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="implacable" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="bigshot"
-                     type="specialization"
-                     requires="vipe_primary">
-                <TalentOptions>
-                    <TalentOption identifier="travelingmerchant" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="wadofcash" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="sailorwithnoname" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="wadofcash2" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="vipe">
+      <SubTree identifier="vipe_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <TalentOption identifier="iamvip" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <TalentOption identifier="steadytune" />
+          <TalentOption identifier="melodicrespite" />
+          <TalentOption identifier="downwiththeship" />
+          <TalentOption identifier="stayinalive" />
+          <TalentOption identifier="selfcare" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="veryimportant" type="specialization" requires="vipe_primary">
+        <TalentOptions>
+          <TalentOption identifier="commendations" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="yourreputation" />
+          <TalentOption identifier="affiliation" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="campaigning" />
+          <TalentOption identifier="networking" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="figurehead" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="saveme" type="specialization" requires="vipe_primary">
+        <TalentOptions>
+          <TalentOption identifier="thewaitinglist" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="medicalassistance" />
+          <TalentOption identifier="exampleofhealth" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="anappleaday" />
+          <TalentOption identifier="crustyseaman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="implacable" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="bigshot" type="specialization" requires="vipe_primary">
+        <TalentOptions>
+          <TalentOption identifier="travelingmerchant" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="wadofcash" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="sailorwithnoname" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="wadofcash2" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

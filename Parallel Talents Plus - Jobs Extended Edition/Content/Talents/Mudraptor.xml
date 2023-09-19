@@ -1,92 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="PlayerMudraptorJob">
-            <SubTree identifier="PMJTree"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="6">
-                    <TalentOption identifier="protectandserve" />
-                    <TalentOption identifier="warstories" />
-                    <TalentOption identifier="PMJEgg" />
-                    <TalentOption identifier="PMJSleepTime" />
-                    <TalentOption identifier="PMJFlare" />
-                    <TalentOption identifier="PMJArmor" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="8">
-                    <TalentOption identifier="PMJSleepTime2" />
-                    <TalentOption identifier="bythebook" />
-                    <TalentOption identifier="PMJBackpack" />
-                    <TalentOption identifier="bootcamp" />
-                    <TalentOption identifier="PMJBestFriend" />
-                    <TalentOption identifier="PMJFlareIce" />
-                    <TalentOption identifier="PMJFlareFire" />
-                    <TalentOption identifier="jackinthebox" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="PMJTree1"
-                     type="specialization"
-                     requires="PMJTree">
-                <TalentOptions>
-                    <TalentOption identifier="PMJArmorPirate" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="PMJHumanoidInstinct" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="PMJBackpack2" />
-                    <TalentOption identifier="PMJWaterSonar" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="5">
-                    <TalentOption identifier="PMJBond_Captain" />
-                    <TalentOption identifier="PMJBond_Security" />
-                    <TalentOption identifier="PMJBond_Doctor" />
-                    <TalentOption identifier="PMJBond_Mechanic" />
-                    <TalentOption identifier="PMJBond_Engineer" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="PMJTree2"
-                     type="specialization"
-                     requires="PMJTree">
-                <TalentOptions>
-                    <TalentOption identifier="PMJArmorVet" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="PMJMonsterInstinct" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="PMJBackpackBio" />
-                    <TalentOption identifier="PMJWaterThermal" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="PMJRelentless" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="PMJTree3"
-                     type="specialization"
-                     requires="PMJTree">
-                <TalentOptions>
-                    <TalentOption identifier="PMJArmorClown" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="PMJGuitarRaptor" />
-                    <TalentOption identifier="PMJpsychoclown" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="inspiringtunes" />
-                    <TalentOption identifier="chonkyhonks" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="truepotential" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="PlayerMudraptorJob">
+      <SubTree identifier="PMJTree" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="protectandserve" />
+          <TalentOption identifier="warstories" />
+          <TalentOption identifier="PMJEgg" />
+          <TalentOption identifier="PMJSleepTime" />
+          <TalentOption identifier="PMJFlare" />
+          <TalentOption identifier="PMJArmor" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="8">
+          <TalentOption identifier="PMJSleepTime2" />
+          <TalentOption identifier="bythebook" />
+          <TalentOption identifier="PMJBackpack" />
+          <TalentOption identifier="bootcamp" />
+          <TalentOption identifier="PMJBestFriend" />
+          <TalentOption identifier="PMJFlareIce" />
+          <TalentOption identifier="PMJFlareFire" />
+          <TalentOption identifier="jackinthebox" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="PMJTree1" type="specialization" requires="PMJTree">
+        <TalentOptions>
+          <TalentOption identifier="PMJArmorPirate" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="PMJHumanoidInstinct" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="PMJBackpack2" />
+          <TalentOption identifier="PMJWaterSonar" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <TalentOption identifier="PMJBond_Captain" />
+          <TalentOption identifier="PMJBond_Security" />
+          <TalentOption identifier="PMJBond_Doctor" />
+          <TalentOption identifier="PMJBond_Mechanic" />
+          <TalentOption identifier="PMJBond_Engineer" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="PMJTree2" type="specialization" requires="PMJTree">
+        <TalentOptions>
+          <TalentOption identifier="PMJArmorVet" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="PMJMonsterInstinct" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="PMJBackpackBio" />
+          <TalentOption identifier="PMJWaterThermal" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="PMJRelentless" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="PMJTree3" type="specialization" requires="PMJTree">
+        <TalentOptions>
+          <TalentOption identifier="PMJArmorClown" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="PMJGuitarRaptor" />
+          <TalentOption identifier="PMJpsychoclown" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="inspiringtunes" />
+          <TalentOption identifier="chonkyhonks" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="truepotential" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

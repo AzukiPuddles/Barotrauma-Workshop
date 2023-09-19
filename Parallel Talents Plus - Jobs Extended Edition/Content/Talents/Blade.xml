@@ -1,87 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="blade">
-            <SubTree identifier="blade_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="5">
-                    <TalentOption identifier="firstaidtraining" />
-                    <TalentOption identifier="swole" />
-                    <TalentOption identifier="prodigy" />
-                    <TalentOption identifier="physicalconditioning" />
-                    <TalentOption identifier="warstories" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="4">
-                    <TalentOption identifier="easyturtle" />
-                    <TalentOption identifier="bootcamp" />
-                    <TalentOption identifier="exampleofhealth" />
-                    <TalentOption identifier="protectandserve" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="swordsmith"
-                     type="specialization"
-                     requires="blade_primary">
-                <TalentOptions>
-                    <TalentOption identifier="swordfurnace" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="swordsmithfury" />
-                    <TalentOption identifier="blacksmithtraining" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="notdeadyet" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="swordsmith" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="blademaster"
-                     type="specialization"
-                     requires="blade_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="chargeattack" />
-                    <TalentOption identifier="lowstance" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="isolatedtraining" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="waterblade" />
-                    <TalentOption identifier="bladedraw" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="3">
-                    <TalentOption identifier="omaewamoushindeiru" />
-                    <TalentOption identifier="madswordsman" />
-                    <TalentOption identifier="massacre" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="warriorspirit"
-                     type="specialization"
-                     requires="blade_primary">
-                <TalentOptions>
-                    <TalentOption identifier="anappleaday" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="samuraihonor" />
-                    <TalentOption identifier="roninway" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="wanderingstranger" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="gloriousdeath" />
-                    <TalentOption identifier="wontworktwice" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="blade">
+      <SubTree identifier="blade_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <TalentOption identifier="firstaidtraining" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="prodigy" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="warstories" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="4">
+          <TalentOption identifier="easyturtle" />
+          <TalentOption identifier="bootcamp" />
+          <TalentOption identifier="exampleofhealth" />
+          <TalentOption identifier="protectandserve" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="swordsmith" type="specialization" requires="blade_primary">
+        <TalentOptions>
+          <TalentOption identifier="swordfurnace" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="swordsmithfury" />
+          <TalentOption identifier="blacksmithtraining" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="notdeadyet" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="swordsmith" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="blademaster" type="specialization" requires="blade_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="chargeattack" />
+          <TalentOption identifier="lowstance" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="isolatedtraining" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="waterblade" />
+          <TalentOption identifier="bladedraw" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
+          <TalentOption identifier="omaewamoushindeiru" />
+          <TalentOption identifier="madswordsman" />
+          <TalentOption identifier="massacre" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="warriorspirit" type="specialization" requires="blade_primary">
+        <TalentOptions>
+          <TalentOption identifier="anappleaday" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="samuraihonor" />
+          <TalentOption identifier="roninway" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="wanderingstranger" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="gloriousdeath" />
+          <TalentOption identifier="wontworktwice" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

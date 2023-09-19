@@ -1,88 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="scavenger">
-            <SubTree identifier="scavenger_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="5">
-                    <TalentOption identifier="stationengineer" />
-                    <TalentOption identifier="salvagecrew" />
-                    <TalentOption identifier="swole" />
-                    <TalentOption identifier="physicalconditioning" />
-                    <TalentOption identifier="ballastdenizen" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="4">
-                    <TalentOption identifier="scavengerequipment" />
-                    <TalentOption identifier="gunsmithscavenger" />
-                    <TalentOption identifier="diyaio" />
-                    <TalentOption identifier="heavylifting" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="xenoarcaeologist"
-                     type="specialization"
-                     requires="scavenger_primary">
-                <TalentOptions>
-                    <TalentOption identifier="researchersintuition" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="curiosity" />
-                    <TalentOption identifier="alienhoarder" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="reverseengineer" />
-                    <TalentOption identifier="alienengineer" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="atmosmachine" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="scrounger"
-                     type="specialization"
-                     requires="scavenger_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="elbowgrease" />
-                    <TalentOption identifier="scrapmagnet" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="scrapper" />
-                    <TalentOption identifier="scrounger" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="scrapsavant" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="scrapmaster" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="expedition"
-                     type="specialization"
-                     requires="scavenger_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="aliensmith" />
-                    <TalentOption identifier="alienarmsrace" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="scavengerscavenger" />
-                    <TalentOption identifier="doubleduty" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="expeditionexpert" />
-                    <TalentOption identifier="monsterhunter" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="expeditionleader" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="scavenger">
+      <SubTree identifier="scavenger_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="stationengineer" />
+          <TalentOption identifier="salvagecrew" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="ballastdenizen" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="scavengerequipment" />
+          <TalentOption identifier="gunsmithscavenger" />
+          <TalentOption identifier="diyaio" />
+          <TalentOption identifier="heavylifting" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="xenoarcaeologist" type="specialization" requires="scavenger_primary">
+        <TalentOptions>
+          <TalentOption identifier="researchersintuition" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="curiosity" />
+          <TalentOption identifier="alienhoarder" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="reverseengineer" />
+          <TalentOption identifier="alienengineer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="atmosmachine" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="scrounger" type="specialization" requires="scavenger_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="elbowgrease" />
+          <TalentOption identifier="scrapmagnet" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="scrapper" />
+          <TalentOption identifier="scrounger" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scrapsavant" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scrapmaster" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="expedition" type="specialization" requires="scavenger_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="aliensmith" />
+          <TalentOption identifier="alienarmsrace" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="scavengerscavenger" />
+          <TalentOption identifier="doubleduty" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="expeditionexpert" />
+          <TalentOption identifier="monsterhunter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="expeditionleader" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

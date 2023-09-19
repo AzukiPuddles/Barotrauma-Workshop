@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Barotraumatic Hell Patches" modversion="0.5" corepackage="False" steamworkshopid="2951374536" gameversion="1.0.8.0">
+<contentpackage name="Barotraumatic Hell Patches" modversion="0.7" corepackage="False" steamworkshopid="2951374536" gameversion="1.0.21.0">
   <Item file="%ModDir%/mechanic_gearoverride.xml" />
-  <Item file="%ModDir%/Extract It with Waifu Genes.xml" />
+  <Item file="%ModDir%/Extract It Extended.xml" />
   <Item file="%ModDir%/Genes Expanded Chip Spawnrate.xml" />
-  <Item file="%ModDir%/Waifu Genes Removeable.xml" />
   <Item file="%ModDir%/Handcannon Single Handed.xml" />
   <Item file="%ModDir%/Barodrama Reuseable Drives.xml" />
   <Character file="%ModDir%/Fractal Guardians with Alien Circuitry/Fractal.xml" />

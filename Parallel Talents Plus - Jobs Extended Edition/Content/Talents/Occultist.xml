@@ -1,93 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="occultist">
-            <SubTree identifier="occultist_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions>
-                    <TalentOption identifier="initiate" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="3"
-                               maxchosentalents="9">
-                    <TalentOption identifier="abyssalconditioning" />
-                    <TalentOption identifier="precisecuts" />
-                    <TalentOption identifier="dissectionsamples" />
-                    <TalentOption identifier="paintolerance" />
-                    <TalentOption identifier="experimentation" />
-                    <TalentOption identifier="sanguineclarity" />
-                    <TalentOption identifier="selfsufficient" />
-                    <TalentOption identifier="practicalstudies" />
-                    <TalentOption identifier="europanlore" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="shadow"
-                     type="specialization"
-                     requires="occultist_primary">
-                <TalentOptions>
-                    <TalentOption identifier="shadowofdeath" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="courtingthereaper" />
-                    <TalentOption identifier="taxcollector" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="coldembrace" />
-                    <TalentOption identifier="scythebearer" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="unjustscales" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="ceremony"
-                     type="specialization"
-                     requires="occultist_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="5">
-                    <ShowCaseTalent identifier="favouredrite">
-                        <TalentOption identifier="favouredrite_sight" />
-                        <TalentOption identifier="favouredrite_heal" />
-                        <TalentOption identifier="favouredrite_repair" />
-                        <TalentOption identifier="favouredrite_stun" />
-                        <TalentOption identifier="favouredrite_gunnery" />
-                    </ShowCaseTalent>
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="meditation" />
-                    <TalentOption identifier="preparation" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="annointedmachinery" />
-                    <TalentOption identifier="invigoratingtransfusion" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="masterofceremony" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="abyss"
-                     type="specialization"
-                     requires="occultist_primary">
-                <TalentOptions>
-                    <TalentOption identifier="osteomancy" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="trophyhunting" />
-                    <TalentOption identifier="bonemonger" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="husksymbiosis" />
-                    <TalentOption identifier="leviathanslayer" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="scrimshawrelics" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="occultist">
+      <SubTree identifier="occultist_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions>
+          <TalentOption identifier="occinitiate" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="3" maxchosentalents="9">
+          <TalentOption identifier="occabyssalconditioning" />
+          <TalentOption identifier="occprecisecuts" />
+          <TalentOption identifier="occdissectionsamples" />
+          <TalentOption identifier="occpaintolerance" />
+          <TalentOption identifier="occexperimentation" />
+          <TalentOption identifier="occsanguineclarity" />
+          <TalentOption identifier="occselfsufficient" />
+          <TalentOption identifier="occpracticalstudies" />
+          <TalentOption identifier="occeuropanlore" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="shadow" type="specialization" requires="occultist_primary">
+        <TalentOptions>
+          <TalentOption identifier="occshadowofdeath" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="occcourtingthereaper" />
+          <TalentOption identifier="occtaxcollector" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="occcoldembrace" />
+          <TalentOption identifier="occscythebearer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="unjustscales" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="ceremony" type="specialization" requires="occultist_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <ShowCaseTalent identifier="occfavouredrite">
+            <TalentOption identifier="occfavouredrite_sight" />
+            <TalentOption identifier="occfavouredrite_heal" />
+            <TalentOption identifier="occfavouredrite_repair" />
+            <TalentOption identifier="occfavouredrite_stun" />
+            <TalentOption identifier="occfavouredrite_gunnery" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="occmeditation" />
+          <TalentOption identifier="occpreparation" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="occannointedmachinery" />
+          <TalentOption identifier="occinvigoratingtransfusion" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="occmasterofceremony" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="abyss" type="specialization" requires="occultist_primary">
+        <TalentOptions>
+          <TalentOption identifier="occosteomancy" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="occtrophyhunting" />
+          <TalentOption identifier="occbonemonger" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="occhusksymbiosis" />
+          <TalentOption identifier="occleviathanslayer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="occscrimshawrelics" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

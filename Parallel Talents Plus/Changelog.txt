@@ -2,6 +2,14 @@ Changelog for Parallel Talents Plus
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949082804
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus
 
+0.0.20 September 19
+Added:
+Gigachad
+Teen Class
+
+Updated:
+Occultists
+
 0.0.19 September 4
 Added:
 Thalassophobia:

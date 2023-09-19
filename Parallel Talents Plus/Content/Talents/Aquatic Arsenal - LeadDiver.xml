@@ -1,110 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="leaddiver">
-            <SubTree identifier="leaddiver_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="1">
-                    <ShowCaseTalent identifier="background">
-                        <TalentOption identifier="captainsfavourite" />
-                        <TalentOption identifier="securitysrival" />
-                        <TalentOption identifier="doctorsshare" />
-                        <TalentOption identifier="engineersfavour" />
-                        <TalentOption identifier="mechanicsbuddy" />
-                    </ShowCaseTalent>
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="6">
-                    <TalentOption identifier="scoutingequipment" />
-                    <TalentOption identifier="chainmailoverlay" />
-                    <TalentOption identifier="divinggoodies" />
-                    <TalentOption identifier="spotter" />
-                    <TalentOption identifier="monsterhunterr" />
-                    <TalentOption identifier="outwithabang" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="2"
-                               maxchosentalents="5">
-                    <TalentOption identifier="murkywaters" />
-                    <TalentOption identifier="improvisedutilityharpoons" />
-                    <TalentOption identifier="pressurised" />
-                    <TalentOption identifier="spearfishing" />
-                    <TalentOption identifier="deepbreath" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="whaler"
-                     type="specialization"
-                     requires="leaddiver_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="seadogspirit" />
-                    <TalentOption identifier="sealeg" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="swashbuckler" />
-                    <TalentOption identifier="crawlergut" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="blastshield" />
-                    <TalentOption identifier="masterworkexperimentalharpoons" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="baneofthecryingseals" />
-                    <TalentOption identifier="deadmanwalking" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="frogman"
-                     type="specialization"
-                     requires="leaddiver_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="sppschematics" />
-                    <TalentOption identifier="sabotage" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="pxschematics" />
-                    <TalentOption identifier="underwaterdemolition" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="aquaticpredator" />
-                    <TalentOption identifier="razorfinnedtips" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="marksmandiver" />
-                    <TalentOption identifier="assaultdiver" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="divinginstructor"
-                     type="specialization"
-                     requires="leaddiver_primary">
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="onewithwater" />
-                    <TalentOption identifier="thickblood" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="bangstickschematics" />
-                    <TalentOption identifier="pathfinder" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="divinginstructor" />
-                    <TalentOption identifier="lighttheway" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="pressuresuitmastery" />
-                    <TalentOption identifier="squidgame" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="leaddiver">
+      <SubTree identifier="leaddiver_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <ShowCaseTalent identifier="background">
+            <TalentOption identifier="captainsfavourite" />
+            <TalentOption identifier="securitysrival" />
+            <TalentOption identifier="doctorsshare" />
+            <TalentOption identifier="engineersfavour" />
+            <TalentOption identifier="mechanicsbuddy" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="6">
+          <TalentOption identifier="scoutingequipment" />
+          <TalentOption identifier="chainmailoverlay" />
+          <TalentOption identifier="divinggoodies" />
+          <TalentOption identifier="spotter" />
+          <TalentOption identifier="monsterhunterr" />
+          <TalentOption identifier="outwithabang" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="murkywaters" />
+          <TalentOption identifier="improvisedutilityharpoons" />
+          <TalentOption identifier="pressurised" />
+          <TalentOption identifier="spearfishing" />
+          <TalentOption identifier="deepbreath" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="whaler" type="specialization" requires="leaddiver_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="seadogspirit" />
+          <TalentOption identifier="sealeg" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="swashbuckler" />
+          <TalentOption identifier="crawlergut" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="blastshield" />
+          <TalentOption identifier="masterworkexperimentalharpoons" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="baneofthecryingseals" />
+          <TalentOption identifier="deadmanwalking" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="frogman" type="specialization" requires="leaddiver_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="sppschematics" />
+          <TalentOption identifier="sabotage" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="pxschematics" />
+          <TalentOption identifier="underwaterdemolition" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="aquaticpredator" />
+          <TalentOption identifier="razorfinnedtips" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="marksmandiver" />
+          <TalentOption identifier="assaultdiver" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="divinginstructor" type="specialization" requires="leaddiver_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="onewithwater" />
+          <TalentOption identifier="thickblood" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="bangstickschematics" />
+          <TalentOption identifier="pathfinder" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="divinginstructor" />
+          <TalentOption identifier="lighttheway" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="pressuresuitmastery" />
+          <TalentOption identifier="squidgame" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

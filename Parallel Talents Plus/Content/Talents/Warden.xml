@@ -1,111 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="wardenabyssmod">
-            <SubTree identifier="warden_primary"
-                     nameidentifier="talenttree.primary"
-                     type="primary">
-                <TalentOptions requiredtalents="3"
-                               maxchosentalents="3">
-                    <TalentOption identifier="warden_core1" />
-                    <TalentOption identifier="warden_core3" />
-                    <TalentOption identifier="warden_second5" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="1">
-                    <ShowCaseTalent identifier="warden_core2">
-                        <TalentOption identifier="warden_core2_Security" />
-                        <TalentOption identifier="warden_core2_Medic" />
-                        <TalentOption identifier="warden_core2_Engineer" />
-                        <TalentOption identifier="warden_core2_Mechanic" />
-                        <TalentOption identifier="warden_core2_Captain" />
-                    </ShowCaseTalent>
-                </TalentOptions>
-                <TalentOptions requiredtalents="0"
-                               maxchosentalents="7">
-                    <TalentOption identifier="warden_second1" />
-                    <TalentOption identifier="warden_second2" />
-                    <TalentOption identifier="warden_second3" />
-                    <TalentOption identifier="warden_second4" />
-                    <TalentOption identifier="warden_core4" />
-                    <TalentOption identifier="warden_second6" />
-                    <TalentOption identifier="warden_second7" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="warden_blueprints"
-                     nameidentifier="talenttree.blueprints"
-                     type="primary">
-                <TalentOptions requiredtalents="0"
-                               maxchosentalents="6">
-                    <TalentOption identifier="warden_bp1" />
-                    <TalentOption identifier="warden_bp2" />
-                    <TalentOption identifier="warden_bp3" />
-                    <TalentOption identifier="warden_bp4" />
-                    <TalentOption identifier="warden_bp5" />
-                    <TalentOption identifier="warden_bp6" />
-                    <!-- <TalentOption identifier="warden_bp7"/> -->
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="warden_paragon"
-                     type="specialization"
-                     requires="warden_primary">
-                <TalentOptions>
-                    <TalentOption identifier="warden_enf1" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="warden_para2" />
-                    <TalentOption identifier="warden_para3" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="warden_para4" />
-                    <TalentOption identifier="warden_para5" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="warden_para6" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="warden_enforcer"
-                     type="specialization"
-                     requires="warden_primary">
-                <TalentOptions>
-                    <TalentOption identifier="warden_para1" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="warden_enf2" />
-                    <TalentOption identifier="warden_enf3" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="warden_enf4" />
-                    <TalentOption identifier="warden_enf5" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="warden_enf6" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="warden_hunter"
-                     type="specialization"
-                     requires="warden_primary">
-                <TalentOptions>
-                    <TalentOption identifier="warden_end1" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="warden_end2" />
-                    <TalentOption identifier="warden_end3" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1"
-                               maxchosentalents="2">
-                    <TalentOption identifier="warden_end4" />
-                    <TalentOption identifier="warden_end5" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="warden_end6" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="wardenabyssmod">
+      <SubTree identifier="warden_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="3" maxchosentalents="3">
+          <TalentOption identifier="warden_core1" />
+          <TalentOption identifier="warden_core3" />
+          <TalentOption identifier="warden_second5" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <ShowCaseTalent identifier="warden_core2">
+            <TalentOption identifier="warden_core2_Security" />
+            <TalentOption identifier="warden_core2_Medic" />
+            <TalentOption identifier="warden_core2_Engineer" />
+            <TalentOption identifier="warden_core2_Mechanic" />
+            <TalentOption identifier="warden_core2_Captain" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="0" maxchosentalents="7">
+          <TalentOption identifier="warden_second1" />
+          <TalentOption identifier="warden_second2" />
+          <TalentOption identifier="warden_second3" />
+          <TalentOption identifier="warden_second4" />
+          <TalentOption identifier="warden_core4" />
+          <TalentOption identifier="warden_second6" />
+          <TalentOption identifier="warden_second7" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="warden_blueprints" nameidentifier="talenttree.blueprints" type="primary">
+        <TalentOptions requiredtalents="0" maxchosentalents="6">
+          <TalentOption identifier="warden_bp1" />
+          <TalentOption identifier="warden_bp2" />
+          <TalentOption identifier="warden_bp3" />
+          <TalentOption identifier="warden_bp4" />
+          <TalentOption identifier="warden_bp5" />
+          <TalentOption identifier="warden_bp6" />
+          <!-- <TalentOption identifier="warden_bp7"/> -->
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="warden_paragon" type="specialization" requires="warden_primary">
+        <TalentOptions>
+          <TalentOption identifier="warden_enf1" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="warden_para2" />
+          <TalentOption identifier="warden_para3" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="warden_para4" />
+          <TalentOption identifier="warden_para5" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="warden_para6" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="warden_enforcer" type="specialization" requires="warden_primary">
+        <TalentOptions>
+          <TalentOption identifier="warden_para1" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="warden_enf2" />
+          <TalentOption identifier="warden_enf3" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="warden_enf4" />
+          <TalentOption identifier="warden_enf5" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="warden_enf6" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="warden_hunter" type="specialization" requires="warden_primary">
+        <TalentOptions>
+          <TalentOption identifier="warden_end1" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="warden_end2" />
+          <TalentOption identifier="warden_end3" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="warden_end4" />
+          <TalentOption identifier="warden_end5" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="warden_end6" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

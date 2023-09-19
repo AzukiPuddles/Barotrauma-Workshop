@@ -22,6 +22,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935939204]Dead Space - CEC Engineer[/url] (+Fixes talent tree progression)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2920304251]Diver[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2939207314]Force Warrior[/url] (Jedi or Sith)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3030233497]Gigachad[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942994485]Harlequin[/url] (One Killing Joke ability)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2954998725]Hungry Europans - Chef[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2942907860]IRN Crew[/url]
@@ -33,6 +34,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3004692548]Smith[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2790455798]Surgeon[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3005601677]Technician[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3037302538]Teen[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2956837412]Thalassophobia[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2993275947]Toxicologist[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
