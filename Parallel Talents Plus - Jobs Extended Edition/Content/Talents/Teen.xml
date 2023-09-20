@@ -3,14 +3,14 @@
   <TalentTrees>
     <TalentTree jobidentifier="teen">
       <SubTree identifier="assistant_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="1" maxchosentalents="4">
           <TalentOption identifier="playingcatchup" />
           <TalentOption identifier="mailman" />
           <TalentOption identifier="skedaddle" />
           <TalentOption identifier="crewlayabout" />
-          <!-- <TalentOption identifier="thearrival"/> -->
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <TalentOption identifier="olympian" />
           <TalentOption identifier="revengesquad" />
           <TalentOption identifier="inspiringtunes" />
           <TalentOption identifier="jackinthebox" />
@@ -66,7 +66,7 @@
           <TalentOption identifier="chonkyhonks" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="truepotential" />
+          <TalentOption identifier="truepotentialteen" />
         </TalentOptions>
       </SubTree>
     </TalentTree>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.20" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.21.0">
+<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.21" corepackage="False" steamworkshopid="2949678245" gameversion="1.0.21.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees-VanillaLike.xml" />
