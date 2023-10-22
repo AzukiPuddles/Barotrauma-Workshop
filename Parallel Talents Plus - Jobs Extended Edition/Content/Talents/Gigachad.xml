@@ -28,7 +28,7 @@
           <TalentOption identifier="Mentor" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="StrongestManOnEarth" type="specialization" requires="Gigachad_primary">
+      <SubTree identifier="AverageEuropaMan" type="specialization" requires="Gigachad_primary">
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="Unyielding" />
           <TalentOption identifier="TheBonkening" />
