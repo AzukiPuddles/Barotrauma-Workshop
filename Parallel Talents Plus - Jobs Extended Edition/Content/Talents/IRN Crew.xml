@@ -121,8 +121,9 @@
           <TalentOption identifier="shu_flank_ahead" />
           <TalentOption identifier="shu_steady_ahead" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_tenkai" />
+          <TalentOption identifier="shu_last_stand" />
         </TalentOptions>
       </SubTree>
     </TalentTree>
@@ -155,8 +156,9 @@
           <TalentOption identifier="shu_dca" />
           <TalentOption identifier="shu_territory" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_kantai_kessen" />
+          <TalentOption identifier="shu_salvation" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_ira_liaison" type="specialization" requires="shu_rifleman_primary">
