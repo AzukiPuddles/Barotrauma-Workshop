@@ -3,9 +3,10 @@
   <TalentTrees>
     <TalentTree jobidentifier="he-chef">
       <SubTree identifier="chef_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="he-poacher" />
           <TalentOption identifier="he-saltybusiness" />
+          <TalentOption identifier="nonthreatening" />
           <TalentOption identifier="he-fastfood" />
           <TalentOption identifier="egghead" />
           <!--<TalentOption identifier="selfcare"/>
@@ -14,7 +15,7 @@
         <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="firemanscarry" />
           <TalentOption identifier="drunkensailor" />
-          <TalentOption identifier="nonthreatening" />
+          <TalentOption identifier="he-lazygardener" />
           <TalentOption identifier="daringdolphin" />
           <TalentOption identifier="peerlearning" />
           <!--

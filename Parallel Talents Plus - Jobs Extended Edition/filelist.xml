@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.24" corepackage="False" steamworkshopid="2949678245" gameversion="1.1.18.1">
+<contentpackage name="Parallel Talents Plus - Jobs Extended Edition" modversion="0.0.25" corepackage="False" steamworkshopid="2949678245" gameversion="1.2.7.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/JE TalentTrees-VanillaLike.xml" />
@@ -14,13 +14,18 @@
   <TalentTrees file="%ModDir%/Content/Talents/BSA - Iron Rider.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Clownotrauma - Clown.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Dead Space - CEC Engineer.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Doppelsoldner.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Force Warrior.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Gigachad.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Harlequin.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Hungry Europans - Chef.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/IRN Crew.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Lizard.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Lupine.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Monk.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Ratmen.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Renegade.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Scavenger.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Separatist.xml" />

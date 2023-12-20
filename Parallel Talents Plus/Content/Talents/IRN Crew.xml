@@ -103,8 +103,9 @@
         <TalentOptions>
           <TalentOption identifier="shu_home_renovation" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_ballast_gardening" />
+          <TalentOption identifier="shu_pest_clearing" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="shu_home_sweet_home" />
@@ -193,15 +194,17 @@
     </TalentTree>
     <TalentTree jobidentifier="shu_admiral">
       <SubTree identifier="shu_admiral_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="3">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
           <TalentOption identifier="shu_inspirationandimprovement" />
           <TalentOption identifier="shu_soothedsedated" />
           <TalentOption identifier="shu_rat_strategy" />
+          <TalentOption identifier="shu_basics_of_logistics" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="3">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
           <TalentOption identifier="shu_abandon_ship" />
           <TalentOption identifier="shu_leftover" />
           <TalentOption identifier="shu_manager_presence" />
+          <TalentOption identifier="shu_advanced_logistics" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_medical_team" type="specialization" requires="shu_admiral_primary">

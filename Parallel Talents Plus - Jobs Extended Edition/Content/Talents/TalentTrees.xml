@@ -138,14 +138,15 @@
 
     <TalentTree jobidentifier="assistant">
       <SubTree identifier="assistant_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
-          <TalentOption identifier="playingcatchup" />
-          <TalentOption identifier="mailman" />
-          <TalentOption identifier="skedaddle" />
-          <TalentOption identifier="crewlayabout" />
-          <!-- <TalentOption identifier="thearrival"/> -->
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="playingcatchup"/>
+          <TalentOption identifier="mailman"/>
+          <TalentOption identifier="skedaddle"/>
+          <TalentOption identifier="crewlayabout"/>
+          <TalentOption identifier="starterquest"/>
+          <TalentOption identifier="mule"/>
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="revengesquad"/>
           <TalentOption identifier="inspiringtunes"/>
           <TalentOption identifier="bagitup"/>
@@ -156,8 +157,9 @@
         <TalentOptions>
           <TalentOption identifier="thewaitinglist" />
         </TalentOptions>
-        <TalentOptions>
-          <TalentOption identifier="nonthreatening" />
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="nonthreatening"/>
+          <TalentOption identifier="tastytarget"/>
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="insurancepolicy" />

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+    <TalentTrees>
+        <TalentTree jobidentifier="monk">
+            <SubTree identifier="monk_primary" nameidentifier="talenttree.primary" type="primary">
+                <TalentOptions requiredtalents="1" maxchosentalents="3">
+                    <TalentOption identifier="monkmind" />
+                    <TalentOption identifier="monkbody" />
+                    <TalentOption identifier="monksoul" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1" maxchosentalents="3">
+                    <TalentOption identifier="monkblock" />
+                    <TalentOption identifier="meditationbell" />
+                    <TalentOption identifier="waterbreather" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1" maxchosentalents="2">
+                    <TalentOption identifier="recoverycoma" />
+                    <TalentOption identifier="likeafish" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1" maxchosentalents="1">
+                    <TalentOption identifier="improvedmartialarts" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Retributor" type="specialization" requires="monk_primary">
+                <TalentOptions>
+                    <TalentOption identifier="wayofretribution" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1" maxchosentalents="2">
+                    <TalentOption identifier="totheend" />
+                    <TalentOption identifier="ripandtear" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1" maxchosentalents="2">
+                    <TalentOption identifier="sacrifice" />
+                    <TalentOption identifier="struggler" />
+                </TalentOptions>
+                <TalentOptions>
+                    <TalentOption identifier="italianman" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Paladin" type="specialization" requires="monk_primary">
+                <TalentOptions>
+                    <TalentOption identifier="wayofpaladin" />
+                </TalentOptions>
+                <TalentOptions requiredtalents="1" maxchosentalents="2">
+                    <TalentOption identifier="tauntmonk" />
+                    <TalentOption identifier="drinkthewater" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="Immortal" type="specialization" requires="monk_primary">
+                <TalentOptions>
+                    <TalentOption identifier="wayofimmortal" />
+                </TalentOptions>
+            </SubTree>
+            <SubTree identifier="God" type="specialization" requires="Retributor,Paladin,Immortal">
+                <TalentOptions>
+                    <TalentOption identifier="capedbaldie" />
+                </TalentOptions>
+            </SubTree>
+        </TalentTree>
+    </TalentTrees>
+</Override>
