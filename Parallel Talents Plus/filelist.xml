@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.25" corepackage="False" steamworkshopid="2949082804" gameversion="1.2.7.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.26" corepackage="False" steamworkshopid="2949082804" gameversion="1.2.7.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Admiral.xml" />

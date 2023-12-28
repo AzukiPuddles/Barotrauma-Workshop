@@ -151,6 +151,8 @@
           <TalentOption identifier="inspiringtunes"/>
           <TalentOption identifier="bagitup"/>
           <TalentOption identifier="peerlearning"/>
+          <TalentOption identifier="indenturedservitude"/>
+          <TalentOption identifier="jengamaster"/>
         </TalentOptions>
       </SubTree>
       <SubTree identifier="grayshirt" type="specialization" requires="assistant_primary">
