@@ -3,28 +3,27 @@
   <TalentTrees>
     <TalentTree jobidentifier="toxicologist">
       <SubTree identifier="toxicologist_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="bountyhunter" />
-          <TalentOption identifier="buff" />
+          <TalentOption identifier="toxicologist_buff" />
           <TalentOption identifier="firstaidtraining" />
           <TalentOption identifier="physicalconditioning" />
-          <TalentOption identifier="exampleofhealth" />
           <TalentOption identifier="laresistance" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="prodigy" />
-          <TalentOption identifier="selfcare" />
+          <TalentOption identifier="poisonresistance" />
           <TalentOption identifier="bootcamp" />
           <TalentOption identifier="firemanscarry" />
           <TalentOption identifier="toxicologist_weaponsmith" />
           <TalentOption identifier="harmonicahero" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="gunner" type="specialization" requires="toxicologist_primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
+      <SubTree identifier="pointman" type="specialization" requires="toxicologist_primary">
+        <TalentOptions>
           <TalentOption identifier="toxicologist_shotgun_specialisation" />
           <TalentOption identifier="swole" />
-          <!-- Security talent -->
+          <!--Security talent-->
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="toxicologist_weapons_specialisation" />

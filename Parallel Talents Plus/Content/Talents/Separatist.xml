@@ -79,7 +79,7 @@
         </TalentOptions>
       </SubTree>
       <SubTree identifier="Underdog" type="specialization" requires="separatist_primary">
-        <TalentOptions maxchosentalents="4">
+        <TalentOptions requiredtalents="1" maxchosentalents="4">
           <ShowCaseTalent identifier="survivor">
             <TalentOption identifier="survivor_bitewounds" />
             <TalentOption identifier="survivor_bleeding" />

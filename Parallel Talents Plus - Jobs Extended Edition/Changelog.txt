@@ -2,6 +2,16 @@ Parallel Talents Plus - Jobs Extended Edition
 https://steamcommunity.com/sharedfiles/filedetails/?id=2949678245
 https://github.com/AzukiPuddles/Barotrauma-Workshop/tree/master/Parallel%20Talents%20Plus%20-%20Jobs%20Extended%20Edition
 
+0.0.28 February 10
+Added:
+Scientist
+
+Updated:
+Toxicologist
+
+0.0.27 January 9
+Fixed some showcase talents
+
 0.0.25 December 20
 Added:
 Doppelsoldner

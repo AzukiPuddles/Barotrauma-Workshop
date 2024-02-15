@@ -25,7 +25,7 @@
         </TalentOptions>
       </SubTree>
       <SubTree identifier="juniorexecutiveofficer_tetriary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions maxchosentalents="1">
+        <TalentOptions>
           <ShowCaseTalent identifier="factionbasedpardonsbase">
             <TalentOption identifier="factionbasedpardonscoalition" />
             <TalentOption identifier="factionbasedpardonsseparatists" />

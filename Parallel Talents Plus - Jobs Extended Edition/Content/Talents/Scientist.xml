@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="v_scientist">
+      <SubTree identifier="v_scientist_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="fellowacademic" />
+          <TalentOption identifier="bigbrain" />
+          <TalentOption identifier="madscience" />
+          <TalentOption identifier="fastlearner" />
+          <TalentOption identifier="mulchadoaboutnothing" />
+          <TalentOption identifier="vivisection" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="grantmoney" />
+          <TalentOption identifier="foureyes" />
+          <TalentOption identifier="fieldresearch" />
+          <TalentOption identifier="dissertation" />
+          <TalentOption identifier="xenobiologist" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <TalentOption identifier="graduatingclass" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="gastronomy" type="specialization" requires="v_scientist_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="deadliestcatch" />
+          <TalentOption identifier="fishfilet" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="surf" />
+          <TalentOption identifier="turf" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="carnivore" />
+          <TalentOption identifier="herbivore" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="souschef" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="botany" type="specialization" requires="v_scientist_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="organicplants" />
+          <TalentOption identifier="companionplants" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="spiceisnice" />
+          <TalentOption identifier="sorceroussnack" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="heirloomseeds" />
+          <TalentOption identifier="richsoil" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="gmo" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="zoology" type="specialization" requires="v_scientist_primary">
+        <TalentOptions>
+          <TalentOption identifier="kibble" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="raisingrabbits" />
+          <TalentOption identifier="toadallyawesome" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="exoshelleton" />
+          <TalentOption identifier="mineralmollusc" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="orangeman" />
+          <TalentOption identifier="howtotrainyourdino" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>
