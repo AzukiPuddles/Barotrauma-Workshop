@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="cyberneticjob">
+      <SubTree identifier="cybernetic_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="egghead" />
+          <TalentOption identifier="exampleofhealth" />
+          <TalentOption identifier="grounded" />
+          <TalentOption identifier="tinkerer" />
+          <TalentOption identifier="safetyfirst" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="submarineofthings" />
+          <TalentOption identifier="firemanscarry" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="residualwaste" />
+          <TalentOption identifier="massproduction" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="nanomechanic" type="specialization" requires="cybernetic_primary">
+        <TalentOptions>
+          <TalentOption identifier="nanitestart" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nanitereapir" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="nanitescan" />
+          <TalentOption identifier="Aegis" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Nanosuppression" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="advancedmodification" type="specialization" requires="cybernetic_primary">
+        <TalentOptions>
+          <TalentOption identifier="gyroscopicamplifier" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="cybermechanic" />
+          <TalentOption identifier="cyberelectrical" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Chameleon" />
+          <TalentOption identifier="scrapsavant" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Titan" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="chOutfitter" type="specialization" requires="cybernetic_primary">
+        <TalentOptions>
+          <TalentOption identifier="chcraftmaster" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="curiosity" />
+          <TalentOption identifier="grenadelaunchertalent" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="chmoregrenade" />
+          <TalentOption identifier="reverseengineer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="ingeniousgunsmith" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

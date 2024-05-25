@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="psyker">
+      <SubTree identifier="psyker_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="2">
+          <TalentOption identifier="psychicpotential" />
+          <TalentOption identifier="ventingshriek" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="2">
+          <TalentOption identifier="battlemeditation" />
+          <TalentOption identifier="kineticpresence" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Psykana" type="specialization" requires="psyker_primary">
+        <TalentOptions>
+          <TalentOption identifier="pyromancy" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="warprider" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="empoweredpsionics" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="witnessyourdoom" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Biomancy" type="specialization" requires="psyker_primary">
+        <TalentOptions>
+          <TalentOption identifier="ironarm" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="endurance" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="warpspeed" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="psionicshield" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Divination" type="specialization" requires="psyker_primary">
+        <TalentOptions>
+          <TalentOption identifier="prescience" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="guidance" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scriersgaze" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="eyeofthestorm" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

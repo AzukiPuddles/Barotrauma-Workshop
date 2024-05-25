@@ -1,73 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <TalentTrees>
-        <TalentTree jobidentifier="Doppelsoldner">
-            <SubTree identifier="Doppelsoldner_primary" nameidentifier="talenttree.primary" type="primary">
-                <TalentOptions requiredtalents="2" maxchosentalents="6">
-                    <TalentOption identifier="swole" />
-                    <TalentOption identifier="firstaidtraining" />
-                    <TalentOption identifier="exampleofhealth" />
-                    <TalentOption identifier="slayer" />
-                    <TalentOption identifier="physicalconditioning" />
-                    <TalentOption identifier="warstories" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="2" maxchosentalents="6">
-                    <TalentOption identifier="buff" />
-                    <TalentOption identifier="foolhardy" />
-                    <TalentOption identifier="berserker" />
-                    <TalentOption identifier="ironman" />
-                    <TalentOption identifier="iamthatguy" />
-                    <TalentOption identifier="nopressure" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="landsknechte" type="specialization" requires="Doppelsoldner_primary">
-                <TalentOptions>
-                    <TalentOption identifier="boardingparty" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1" maxchosentalents="2">
-                    <TalentOption identifier="easyturtle" />
-                    <TalentOption identifier="daringdolphin" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1" maxchosentalents="2">
-                    <TalentOption identifier="crustyseaman" />
-                    <TalentOption identifier="inordinateexsanguination" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="implacable" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="pioneer" type="specialization" requires="Doppelsoldner_primary">
-                <TalentOptions>
-                    <TalentOption identifier="pyromaniac" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1" maxchosentalents="2">
-                    <TalentOption identifier="residualwaste" />
-                    <TalentOption identifier="hullfixer" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1" maxchosentalents="2">
-                    <TalentOption identifier="toolmaintenance" />
-                    <TalentOption identifier="tinkerer" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="lightningwizard" />
-                </TalentOptions>
-            </SubTree>
-            <SubTree identifier="jaeger" type="specialization" requires="Doppelsoldner_primary">
-                <TalentOptions>
-                    <TalentOption identifier="Huntsman" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1" maxchosentalents="2">
-                    <TalentOption identifier="scavenger" />
-                    <TalentOption identifier="bloodybusiness" />
-                </TalentOptions>
-                <TalentOptions requiredtalents="1" maxchosentalents="2">
-                    <TalentOption identifier="yourreputation" />
-                    <TalentOption identifier="scrapsavant" />
-                </TalentOptions>
-                <TalentOptions>
-                    <TalentOption identifier="geneharvester" />
-                </TalentOptions>
-            </SubTree>
-        </TalentTree>
-    </TalentTrees>
+  <TalentTrees>
+    <TalentTree jobidentifier="Doppelsoldner">
+      <SubTree identifier="Doppelsoldner_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="7">
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="firstaidtraining" />
+          <TalentOption identifier="exampleofhealth" />
+          <TalentOption identifier="slayer" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="multifunctional" />
+          <TalentOption identifier="warstories" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="buff" />
+          <TalentOption identifier="foolhardy" />
+          <TalentOption identifier="berserker" />
+          <TalentOption identifier="ironman" />
+          <TalentOption identifier="iamthatguy" />
+          <TalentOption identifier="nopressure" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="landsknechte" type="specialization" requires="Doppelsoldner_primary">
+        <TalentOptions>
+          <TalentOption identifier="boardingparty" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="easyturtle" />
+          <TalentOption identifier="daringdolphin" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="crustyseaman" />
+          <TalentOption identifier="inordinateexsanguination" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="implacable" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="pioneer" type="specialization" requires="Doppelsoldner_primary">
+        <TalentOptions>
+          <TalentOption identifier="pyromaniac" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="residualwaste" />
+          <TalentOption identifier="hullfixer" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="toolmaintenance" />
+          <TalentOption identifier="tinkerer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="lightningwizard" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="jaeger" type="specialization" requires="Doppelsoldner_primary">
+        <TalentOptions>
+          <TalentOption identifier="Huntsman" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="scavenger" />
+          <TalentOption identifier="bloodybusiness" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="yourreputation" />
+          <TalentOption identifier="scrapsavant" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="geneharvester" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
 </Override>

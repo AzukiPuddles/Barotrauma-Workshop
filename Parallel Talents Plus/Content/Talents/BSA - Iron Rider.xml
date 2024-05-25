@@ -1,61 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-  <TalentTrees>
-    <TalentTree jobidentifier="Pilot">
-      <SubTree identifier="bwbr1">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="firstaidtrainingbw" />
-          <TalentOption identifier="physicalconditioningbw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="optimizedpowerflowbw" />
-          <TalentOption identifier="custommachinebw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="swordwarriorbw" />
-          <TalentOption identifier="deadeyebw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="trustbuildingbw" />
-          <TalentOption identifier="collegeathleticsbw" />
-        </TalentOptions>
-      </SubTree>
-      <SubTree identifier="bwbr2">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="sailorwithnonamebw" />
-          <TalentOption identifier="enforcerbw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="bythebookbw" />
-          <TalentOption identifier="munitionsexpertisebw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="stonewallbw" />
-          <TalentOption identifier="steelruler" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="implacablebw" />
-          <TalentOption identifier="bountyhunterbw" />
-        </TalentOptions>
-      </SubTree>
-      <SubTree identifier="bwbr3">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="tumblebw" />
-          <TalentOption identifier="justascratchbw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="olympianbw" />
-          <TalentOption identifier="gunsmithbw" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="duelistbw" />
-          <TalentOption identifier="laststand" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="warlordbw" />
-          <TalentOption identifier="advancedsplicingbw" />
-        </TalentOptions>
-      </SubTree>
-    </TalentTree>
-  </TalentTrees>
+<TalentTrees>
+  <TalentTree jobidentifier="Pilot">
+    <SubTree identifier="bwpl_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOption identifier="firstaidtraining" />
+        <TalentOption identifier="sailorwithnonamebw" />
+        <TalentOption identifier="physicalconditioningbw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="4">
+        <TalentOption identifier="bootcamp" />
+        <TalentOption identifier="bythebook" />
+        <TalentOption identifier="warstories" />
+        <TalentOption identifier="munitionsexpertise" />
+      </TalentOptions>
+    </SubTree>
+    <!-- 专精天赋树 -->
+    <SubTree identifier="bwpl_offense" type="specialization" requires="bwpl_primary">
+      <TalentOptions>
+        <TalentOption identifier="olympian_offense" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="swordwarriorbw" />
+        <TalentOption identifier="deadeyebw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="offense_system" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="revengesquad_offense" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlordbw_offense" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwpl_defense" type="specialization" requires="bwpl_primary">
+      <TalentOptions>
+        <TalentOption identifier="olympian_defense" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="enforcerbw" />
+        <TalentOption identifier="implacablebw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="defense_system" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="revengesquad_deffense" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlordbw_deffense" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwpl_logistic" type="specialization" requires="bwpl_primary">
+      <TalentOptions>
+        <TalentOption identifier="olympian_logistic" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="3">
+        <TalentOption identifier="optimizedpowerflowbw" />
+        <TalentOption identifier="custommachinebw" />
+        <TalentOption identifier="drsubmarinebw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="logistic_system" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="revengesquad_logistic" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="miracleworker_bw" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
 </Override>

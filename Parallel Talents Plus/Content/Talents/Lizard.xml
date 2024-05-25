@@ -1,66 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TalentTrees>
+<Override>
+  <TalentTrees>
     <TalentTree jobidentifier="lizardmenspeciesjob">
-        <SubTree identifier="engineer_primary" nameidentifier="talenttree.primary" type="primary">
-            <TalentOptions requiredtalents="2" maxchosentalents="5">
-                <TalentOption identifier="stationengineer" />
-                <TalentOption identifier="junctionjunkie" />
-                <TalentOption identifier="egghead" />
-                <TalentOption identifier="grounded" />
-                <TalentOption identifier="remotemonitor" />
-            </TalentOptions>
-            <TalentOptions requiredtalents="2" maxchosentalents="5">
-                <TalentOption identifier="funwithfission" />
-                <TalentOption identifier="melodicrespite" />
-                <TalentOption identifier="submarineofthings" />
-                <TalentOption identifier="aggressiveengineering" />
-                <TalentOption identifier="samplecollection" />
-            </TalentOptions>
-        </SubTree>
-        <SubTree identifier="weaponsengineer" type="specialization" requires="engineer_primary">
-            <TalentOptions>
-                <TalentOption identifier="militaryapplications" />
-            </TalentOptions>
-            <TalentOptions requiredtalents="1" maxchosentalents="2">
-                <TalentOption identifier="heavyhitter" />
-                <TalentOption identifier="armsrace" />
-            </TalentOptions>
-            <TalentOptions>
-                <TalentOption identifier="weaponartisan" />
-            </TalentOptions>
-            <TalentOptions>
-                <TalentOption identifier="nuclearoption" />
-            </TalentOptions>
-        </SubTree>
-        <SubTree identifier="electrician" type="specialization" requires="engineer_primary">
-            <TalentOptions>
-                <TalentOption identifier="gridmaintainer" />
-            </TalentOptions>
-            <TalentOptions requiredtalents="1" maxchosentalents="2">
-                <TalentOption identifier="pyromaniac" />
-                <TalentOption identifier="unlimitedpower" />
-            </TalentOptions>
-            <TalentOptions>
-                <TalentOption identifier="betterthannew" />
-            </TalentOptions>
-            <TalentOptions>
-                <TalentOption identifier="lightningwizard" />
-            </TalentOptions>
-        </SubTree>
-        <SubTree identifier="physicist" type="specialization" requires="engineer_primary">
-            <TalentOptions>
-                <TalentOption identifier="unstoppablecuriosity" />
-            </TalentOptions>
-            <TalentOptions requiredtalents="1" maxchosentalents="2">
-                <TalentOption identifier="cruising" />
-                <TalentOption identifier="buzzing" />
-            </TalentOptions>
-            <TalentOptions>
-                <TalentOption identifier="dangerzone" />
-            </TalentOptions>
-            <TalentOptions>
-                <TalentOption identifier="phdinnuclearphysics" />
-            </TalentOptions>
-        </SubTree>
+      <SubTree identifier="engineer_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="stationengineer" />
+          <TalentOption identifier="junctionjunkie" />
+          <TalentOption identifier="egghead" />
+          <TalentOption identifier="grounded" />
+          <TalentOption identifier="remotemonitor" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="funwithfission" />
+          <TalentOption identifier="melodicrespite" />
+          <TalentOption identifier="submarineofthings" />
+          <TalentOption identifier="aggressiveengineering" />
+          <TalentOption identifier="samplecollection" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="weaponsengineer" type="specialization" requires="engineer_primary">
+        <TalentOptions>
+          <TalentOption identifier="militaryapplications" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="heavyhitter" />
+          <TalentOption identifier="armsrace" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="weaponartisan" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nuclearoption" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="electrician" type="specialization" requires="engineer_primary">
+        <TalentOptions>
+          <TalentOption identifier="gridmaintainer" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="pyromaniac" />
+          <TalentOption identifier="unlimitedpower" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="betterthannew" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="lightningwizard" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="physicist" type="specialization" requires="engineer_primary">
+        <TalentOptions>
+          <TalentOption identifier="unstoppablecuriosity" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="cruising" />
+          <TalentOption identifier="buzzing" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="dangerzone" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="phdinnuclearphysics" />
+        </TalentOptions>
+      </SubTree>
     </TalentTree>
-</TalentTrees>
+  </TalentTrees>
+</Override>

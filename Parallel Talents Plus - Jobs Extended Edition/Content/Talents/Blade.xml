@@ -40,8 +40,9 @@
         <TalentOptions>
           <TalentOption identifier="isolatedtraining" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
           <TalentOption identifier="waterblade" />
+          <TalentOption identifier="bladedash" />
           <TalentOption identifier="bladedraw" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="3">

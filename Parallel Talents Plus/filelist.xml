@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.28" corepackage="False" steamworkshopid="2949082804" gameversion="1.2.8.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.32" corepackage="False" steamworkshopid="2949082804" gameversion="1.4.6.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Admiral.xml" />
@@ -11,6 +11,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/Botanophobia.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/BSA - Iron Rider.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Clownotrauma - Clown.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/CyberHuman.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Dead Space - CEC Engineer.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Doppelsoldner.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Diver.xml" />
@@ -24,6 +25,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/Monk.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Psyker.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Ratmen.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Renegade.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Scavenger.xml" />
