@@ -3,13 +3,18 @@
   <TalentTrees>
     <TalentTree jobidentifier="psyker">
       <SubTree identifier="psyker_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
           <TalentOption identifier="psychicpotential" />
           <TalentOption identifier="ventingshriek" />
+          <TalentOption identifier="specialstimms" />
+          <TalentOption identifier="foresight" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="battlemeditation" />
           <TalentOption identifier="kineticpresence" />
+          <TalentOption identifier="elementalresistance" />
+          <TalentOption identifier="onewiththewarp" />
+          <TalentOption identifier="unluckyforsome" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="Psykana" type="specialization" requires="psyker_primary">

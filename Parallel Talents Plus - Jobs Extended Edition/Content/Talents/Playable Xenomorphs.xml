@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <!--
+Use talents from Talents.xml here, currently its set to use security talents, talent trees have unique names except security_primary you'll have to change that one yourself
+-->
+    <TalentTree jobidentifier="XenoDroneJob">
+      <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="protectandserve" />
+          <TalentOption identifier="warstories" />
+          <TalentOption identifier="firstaidtraining" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="buff" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="weaponsmith" />
+          <TalentOption identifier="bythebook" />
+          <TalentOption identifier="dontpushit" />
+          <TalentOption identifier="bootcamp" />
+          <TalentOption identifier="munitionsexpertise" />
+        </TalentOptions>
+      </SubTree>
+      <!--Royal-->
+      <SubTree identifier="Royal" type="specialization" requires="security_primary">
+        <TalentOptions>
+          <TalentOption identifier="Royalstart" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="medicalassistance" />
+          <TalentOption identifier="emergencyresponse" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="drsubmarineandblood" />
+          <TalentOption identifier="vitaminsandblood" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="miracleworkerxenomorph" />
+        </TalentOptions>
+      </SubTree>
+      <!--Worker-->
+      <SubTree identifier="Worker" type="specialization" requires="mechanic_primary">
+        <TalentOptions>
+          <TalentOption identifier="xenohullfixer" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="tinkerer" />
+          <TalentOption identifier="massproduction" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="scrapsavant" />
+          <TalentOption identifier="xenoletitdrain" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="ironstorm" />
+          <TalentOption identifier="Xenodefendertalent" />
+        </TalentOptions>
+      </SubTree>
+      <!--warrior-->
+      <SubTree identifier="Warrior" type="specialization" requires="security_primary">
+        <TalentOptions>
+          <TalentOption identifier="xenopacificationkit" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="beatcop" />
+          <TalentOption identifier="stonewall" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="crustyseaman" />
+          <TalentOption identifier="inordinateexsanguination" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="xenoimplacable" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

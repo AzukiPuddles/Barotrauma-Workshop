@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
+  <!-- Copy of vanilla
+     Made to test how vanilla classes work in current game
+-->
   <TalentTrees>
     <TalentTree jobidentifier="commanding_officer">
       <SubTree identifier="captain_primary" nameidentifier="talenttree.primary" type="primary">

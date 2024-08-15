@@ -7,13 +7,14 @@
           <TalentOption identifier="younglingtraining" />
           <TalentOption identifier="knowledgeaboutmanufacturing" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOptions requiredtalents="2" maxchosentalents="7">
           <TalentOption identifier="lightsaberlethalstrike" />
           <TalentOption identifier="lightsaberrapidattack" />
           <TalentOption identifier="basicknowledge-" />
           <TalentOption identifier="repairinterests" />
           <TalentOption identifier="firemanscarry" />
           <TalentOption identifier="lonewolf" />
+          <TalentOption identifier="forcesense1" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="Jedi" type="specialization" requires="ForceWarrior_primary" blocks="Sith">

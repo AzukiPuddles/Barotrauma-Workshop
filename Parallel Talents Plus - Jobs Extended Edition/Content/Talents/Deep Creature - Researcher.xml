@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="deepcreaturemutant">
+      <SubTree identifier="mutant_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="adaptable" />
+          <TalentOption identifier="xenometabolism" />
+          <TalentOption identifier="nervedeath" />
+          <TalentOption identifier="minorinbio" />
+          <TalentOption identifier="directexposure" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="halflife" />
+          <TalentOption identifier="underobservation" />
+          <TalentOption identifier="jointheclub" />
+          <TalentOption identifier="squeezeboxhero" />
+          <TalentOption identifier="hazmattraining" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Mutation" type="specialization" requires="mutant_primary">
+        <TalentOptions>
+          <TalentOption identifier="mysteriousgrowths" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="improvise" />
+          <TalentOption identifier="extraextremities" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="hemoboosters" />
+          <TalentOption identifier="specializedadaptation" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="geneticstability" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Radiation" type="specialization" requires="mutant_primary">
+        <TalentOptions>
+          <TalentOption identifier="radioluminescence" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="radiationshielding" />
+          <TalentOption identifier="mutuallyassureddestruction" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="radiationtherapy" />
+          <TalentOption identifier="nucleararms" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="iambecomedeath" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Husk" type="specialization" requires="mutant_primary">
+        <TalentOptions>
+          <TalentOption identifier="masterofceremonies" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="homeopath" />
+          <TalentOption identifier="radioactiveman" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="crusader" />
+          <TalentOption identifier="faithhealer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="pheromones" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

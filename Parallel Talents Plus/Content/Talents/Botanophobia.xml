@@ -7,13 +7,13 @@
           <TalentOption identifier="botanophobia_seedharvester" />
           <TalentOption identifier="botanophobia_blackmarketseeds" />
           <TalentOption identifier="botanophobia_labcontacts" />
-          <TalentOption identifier="botanophobia_fertilizer" />
-          <TalentOption identifier="botanophobia_sprinkler" />
+          <TalentOption identifier="botanophobia_hydroponicequipment" />
           <TalentOption identifier="botanophobia_organicscraps" />
+          <TalentOption identifier="botanophobia_veterinarian" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="11">
           <TalentOption identifier="botanophobia_herbalremedies" />
-          <TalentOption identifier="botanophobia_focused_nozzle" />
+          <TalentOption identifier="botanophobia_containment_protocols" />
           <TalentOption identifier="botanophobia_chemical_delivery" />
           <TalentOption identifier="botanophobia_purifiedcompounds" />
           <TalentOption identifier="botanophobia_plantsavant" />

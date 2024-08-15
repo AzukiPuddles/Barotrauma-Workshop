@@ -5,15 +5,15 @@
       <SubTree identifier="captain_primary" nameidentifier="talenttree.primary" type="primary">
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="bountyhunter" />
-          <TalentOption identifier="logisticsexpert" />
+          <TalentOption identifier="protectandserve" />
           <TalentOption identifier="prodigy" />
           <TalentOption identifier="inspirationalleader" />
           <TalentOption identifier="veteran" />
-          <TalentOption identifier="travelingtradesman" />
+          <TalentOption identifier="warstories" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="emergencymaneuvers" />
-          <TalentOption identifier="sailorwithnoname" />
+          <TalentOption identifier="bootcamp" />
           <TalentOption identifier="camaraderie" />
           <TalentOption identifier="downwiththeship" />
           <TalentOption identifier="gunsmith" />
@@ -25,8 +25,8 @@
           <TalentOption identifier="quickdraw" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="lonewolf" />
-          <TalentOption identifier="deputy" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="swole" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="drunkensailor" />
@@ -35,7 +35,7 @@
           <TalentOption identifier="bigguns" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="Second_In_Command" type="specialization" requires="captain_primary">
+      <SubTree identifier="Second In Command" type="specialization" requires="captain_primary">
         <TalentOptions>
           <TalentOption identifier="pacificationkit" />
         </TalentOptions>
@@ -71,12 +71,12 @@
     <TalentTree jobidentifier="navigator">
       <SubTree identifier="captain_primary" nameidentifier="talenttree.primary" type="primary">
         <TalentOptions requiredtalents="2" maxchosentalents="6">
-          <TalentOption identifier="bountyhunter" />
+          <TalentOption identifier="engineengineer" />
           <TalentOption identifier="logisticsexpert" />
           <TalentOption identifier="prodigy" />
-          <TalentOption identifier="inspirationalleader" />
+          <TalentOption identifier="ballastdenizen" />
           <TalentOption identifier="veteran" />
-          <TalentOption identifier="travelingtradesman" />
+          <TalentOption identifier="salvagecrew" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="emergencymaneuvers" />
@@ -84,23 +84,23 @@
           <TalentOption identifier="camaraderie" />
           <TalentOption identifier="downwiththeship" />
           <TalentOption identifier="gunsmith" />
-          <TalentOption identifier="steadytune" />
+          <TalentOption identifier="retrofit" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="gunslinger" type="specialization" requires="captain_primary">
+      <SubTree identifier="duelist" type="specialization" requires="captain_primary">
         <TalentOptions>
           <TalentOption identifier="boardingparty" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="scavenger" />
-          <TalentOption identifier="slayer" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="physicalconditioning" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="easyturtle" />
           <TalentOption identifier="daringdolphin" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="specops" />
+          <TalentOption identifier="implacable" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="skipper" type="specialization" requires="captain_primary">
@@ -118,13 +118,13 @@
           <TalentOption identifier="family" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="politician" type="specialization" requires="captain_primary">
+      <SubTree identifier="specialist" type="specialization" requires="captain_primary">
         <TalentOptions>
           <TalentOption identifier="commendations" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="effective_co" />
-          <TalentOption identifier="positive_reinforcment" />
+          <TalentOption identifier="campaigning" />
+          <TalentOption identifier="networking" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="red_alarm" />
@@ -157,11 +157,11 @@
           <TalentOption identifier="quickdraw" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="lonewolf" />
-          <TalentOption identifier="deputy" />
+          <TalentOption identifier="veteran" />
+          <TalentOption identifier="prodigy" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="drunkensailor" />
+          <TalentOption identifier="gunsmith" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="bigguns" />
@@ -172,8 +172,8 @@
           <TalentOption identifier="boardingparty" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="scavenger" />
-          <TalentOption identifier="slayer" />
+          <TalentOption identifier="deputy" />
+          <TalentOption identifier="lonewolf" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="easyturtle" />
@@ -200,88 +200,88 @@
         </TalentOptions>
       </SubTree>
     </TalentTree>
-    <TalentTree jobidentifier="diver">
+    <!-- <TalentTree jobidentifier="diver">
       <SubTree identifier="security_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="6">
-          <TalentOption identifier="protectandserve" />
-          <TalentOption identifier="warstories" />
-          <TalentOption identifier="firstaidtraining" />
-          <TalentOption identifier="physicalconditioning" />
-          <TalentOption identifier="swole" />
-          <TalentOption identifier="buff" />
+        <TalentOptions maxchosentalents="2">
+            <TalentOption identifier="protectandserve"/>
+            <TalentOption identifier="warstories"/>
+            <TalentOption identifier="firstaidtraining"/>
+            <TalentOption identifier="physicalconditioning"/>
+            <TalentOption identifier="swole"/>
+            <TalentOption identifier="buff"/>
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="5">
-          <TalentOption identifier="weaponsmith" />
-          <TalentOption identifier="bythebook" />
-          <TalentOption identifier="dontpushit" />
-          <TalentOption identifier="bootcamp" />
-          <TalentOption identifier="munitionsexpertise" />
+        <TalentOptions maxchosentalents="2">
+            <TalentOption identifier="weaponsmith"/>
+            <TalentOption identifier="bythebook"/>
+            <TalentOption identifier="dontpushit"/>
+            <TalentOption identifier="bootcamp"/>
+            <TalentOption identifier="munitionsexpertise"/>
         </TalentOptions>
-      </SubTree>
-      <!-- offensive tree, going out of the submarine and fight in water, upgrade pucs with fins same as slipsuit -->
-      <SubTree identifier="whaler" type="specialization" requires="security_primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="thickblood" />
-          <TalentOption identifier="sppschematics" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="pxschematics" />
-          <TalentOption identifier="murkywaters" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="underwaterdemolition" />
-          <TalentOption identifier="commando" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="marinerecon" />
-          <TalentOption identifier="combatdiver" />
-        </TalentOptions>
-      </SubTree>
-      <SubTree identifier="frogman" type="specialization" requires="security_primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="seadogspirit" />
-          <TalentOption identifier="sealeg" />
-        </TalentOptions>
+    </SubTree> -->
+    <!-- offensive tree, going out of the submarine and fight in water, upgrade pucs with fins same as slipsuit -->
+    <!--    <SubTree identifier="whaler" type="specialization" requires="security_primary" blocks="frogman,Specialist">
         <TalentOptions>
-          <TalentOption identifier="improvisedutilityharpoons" />
+            <TalentOption identifier="thickblood"/>
+            <TalentOption identifier="sppschematics"/>
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <!-- TODO does not exist -->
-          <TalentOption identifier="buccaneer" />
-          <TalentOption identifier="masterworkexperimentalharpoons" />
+          <TalentOptions>
+            <TalentOption identifier="pxschematics"/>
+            <TalentOption identifier="murkywaters"/>
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="baneofthecryingseals" />
-          <TalentOption identifier="deadmanwalking" />
+          <TalentOptions>
+            <TalentOption identifier="underwaterdemolition"/>
+            <TalentOption identifier="commando"/>
+        </TalentOptions>
+          <TalentOptions>
+            <TalentOption identifier="marinerecon"/>
+            <TalentOption identifier="combatdiver"/>
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="Specialist" type="specialization" requires="security_primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="divinggoodies" />
-          <TalentOption identifier="onewithwater" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="strongcurrents" />
-          <TalentOption identifier="scavenger" />
-        </TalentOptions>
+    <SubTree identifier="frogman" type="specialization" requires="security_primary" blocks="whaler,Specialist">
         <TalentOptions>
-          <TalentOption identifier="bangstickschematics" />
+            <TalentOption identifier="seadogspirit"/>
+            <TalentOption identifier="sealeg"/>
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <!-- TODO does not exist -->
-          <TalentOption identifier="dualspecops" />
-          <TalentOption identifier="divinginstructor" />
+          <TalentOptions>
+            <TalentOption identifier="improvisedutilityharpoons"/>
+          </TalentOptions>
+          <TalentOptions> -->
+    <!-- TODO does not exist -->
+    <!--        <TalentOption identifier="buccaneer"/>  
+            <TalentOption identifier="masterworkexperimentalharpoons"/>
+        </TalentOptions>
+          <TalentOptions>
+            <TalentOption identifier="baneofthecryingseals"/>
+            <TalentOption identifier="deadmanwalking"/>
         </TalentOptions>
       </SubTree>
-    </TalentTree>
+    <SubTree identifier="Specialist" type="specialization" requires="security_primary" blocks="whaler,frogman">
+        <TalentOptions>
+            <TalentOption identifier="divinggoodies"/>
+            <TalentOption identifier="onewithwater"/>
+        </TalentOptions>
+          <TalentOptions>
+            <TalentOption identifier="strongcurrents"/>
+            <TalentOption identifier="scavenger"/>
+          </TalentOptions>
+          <TalentOptions>
+            <TalentOption identifier="bangstickschematics"/>
+          </TalentOptions>
+          <TalentOptions> -->
+    <!-- TODO does not exist -->
+    <!--     <TalentOption identifier="dualspecops"/>
+            <TalentOption identifier="divinginstructor"/>
+        </TalentOptions>
+      </SubTree>
+  </TalentTree> -->
     <TalentTree jobidentifier="chief">
       <SubTree identifier="engineer_primary" nameidentifier="talenttree.primary" type="primary">
         <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="stationengineer" />
           <TalentOption identifier="junctionjunkie" />
-          <TalentOption identifier="egghead" />
+          <TalentOption identifier="downwiththeship" />
           <TalentOption identifier="grounded" />
-          <TalentOption identifier="remotemonitor" />
+          <TalentOption identifier="veteran" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="funwithfission" />
@@ -306,19 +306,19 @@
           <TalentOption identifier="lightningwizard" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="skipper" type="specialization" requires="engineer_primary">
+      <SubTree identifier="advisor" type="specialization" requires="engineer_primary">
         <TalentOptions>
-          <TalentOption identifier="leadingbyexample" />
-        </TalentOptions>
-        <TalentOptions>
-          <TalentOption identifier="helmsman" />
+          <TalentOption identifier="hullfixer" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="inspiringpresence" />
-          <TalentOption identifier="trickledown" />
+          <TalentOption identifier="lonewolf" />
+          <TalentOption identifier="deputy" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="family" />
+          <TalentOption identifier="inspiringpresence" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="robotics" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="physicist" type="specialization" requires="engineer_primary">
@@ -342,9 +342,9 @@
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="salvagecrew" />
           <TalentOption identifier="machinemaniac" />
-          <TalentOption identifier="safetyfirst" />
+          <TalentOption identifier="veteran" />
           <TalentOption identifier="multifunctional" />
-          <TalentOption identifier="engineengineer" />
+          <TalentOption identifier="logisticsexpert" />
           <TalentOption identifier="ballastdenizen" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="5">
@@ -355,17 +355,17 @@
           <TalentOption identifier="retrofit" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="technician" type="specialization" requires="mechanic_primary">
+      <SubTree identifier="technician" requires="mechanic_primary">
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="safetyfirst" />
-          <TalentOption identifier="aggressiveengineering" />
+          <TalentOption identifier="ironman" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="jengamaster" />
+          <TalentOption identifier="bagitup" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="hullfixer" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="crisismanagement" />
-          <TalentOption identifier="pyromaniac" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="artisansmith" />
@@ -373,7 +373,7 @@
       </SubTree>
       <SubTree identifier="machinist" type="specialization" requires="mechanic_primary">
         <TalentOptions>
-          <TalentOption identifier="hullfixer" />
+          <TalentOption identifier="unstoppablecuriosity" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="tinkerer" />
@@ -383,10 +383,10 @@
           <TalentOption identifier="letitdrain" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="robotics" />
+          <TalentOption identifier="ironstorm" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="weaponsengineer" type="specialization" requires="mechanic_primary">
+      <SubTree identifier="boatswain" type="specialization" requires="mechanic_primary">
         <TalentOptions>
           <TalentOption identifier="militaryapplications" />
         </TalentOptions>
@@ -395,10 +395,10 @@
           <TalentOption identifier="armsrace" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="weaponartisan" />
+          <TalentOption identifier="inspiringpresence" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="nuclearoption" />
+          <TalentOption identifier="lightningwizard" />
         </TalentOptions>
       </SubTree>
     </TalentTree>
@@ -406,10 +406,10 @@
       <SubTree identifier="medical_primary" nameidentifier="talenttree.primary" type="primary">
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="healthinsurance" />
-          <TalentOption identifier="nobodyimportantdies" />
+          <TalentOption identifier="prodigy" />
           <TalentOption identifier="exampleofhealth" />
           <TalentOption identifier="laresistance" />
-          <TalentOption identifier="selfcare" />
+          <TalentOption identifier="veteran" />
           <TalentOption identifier="stayinalive" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="5">
@@ -417,7 +417,7 @@
           <TalentOption identifier="medicalcompanion" />
           <TalentOption identifier="dontdieonme" />
           <TalentOption identifier="nopressure" />
-          <TalentOption identifier="blooddonor" />
+          <TalentOption identifier="camaraderie" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="xenologist" type="specialization" requires="medical_primary">
@@ -441,12 +441,11 @@
           <TalentOption identifier="medicalexpertise" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="medicalassistance" />
           <TalentOption identifier="emergencyresponse" />
+          <TalentOption identifier="medicalassistance" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="drsubmarine" />
-          <TalentOption identifier="vitaminsupplements" />
+        <TalentOptions>
+          <TalentOption identifier="inspiringpresence" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="miracleworker" />
@@ -471,26 +470,31 @@
     </TalentTree>
     <TalentTree jobidentifier="passenger">
       <SubTree identifier="assistant_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="playingcatchup" />
-          <TalentOption identifier="mailman" />
+          <TalentOption identifier="firstaidtraining" />
           <TalentOption identifier="skedaddle" />
           <TalentOption identifier="crewlayabout" />
-          <!-- <TalentOption identifier="thearrival"/> -->
+          <TalentOption identifier="starterquest" />
+          <TalentOption identifier="veteran" />
+          <!--<TalentOption identifier="thearrival"/>-->
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
-          <TalentOption identifier="revengesquad" />
-          <TalentOption identifier="inspiringtunes" />
-          <TalentOption identifier="jackinthebox" />
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="steadytune" />
+          <TalentOption identifier="melodicrespite" />
+          <TalentOption identifier="gunsmith" />
           <TalentOption identifier="peerlearning" />
+          <TalentOption identifier="machinemaniac" />
+          <TalentOption identifier="junctionjunkie" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="grayshirt" type="specialization" requires="assistant_primary">
         <TalentOptions>
           <TalentOption identifier="thewaitinglist" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="nonthreatening" />
+          <TalentOption identifier="tastytarget" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="insurancepolicy" />
@@ -541,18 +545,21 @@
     </TalentTree>
     <TalentTree jobidentifier="janitor">
       <SubTree identifier="assistant_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="playingcatchup" />
-          <TalentOption identifier="mailman" />
+          <TalentOption identifier="prodigy" />
           <TalentOption identifier="skedaddle" />
           <TalentOption identifier="crewlayabout" />
-          <!-- <TalentOption identifier="thearrival"/> -->
+          <TalentOption identifier="starterquest" />
+          <TalentOption identifier="mule" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
-          <TalentOption identifier="revengesquad" />
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="junctionjunkie" />
           <TalentOption identifier="inspiringtunes" />
-          <TalentOption identifier="jackinthebox" />
+          <TalentOption identifier="bagitup" />
           <TalentOption identifier="peerlearning" />
+          <TalentOption identifier="machinemaniac" />
+          <TalentOption identifier="jengamaster" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="apprentice" type="specialization" requires="assistant_primary">
@@ -602,26 +609,30 @@
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="letitdrain" />
+          <TalentOption identifier="dangerzone" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="robotics" />
+          <TalentOption identifier="betterthannew" />
         </TalentOptions>
       </SubTree>
     </TalentTree>
     <TalentTree jobidentifier="inmate">
       <SubTree identifier="assistant_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="playingcatchup" />
-          <TalentOption identifier="mailman" />
+          <TalentOption identifier="veteran" />
           <TalentOption identifier="skedaddle" />
           <TalentOption identifier="crewlayabout" />
-          <!-- <TalentOption identifier="thearrival"/> -->
+          <TalentOption identifier="starterquest" />
+          <TalentOption identifier="swole" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
-          <TalentOption identifier="revengesquad" />
-          <TalentOption identifier="inspiringtunes" />
-          <TalentOption identifier="jackinthebox" />
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="bootcamp" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="bagitup" />
           <TalentOption identifier="peerlearning" />
+          <TalentOption identifier="indenturedservitude" />
+          <TalentOption identifier="firstaidtraining" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="gunslinger" type="specialization" requires="assistant_primary">
@@ -630,7 +641,7 @@
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="lonewolf" />
-          <TalentOption identifier="deputy" />
+          <TalentOption identifier="gunrunner" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="drunkensailor" />
@@ -643,8 +654,9 @@
         <TalentOptions>
           <TalentOption identifier="thewaitinglist" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="nonthreatening" />
+          <TalentOption identifier="tastytarget" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="insurancepolicy" />

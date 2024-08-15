@@ -8,13 +8,12 @@
           <TalentOption identifier="gunrunner" />
           <TalentOption identifier="miner" />
           <TalentOption identifier="thewaitinglist" />
-          <TalentOption identifier="dontfeardeath" />
           <TalentOption identifier="prodigy" />
           <TalentOption identifier="asskissingadvisor" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="juniorexecutiveofficer_secondary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="3" maxchosentalents="7">
+        <TalentOptions requiredtalents="3" maxchosentalents="6">
           <TalentOption identifier="downwiththeship" />
           <TalentOption identifier="drunkensailor" />
           <TalentOption identifier="swole" />
