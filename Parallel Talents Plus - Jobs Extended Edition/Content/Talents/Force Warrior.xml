@@ -7,9 +7,13 @@
           <TalentOption identifier="younglingtraining" />
           <TalentOption identifier="knowledgeaboutmanufacturing" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="7">
-          <TalentOption identifier="lightsaberlethalstrike" />
+        <TalentOptions requiredtalents="0" maxchosentalents="4">
           <TalentOption identifier="lightsaberrapidattack" />
+          <TalentOption identifier="lightsaberlethalstrike" />
+          <TalentOption identifier="lightsaberdashstrike" />
+          <TalentOption identifier="lightsaberskillinsea" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="basicknowledge-" />
           <TalentOption identifier="repairinterests" />
           <TalentOption identifier="firemanscarry" />
@@ -49,8 +53,9 @@
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="Force_Aid" />
-          <TalentOption identifier="" />
-          <!-- WIP -->
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Force_Sprint" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="Sith" type="specialization" requires="ForceWarrior_primary" blocks="Jedi">

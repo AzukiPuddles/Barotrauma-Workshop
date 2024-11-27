@@ -16,6 +16,7 @@
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="5">
           <!-- <TalentOption identifier="clownotrauma_honkmothersflame" /> -->
+          <!-- <TalentOption identifier="clownotrauma_masterofthecircus" /> -->
           <TalentOption identifier="clownotrauma_watercomedian" />
           <TalentOption identifier="clownotrauma_chonkytunes" />
           <TalentOption identifier="clownotrauma_beastmaster" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.33" corepackage="False" steamworkshopid="2949082804" gameversion="1.5.9.1">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.34" corepackage="False" steamworkshopid="2949082804" gameversion="1.6.19.1">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Abnormalities.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
@@ -10,7 +10,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/Blade.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Blahaj.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Botanophobia.xml" />
-  <TalentTrees file="%ModDir%/Content/Talents/BSA - Iron Rider.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/BSA.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Clownotrauma - Clown.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/CyberHuman.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Dead Space - CEC Engineer.xml" />
@@ -24,6 +24,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/IRN Crew.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Lizard.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Lupine.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Mage.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Monk.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />

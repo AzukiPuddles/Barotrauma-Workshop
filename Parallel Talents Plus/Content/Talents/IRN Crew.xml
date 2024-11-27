@@ -3,11 +3,12 @@
   <TalentTrees>
     <TalentTree jobidentifier="shu_battlemedic">
       <SubTree identifier="shu_battlemedic_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="shu_explosion_maniac" />
           <TalentOption identifier="shu_ship_printing" />
           <TalentOption identifier="shu_engine_boost" />
           <TalentOption identifier="shu_flextape" />
+          <TalentOption identifier="shu_high_expectation" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="shu_shipdoll_transport" />
@@ -35,29 +36,34 @@
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_battlemedic_drpepper" type="specialization" requires="shu_battlemedic_primary">
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_drpepper_upgrades" />
+          <TalentOption identifier="shu_drpepper_scarletmeal" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_drpepper_engineer" />
+          <TalentOption identifier="shu_drpepper_bloodrain" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_drpepper_fleshisweak" />
+          <TalentOption identifier="shu_drpepper_bloodhit" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="shu_drpepper_madscientist" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_battlemedic_medic" type="specialization" requires="shu_battlemedic_primary">
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_medic_support" />
+          <TalentOption identifier="shu_medic_flak" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_medic_redalert" />
           <TalentOption identifier="shu_ship_printing_memeautor" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_medic_hyprocrete" />
+          <TalentOption identifier="shu_medic_pyrotechnician" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="shu_medic_supersoldierprogram" />
@@ -130,19 +136,21 @@
     </TalentTree>
     <TalentTree jobidentifier="shu_rifleman">
       <SubTree identifier="shu_rifleman_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
           <TalentOption identifier="shu_rifleman_training1" />
+          <TalentOption identifier="shu_difficulty_tweak" />
           <TalentOption identifier="shu_basics_of_survivability" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_dakkado" />
           <TalentOption identifier="shu_ittoryu" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="shu_rifleman_training2" />
           <TalentOption identifier="shu_harem_expansion" />
           <TalentOption identifier="shu_tennou_heika" />
           <TalentOption identifier="shu_mobile_warfare" />
+          <TalentOption identifier="shu_europadiver" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_superior_firepower" type="specialization" requires="shu_rifleman_primary">
@@ -166,15 +174,17 @@
         <TalentOptions>
           <TalentOption identifier="shu_ira_marine" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_spearhead" />
+          <TalentOption identifier="shu_fireteam" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_red_knight" />
           <TalentOption identifier="shu_dark_knight" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_determination" />
+          <TalentOption identifier="shu_dozer" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_imperial_doctrine" type="specialization" requires="shu_rifleman_primary">
@@ -194,17 +204,19 @@
     </TalentTree>
     <TalentTree jobidentifier="shu_admiral">
       <SubTree identifier="shu_admiral_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="shu_inspirationandimprovement" />
           <TalentOption identifier="shu_soothedsedated" />
           <TalentOption identifier="shu_rat_strategy" />
           <TalentOption identifier="shu_basics_of_logistics" />
+          <TalentOption identifier="shu_clownlicense" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="4">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
           <TalentOption identifier="shu_abandon_ship" />
           <TalentOption identifier="shu_leftover" />
           <TalentOption identifier="shu_manager_presence" />
           <TalentOption identifier="shu_advanced_logistics" />
+          <TalentOption identifier="shu_managerial_bullet" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_medical_team" type="specialization" requires="shu_admiral_primary">

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+  <TalentTree jobidentifier="Pilot">
+    <SubTree identifier="bwbr0" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="optimizedpowerflowbw" />
+        <TalentOption identifier="custommachinebw" />
+        <TalentOption identifier="trustbuildingbw" />
+        <TalentOption identifier="sailorwithnonamebw" />
+        <TalentOption identifier="steelruler" />
+        <TalentOption identifier="bountyhunterbw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="justascratchbw" />
+        <TalentOption identifier="gunsmithbw" />
+        <TalentOption identifier="advancedsplicingbw" />
+        <TalentOption identifier="buffbw" />
+        <TalentOption identifier="deadeyebw" />
+        <TalentOption identifier="roboticsbw" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwbr1">
+      <TalentOptions>
+        <TalentOption identifier="firstaidtrainingbw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="physicalconditioningbw" />
+        <TalentOption identifier="collegeathleticsbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="swordwarriorbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="militaryapplicationsbw" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwbr2">
+      <TalentOptions>
+        <TalentOption identifier="enforcerbw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="bythebookbw" />
+        <TalentOption identifier="munitionsexpertisebw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="stonewallbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="implacablebw" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwbr3">
+      <TalentOptions>
+        <TalentOption identifier="tumblebw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="olympianbw" />
+        <TalentOption identifier="laststand" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="duelistbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="warlordbw" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="Shaper">
+    <SubTree identifier="bwbs0" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="custommachinebw" />
+        <TalentOption identifier="gunrunner" />
+        <TalentOption identifier="commando" />
+        <TalentOption identifier="sailorwithnonamebw" />
+        <TalentOption identifier="bountyhunterbw" />
+        <TalentOption identifier="steelruler2" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="2" maxchosentalents="6">
+        <TalentOption identifier="justascratchbw" />
+        <TalentOption identifier="gunsmithbw" />
+        <TalentOption identifier="buffbw" />
+        <TalentOption identifier="militarytoolbw" />
+        <TalentOption identifier="anappleaday" />
+        <TalentOption identifier="steelruler3" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwbs1">
+      <TalentOptions>
+        <TalentOption identifier="aliensavantbw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="alienwrestlerbw" />
+        <TalentOption identifier="lasttargetbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="mule" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="militaryapplicationsbw" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwbs2">
+      <TalentOptions>
+        <TalentOption identifier="residualwaste" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="oiledmachinerybw" />
+        <TalentOption identifier="armsracebw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="scrapharvesterbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="roboticsbw" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="bwbs3">
+      <TalentOptions>
+        <TalentOption identifier="steelupbw" />
+      </TalentOptions>
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="egghead" />
+        <TalentOption identifier="inspirationalleaderbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="physicalconditioningbw" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="armorbw" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+</TalentTrees>
