@@ -1,69 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TalentTrees>
-  <TalentTree jobidentifier="mage">
-    <SubTree identifier="mage_primary" nameidentifier="talenttree.primary" type="primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="1">
-        <TalentOption identifier="mana" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="2" maxchosentalents="9">
-        <TalentOption identifier="richknowledge" />
-        <TalentOption identifier="exptransmission" />
-        <TalentOption identifier="magictheory" />
-        <TalentOption identifier="smallfirelazer" />
-        <TalentOption identifier="magicgiving" />
-        <TalentOption identifier="afterschooltutoring" />
-        <TalentOption identifier="magicsticktool" />
-        <TalentOption identifier="luopan" />
-        <TalentOption identifier="fuzhou" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="elementalist" type="specialization" requires="mage_primary">
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="windspear" />
-        <TalentOption identifier="daoshuang" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="elementenhancement" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="firebook" />
-        <TalentOption identifier="lightningbow" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="palmelement" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="magicknight" type="specialization" requires="mage_primary">
-      <TalentOptions>
-        <TalentOption identifier="holysword" />
-      </TalentOptions>
-      <TalentOptions maxchosentalents="1">
-        <TalentOption identifier="manashield" />
-        <TalentOption identifier="integrationofmeatandmethod" />
-      </TalentOptions>
-      <TalentOptions maxchosentalents="1">
-        <TalentOption identifier="curehand" />
-        <TalentOption identifier="indestructiblebody" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="crowningglory" />
-      </TalentOptions>
-    </SubTree>
-    <SubTree identifier="witchdoctor" type="specialization" requires="mage_primary">
-      <TalentOptions>
-        <TalentOption identifier="effectiveprescription" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="voodoo" />
-        <TalentOption identifier="revengesoul" />
-      </TalentOptions>
-      <TalentOptions requiredtalents="1" maxchosentalents="2">
-        <TalentOption identifier="noneedtobreathe" />
-        <TalentOption identifier="strangespells" />
-      </TalentOptions>
-      <TalentOptions>
-        <TalentOption identifier="witheredbody" />
-      </TalentOptions>
-    </SubTree>
-  </TalentTree>
-</TalentTrees>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="mage">
+      <SubTree identifier="mage_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <TalentOption identifier="mana" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="9">
+          <TalentOption identifier="richknowledge" />
+          <TalentOption identifier="exptransmission" />
+          <TalentOption identifier="magictheory" />
+          <TalentOption identifier="smallfirelazer" />
+          <TalentOption identifier="magicgiving" />
+          <TalentOption identifier="afterschooltutoring" />
+          <TalentOption identifier="magicsticktool" />
+          <TalentOption identifier="luopan" />
+          <TalentOption identifier="fuzhou" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="elementalist" type="specialization" requires="mage_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="windspear" />
+          <TalentOption identifier="daoshuang" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="elementenhancement" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="firebook" />
+          <TalentOption identifier="lightningbow" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="palmelement" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="magicknight" type="specialization" requires="mage_primary">
+        <TalentOptions>
+          <TalentOption identifier="holysword" />
+        </TalentOptions>
+        <TalentOptions maxchosentalents="1">
+          <TalentOption identifier="manashield" />
+          <TalentOption identifier="integrationofmeatandmethod" />
+        </TalentOptions>
+        <TalentOptions maxchosentalents="1">
+          <TalentOption identifier="curehand" />
+          <TalentOption identifier="indestructiblebody" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="crowningglory" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="witchdoctor" type="specialization" requires="mage_primary">
+        <TalentOptions>
+          <TalentOption identifier="effectiveprescription" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="voodoo" />
+          <TalentOption identifier="revengesoul" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="noneedtobreathe" />
+          <TalentOption identifier="strangespells" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="witheredbody" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>
