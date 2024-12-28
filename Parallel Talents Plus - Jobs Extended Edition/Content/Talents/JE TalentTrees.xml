@@ -351,29 +351,28 @@
           <TalentOption identifier="modularrepairs" />
           <TalentOption identifier="oiledmachinery" />
           <TalentOption identifier="pumpndump" />
-          <TalentOption identifier="ironman" />
+          <TalentOption identifier="mule" />
           <TalentOption identifier="retrofit" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="technician" requires="mechanic_primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="safetyfirst" />
-          <TalentOption identifier="ironman" />
+        <TalentOptions>
+          <TalentOption identifier="gridmaintainer" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="jengamaster" />
           <TalentOption identifier="bagitup" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="hullfixer" />
+          <TalentOption identifier="artisansmith" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="artisansmith" />
+          <TalentOption identifier="lightningwizard" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="machinist" type="specialization" requires="mechanic_primary">
         <TalentOptions>
-          <TalentOption identifier="unstoppablecuriosity" />
+          <TalentOption identifier="hullfixer" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="tinkerer" />
@@ -388,17 +387,17 @@
       </SubTree>
       <SubTree identifier="boatswain" type="specialization" requires="mechanic_primary">
         <TalentOptions>
-          <TalentOption identifier="militaryapplications" />
+          <TalentOption identifier="iamthatguy" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="heavyhitter" />
-          <TalentOption identifier="armsrace" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="physicalconditioning" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="inspiringpresence" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="lightningwizard" />
+          <TalentOption identifier="MECHanic" />
         </TalentOptions>
       </SubTree>
     </TalentTree>
@@ -607,7 +606,7 @@
           <TalentOption identifier="tinkerer" />
           <TalentOption identifier="quickfixer" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="letitdrain" />
           <TalentOption identifier="dangerzone" />
         </TalentOptions>
