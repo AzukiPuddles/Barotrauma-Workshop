@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <TalentTrees>
+    <TalentTree jobidentifier="blacksmith">
+      <SubTree identifier="blacksmith_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
+          <TalentOption identifier="gunsmith" />
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="slayer" />
+          <TalentOption identifier="High-skilled_Mechanical" />
+          <TalentOption identifier="High-skilled_Electrical" />
+          <TalentOption identifier="pbws" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="Workers_cap" />
+          <TalentOption identifier="ironman" />
+          <TalentOption identifier="modularrepairs" />
+          <TalentOption identifier="improved_safetyharness" />
+          <TalentOption identifier="steady" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="agressor" type="specialization" requires="blacksmith_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="shuffler" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="blank_shot" />
+          <TalentOption identifier="HE_shot" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="protector" />
+          <TalentOption identifier="boarder" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="BERZERK" />
+          <TalentOption identifier="Spec-ops_training" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="repairman" type="specialization" requires="blacksmith_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="gainingflow" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="theoretical_knowledge" />
+          <TalentOption identifier="General_courses" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Professional_repairman" />
+          <TalentOption identifier="foamer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Welding_training" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="factory_worker" type="specialization" requires="blacksmith_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Factory" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="overcloaker" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="manufacturer" />
+          <TalentOption identifier="low_profile_shredder" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Hight_quality_alloys" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="chief">
+      <SubTree identifier="chief_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="inspirationalleader" />
+          <TalentOption identifier="crewlayabout" />
+          <TalentOption identifier="economic_healing" />
+          <TalentOption identifier="cigars" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="inspiringpresence" />
+          <TalentOption identifier="peerlearning" />
+          <TalentOption identifier="camaraderie" />
+          <TalentOption identifier="bythebook" />
+          <TalentOption identifier="tandemfire" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="leader" type="specialization" requires="chief_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Veteran_navigator" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="inspirator_leader" />
+          <TalentOption identifier="repair_leader" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="psych_leader" />
+          <TalentOption identifier="medic_leader" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="combat_leader" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="cultist" type="specialization" requires="chief_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="cowboy" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="cowboy2" />
+          <TalentOption identifier="cowboy3" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="cowboy4" />
+          <TalentOption identifier="cowboy5" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="cowboy6" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="chief_medical" type="specialization" requires="chief_primary">
+        <TalentOptions>
+          <TalentOption identifier="chief_master_medic" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="chief_master_medic2" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="chief_master_medic6" />
+          <TalentOption identifier="chief_master_medic5" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="chief_master_medic4" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="geneticallymodified">
+      <SubTree identifier="geneticallymodified_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="bloodybusiness" />
+          <TalentOption identifier="exampleofhealth" />
+          <TalentOption identifier="laresistance" />
+          <TalentOption identifier="chemist" />
+          <TalentOption identifier="alien_synthesizer" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="exuviation" />
+          <TalentOption identifier="blooddonor" />
+          <TalentOption identifier="nopressure" />
+          <TalentOption identifier="buff" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="mutant" type="specialization" requires="geneticallymodified_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Gamma_comvertor" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="toxic_producer" />
+          <TalentOption identifier="symbiosis" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="stimulating_headset" />
+          <TalentOption identifier="radiation_reflector" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Undead" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="improvised_pharmacist" type="specialization" requires="geneticallymodified_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Surgery_courses" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Lights-out_mixture" />
+          <TalentOption identifier="Wake-up_mixture" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Hemoglobin_plus_mixture" />
+          <TalentOption identifier="regeneration" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Toxicophilia" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="geneticist" type="specialization" requires="geneticallymodified_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="genetic_maniac" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Genetic_segmentation" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="genetic_lab" />
+          <TalentOption identifier="genetic_madmind" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="genetic_donor" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="hunter">
+      <SubTree identifier="hunter_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="warstories" />
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="prodigy" />
+          <TalentOption identifier="bountyhunter" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="insurancepolicy" />
+          <TalentOption identifier="bagitup" />
+          <TalentOption identifier="laresistance" />
+          <TalentOption identifier="selfcare" />
+          <TalentOption identifier="High-pressure_modifications" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="beastmaster" type="specialization" requires="hunter_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="beastmaster" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Modern_backpack" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="handmade_food" />
+          <TalentOption identifier="buffer_plus" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Pressure" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="flayer" type="specialization" requires="hunter_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Flayer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Blood_refinery" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Butcher" />
+          <TalentOption identifier="Tanner" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Blood_seller" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="sea_wolf" type="specialization" requires="hunter_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="amphibian" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Oldness_and_wisdom" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Once_on_earth" />
+          <TalentOption identifier="soothing_melody" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Inspiration" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="supply_specialist" type="specialization" requires="hunter_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Heavy_freighter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="agriculturist1" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
+          <TalentOption identifier="bookswriting1" />
+          <TalentOption identifier="bookswriting2" />
+          <TalentOption identifier="bookswriting3" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="agriculturist2" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="knight">
+      <SubTree identifier="knight_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="swole" />
+          <TalentOption identifier="ironman" />
+          <TalentOption identifier="anappleaday" />
+          <TalentOption identifier="buff" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="3">
+          <TalentOption identifier="foolhardy" />
+          <TalentOption identifier="berserker" />
+          <TalentOption identifier="heavylifting" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
+          <TalentOption identifier="clearbody" />
+          <TalentOption identifier="suffer" />
+          <TalentOption identifier="unclearbody" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="crusader" type="specialization" requires="knight_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Iron_maiden" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="occultist_charge" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="charge" />
+          <TalentOption identifier="parrier" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Juggernaut" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="holyfire" type="specialization" requires="knight_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="Fireshow" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="cauterization" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="fireshow2" />
+          <TalentOption identifier="reflector" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="To_the_last_breath" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="monarch" type="specialization" requires="knight_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="monarch1" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="monarch3" />
+          <TalentOption identifier="monarch5" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="monarch2" />
+          <TalentOption identifier="monarch4" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="monarch6" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="raider">
+      <SubTree identifier="raider_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="lockpicker" />
+          <TalentOption identifier="handmadeammo_harpoon" />
+          <TalentOption identifier="traitorous_connections" />
+          <TalentOption identifier="Good_taste" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="munitionsexpertise" />
+          <TalentOption identifier="commando" />
+          <TalentOption identifier="crack_head" />
+          <TalentOption identifier="grateful_dislocation" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="killer" type="specialization" requires="raider_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="General_weapon_training" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="better_rotors" />
+          <TalentOption identifier="weakspot" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="overkill" />
+          <TalentOption identifier="Hawk_eye" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="battle_drilled" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="thief" type="specialization" requires="raider_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="shadow_line" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="Runner" />
+          <TalentOption identifier="Hand-made_improvements" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="extra_pockets" />
+          <TalentOption identifier="By_all_means" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="watershadow" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="spy" type="specialization" requires="raider_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="combatante" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="saboteur" />
+          <TalentOption identifier="cqb_master" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="killa" />
+          <TalentOption identifier="gasgasgas" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="purgeoftheweak" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="trader">
+      <SubTree identifier="trader_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="2" maxchosentalents="5">
+          <TalentOption identifier="travelingtradesman" />
+          <TalentOption identifier="logisticsexpert" />
+          <TalentOption identifier="protectandserve" />
+          <TalentOption identifier="salvagecrew" />
+          <TalentOption identifier="indenturedservitude" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="4">
+          <TalentOption identifier="retrofit" />
+          <TalentOption identifier="tandemfire" />
+          <TalentOption identifier="samplecollection" />
+          <TalentOption identifier="grateful_dislocation" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="dealer" type="specialization" requires="trader_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="blackfriday" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="democracy" />
+          <TalentOption identifier="cruelways" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="Heavy_cargo_ship" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="highdemand" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="multidisciplinary" type="specialization" requires="trader_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="goodomens" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="New_knowlege" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="melodicrespite" />
+          <TalentOption identifier="steadytune" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="workuntildeath" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="submarine_genious" type="specialization" requires="trader_primary">
+        <!--done-->
+        <TalentOptions>
+          <TalentOption identifier="omniscient" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="ecofuel" />
+          <TalentOption identifier="override" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="bigloads" />
+          <TalentOption identifier="informator" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scrap_warrior" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </TalentTrees>
+</Override>

@@ -3,7 +3,7 @@
   <TalentTrees>
     <TalentTree jobidentifier="clownotrauma_clown">
       <SubTree identifier="clownotrauma_clown_primary" nameidentifier="clownotrauma_talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="clownotrauma_clownpower" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="6">
@@ -38,7 +38,7 @@
             <TalentOption identifier="clownotrauma_skillboost_assistant" />
           </ShowCaseTalent>
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="clownotrauma_reincarnation" />
         </TalentOptions>
       </SubTree>

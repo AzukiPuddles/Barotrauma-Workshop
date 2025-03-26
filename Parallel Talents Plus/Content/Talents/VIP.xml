@@ -3,7 +3,7 @@
   <TalentTrees>
     <TalentTree jobidentifier="vipe">
       <SubTree identifier="vipe_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="iamvip" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="5">

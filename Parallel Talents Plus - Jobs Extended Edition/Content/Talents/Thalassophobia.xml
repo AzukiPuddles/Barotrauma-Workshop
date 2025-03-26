@@ -11,13 +11,14 @@
           <TalentOption identifier="inspiringtunes" />
         </TalentOptions>
       </SubTree>
-      <SubTree identifier="clown" type="specialization" requires="thal_clown_primary" blocks="">
+      <SubTree identifier="clown" type="specialization" requires="thal_clown_primary">
+        <TalentOptions>
+          <TalentOption identifier="chonkyhonks" />
+          <TalentOption identifier="chonkyhonks" />
+        </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="thal_deathbycomedy" />
-        </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="psychoclown" />
-          <TalentOption identifier="chonkyhonks" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="truepotential" />
@@ -26,12 +27,14 @@
     </TalentTree>
     <TalentTree jobidentifier="thal_scientist">
       <SubTree identifier="thal_scientist_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
           <TalentOption identifier="thal_botanysuit" />
-          <TalentOption identifier="thal_PRT" />
+          <TalentOption identifier="thal_mule" />
+          <TalentOption identifier="thal_assembler" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="2">
+        <TalentOptions requiredtalents="2" maxchosentalents="3">
           <TalentOption identifier="drsubmarine" />
+          <TalentOption identifier="thal_PRT" />
           <TalentOption identifier="vitaminsupplements" />
         </TalentOptions>
       </SubTree>
@@ -48,9 +51,33 @@
           <TalentOption identifier="thal_geneharvester" />
         </TalentOptions>
         <TalentOptions>
+          <TalentOption identifier="thal_samplergun" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="Botanist" type="specialization" requires="thal_scientist_primary">
+        <TalentOptions>
+          <TalentOption identifier="thal_PRT" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="2" maxchosentalents="2">
+          <TalentOption identifier="thal_mutatedmedical" />
+          <TalentOption identifier="thal_plantstudies" />
+        </TalentOptions>
+        <TalentOptions>
           <TalentOption identifier="thal_seedmodder" />
         </TalentOptions>
       </SubTree>
+      <!--SubTree identifier="thal_synth" type="specialization" requires="thal_scientist_primary" blocks="">
+			<TalentOptions>
+				<TalentOption identifier="thal_PRT"/>
+			</TalentOptions>
+			<TalentOptions>
+				<TalentOption identifier="thal_mutatedmedical"/>
+				<TalentOption identifier="thal_plantstudies"/>
+			</TalentOptions>
+			<TalentOptions>
+				<TalentOption identifier="thal_seedmodder"/>
+			</TalentOptions>
+		</SubTree-->
     </TalentTree>
     <TalentTree jobidentifier="thal_Cultist">
       <SubTree identifier="cultist" type="specialization" requires="assistant_primary">

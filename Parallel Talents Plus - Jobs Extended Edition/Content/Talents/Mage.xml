@@ -3,7 +3,7 @@
   <TalentTrees>
     <TalentTree jobidentifier="mage">
       <SubTree identifier="mage_primary" nameidentifier="talenttree.primary" type="primary">
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="mana" />
         </TalentOptions>
         <TalentOptions requiredtalents="2" maxchosentalents="9">
@@ -38,11 +38,11 @@
         <TalentOptions>
           <TalentOption identifier="holysword" />
         </TalentOptions>
-        <TalentOptions maxchosentalents="1">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="manashield" />
           <TalentOption identifier="integrationofmeatandmethod" />
         </TalentOptions>
-        <TalentOptions maxchosentalents="1">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="curehand" />
           <TalentOption identifier="indestructiblebody" />
         </TalentOptions>

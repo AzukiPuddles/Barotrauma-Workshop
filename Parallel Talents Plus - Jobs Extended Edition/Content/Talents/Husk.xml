@@ -29,14 +29,14 @@
           <TalentOption identifier="hingedcarapace" />
           <TalentOption identifier="moldedhide" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <!--<TalentOption identifier="metallinedveins" />-->
           <TalentOption identifier="bioelasticmuscles" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="exosuit_transform" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="EndOfTheLine" />
         </TalentOptions>
       </SubTree>
@@ -53,29 +53,29 @@
           <TalentOption identifier="chimera_gravemight" />
           <TalentOption identifier="chimera_horridvisage" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="chimera_transform" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="EndOfTheLine" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="prowler" type="specialization" requires="PHTree">
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="prowler_transform" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="prowler_speeddemon" />
           <TalentOption identifier="prowler_tendonflex" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="prowler_hydrodynamics" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="prowler_serratedclaws" />
           <TalentOption identifier="prowler_swolearms" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="EndOfTheLine" />
         </TalentOptions>
       </SubTree>

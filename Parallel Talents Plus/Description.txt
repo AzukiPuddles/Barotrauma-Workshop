@@ -9,7 +9,7 @@ While there are no issues running this even if you use no job mods, I recommend 
 Load order generally doesn't matter unless something overrides the trees already, or unless stated.
 
 Supported mods:
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3253812994]Abnormalities[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434408634]Abnormalities[/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434408996]Playable[/url] (Load above both mods)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870519815]Acolyte[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2955612327]Admiral[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946558743]Agruculturist[/url]
@@ -36,6 +36,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163886301]Mage[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3067308116]Monk[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2871761155]Mudraptor[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3167994183]New Seven[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946779482]Occultist[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3243989469]Playable Xenomorphs[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3230060465]Psyker[/url]
@@ -48,7 +49,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2790455798]Surgeon[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3005601677]Technician[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3037302538]Teen[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3140491478]Thalassophobia Restored[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2003946282]Thalassophobia Gamma[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2993275947]Toxicologist[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2968244070]VIP[/url]

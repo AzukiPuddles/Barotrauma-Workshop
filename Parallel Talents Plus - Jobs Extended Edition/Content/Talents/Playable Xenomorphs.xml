@@ -10,16 +10,17 @@ Use talents from Talents.xml here, currently its set to use security talents, ta
           <TalentOption identifier="protectandserve" />
           <TalentOption identifier="warstories" />
           <TalentOption identifier="firstaidtraining" />
-          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="skedaddle" />
           <TalentOption identifier="swole" />
           <TalentOption identifier="buff" />
         </TalentOptions>
-        <TalentOptions requiredtalents="2" maxchosentalents="5">
+        <TalentOptions requiredtalents="2" maxchosentalents="6">
           <TalentOption identifier="weaponsmith" />
-          <TalentOption identifier="bythebook" />
+          <TalentOption identifier="sailorwithnoname" />
           <TalentOption identifier="dontpushit" />
           <TalentOption identifier="bootcamp" />
           <TalentOption identifier="munitionsexpertise" />
+          <TalentOption identifier="firemanscarry" />
         </TalentOptions>
       </SubTree>
       <!--Royal-->

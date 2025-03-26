@@ -17,7 +17,7 @@
           <TalentOption identifier="recoverycoma" />
           <TalentOption identifier="likeafish" />
         </TalentOptions>
-        <TalentOptions requiredtalents="1" maxchosentalents="1">
+        <TalentOptions>
           <TalentOption identifier="improvedmartialarts" />
         </TalentOptions>
       </SubTree>
