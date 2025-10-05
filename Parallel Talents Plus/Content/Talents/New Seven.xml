@@ -245,7 +245,7 @@
           <TalentOption identifier="Blood_refinery" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="Butcher" />
+          <TalentOption identifier="Butcher8" />
           <TalentOption identifier="Tanner" />
         </TalentOptions>
         <TalentOptions>
@@ -410,7 +410,7 @@
           <TalentOption identifier="combatante" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
-          <TalentOption identifier="saboteur" />
+          <TalentOption identifier="saboteur555" />
           <TalentOption identifier="cqb_master" />
         </TalentOptions>
         <TalentOptions requiredtalents="1" maxchosentalents="2">
@@ -489,4 +489,19 @@
       </SubTree>
     </TalentTree>
   </TalentTrees>
+  <!--    <SubTree identifier="favorite customer" type="specialization" requires="trader_primary" blocks="dealer,multidisciplinary"> <!{1}**done**{1}>
+      <TalentOptions>
+        <TalentOption identifier="yourreputation" />
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="logisticssystems"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="campaigning"/>
+        <TalentOption identifier="networking"/>
+      </TalentOptions>
+      <TalentOptions>
+        <TalentOption identifier="affiliation"/>
+      </TalentOptions>
+    </SubTree>-->
 </Override>

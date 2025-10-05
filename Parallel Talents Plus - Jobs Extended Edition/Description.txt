@@ -10,6 +10,7 @@ Load order generally doesn't matter unless something overrides the trees already
 
 Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434408634]Abnormalities[/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434408996]Playable[/url] (Load above both mods)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3438224976]AbyssalSmith[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2870519815]Acolyte[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2955612327]Admiral[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2946558743]Agruculturist[/url]
@@ -50,6 +51,7 @@ Supported mods:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3005601677]Technician[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3037302538]Teen[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2003946282]Thalassophobia Gamma[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941124988]Touhou[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2993275947]Toxicologist[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2880661469]VanillaPlus - Clown[/url] (Place patch above)
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2968244070]VIP[/url]

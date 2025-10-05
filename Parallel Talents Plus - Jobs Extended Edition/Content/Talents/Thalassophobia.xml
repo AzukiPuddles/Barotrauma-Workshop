@@ -16,7 +16,7 @@
           <TalentOption identifier="chonkyhonks" />
           <TalentOption identifier="chonkyhonks" />
         </TalentOptions>
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="thal_deathbycomedy" />
           <TalentOption identifier="psychoclown" />
         </TalentOptions>

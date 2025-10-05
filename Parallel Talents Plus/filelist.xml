@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Parallel Talents Plus" modversion="0.0.38" corepackage="False" steamworkshopid="2949082804" gameversion="1.7.7.0">
+<contentpackage name="Parallel Talents Plus" modversion="0.0.41" corepackage="False" steamworkshopid="2949082804" gameversion="1.10.7.0">
   <TalentTrees file="%ModDir%/Content/Talents/TalentTrees.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Abnormalities.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/AbyssalSmith.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Acolyte.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Admiral.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Agriculturist.xml" />
@@ -27,7 +28,6 @@
   <TalentTrees file="%ModDir%/Content/Talents/Lupine.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Mage.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Monk.xml" />
-  <TalentTrees file="%ModDir%/Content/Talents/Mudraptor.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/New Seven.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Occultist.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Playable Xenomorphs.xml" />
@@ -42,6 +42,7 @@
   <TalentTrees file="%ModDir%/Content/Talents/Technician.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Teen.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Thalassophobia.xml" />
+  <TalentTrees file="%ModDir%/Content/Talents/Touhou.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/Toxicologist.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/VanillaPlus - Clown.xml" />
   <TalentTrees file="%ModDir%/Content/Talents/VIP.xml" />

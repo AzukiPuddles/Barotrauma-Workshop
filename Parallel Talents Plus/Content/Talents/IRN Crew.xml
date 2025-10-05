@@ -188,8 +188,9 @@
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_imperial_doctrine" type="specialization" requires="shu_rifleman_primary">
-        <TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
           <TalentOption identifier="shu_dengekisen" />
+          <TalentOption identifier="shu_fukushuusen" />
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="shu_raigekisen" />
@@ -217,6 +218,20 @@
           <TalentOption identifier="shu_manager_presence" />
           <TalentOption identifier="shu_advanced_logistics" />
           <TalentOption identifier="shu_managerial_bullet" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="shu_shikikan" type="specialization" requires="shu_admiral_primary">
+        <TalentOptions>
+          <TalentOption identifier="shu_the_beatings_will_continue" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_trigger_discipline" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_follow_your_leader" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_target_designation" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="shu_medical_team" type="specialization" requires="shu_admiral_primary">
@@ -264,6 +279,116 @@
         </TalentOptions>
         <TalentOptions>
           <TalentOption identifier="shu_kaigun_taisho" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="shu_nanitemob">
+      <SubTree identifier="shu_nanitemob_primary" nameidentifier="talenttree.primary" type="primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="1">
+          <TalentOption identifier="shu_nanite_talent" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="shu_economic_protocol" type="specialization" requires="shu_nanitemob_primary">
+        <TalentOptions>
+          <TalentOption identifier="shu_trade_algorithm" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <ShowCaseTalent identifier="shu_industrial_focus">
+            <TalentOption identifier="shu_frugality" />
+            <TalentOption identifier="shu_productivity" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_special_service" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="3" maxchosentalents="7">
+          <TalentOption identifier="shu_materials" />
+          <TalentOption identifier="shu_wiring" />
+          <TalentOption identifier="shu_ammo" />
+          <TalentOption identifier="shu_bulk_production" />
+          <TalentOption identifier="shu_tools" />
+          <TalentOption identifier="shu_weapons" />
+          <TalentOption identifier="shu_geneva_suggestion" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_data_market" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="shu_logistical_protocol" type="specialization" requires="shu_nanitemob_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <ShowCaseTalent identifier="shu_pharma_expertise">
+            <TalentOption identifier="shu_gene_market" />
+            <TalentOption identifier="shu_lab_contacts" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <ShowCaseTalent identifier="shu_maintenance_focus">
+            <TalentOption identifier="shu_speedy_maintenance" />
+            <TalentOption identifier="shu_durable_maintenance" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="shu_mate_logistics" />
+          <TalentOption identifier="shu_mate_transport" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="shu_printer_tied" />
+          <TalentOption identifier="shu_evidence_remover" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_idle_hero" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="shu_combat_protocol" type="specialization" requires="shu_nanitemob_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="4">
+          <ShowCaseTalent identifier="shu_combat_focus">
+            <TalentOption identifier="shu_mate_meat" />
+            <TalentOption identifier="shu_mate_rifleman" />
+            <TalentOption identifier="shu_ablative_armor" />
+            <TalentOption identifier="shu_mate_pyrotechnician" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="3">
+          <ShowCaseTalent identifier="shu_support_focus">
+            <TalentOption identifier="shu_mate_first_aid" />
+            <TalentOption identifier="shu_mate_stims" />
+            <TalentOption identifier="shu_mate_ambulance" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="5">
+          <ShowCaseTalent identifier="shu_turret_focus">
+            <TalentOption identifier="shu_railgun_primacy" />
+            <TalentOption identifier="shu_flak_primacy" />
+            <TalentOption identifier="shu_chaingun_primacy" />
+            <TalentOption identifier="shu_coilgun_primacy" />
+            <TalentOption identifier="shu_laser_primacy" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_upgraded_protocol_focus" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_d_system" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="shu_self_modification" type="specialization" requires="shu_nanitemob_primary">
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="shu_radiation_plating" />
+          <TalentOption identifier="shu_isolating_plate" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="shu_blunt_plating" />
+          <TalentOption identifier="shu_cut_plating" />
+        </TalentOptions>
+        <TalentOptions requiredtalents="1" maxchosentalents="2">
+          <TalentOption identifier="shu_bulletproof_plating" />
+          <TalentOption identifier="shu_blastproof_plating" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_waterproof_plating" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shu_limit_break" />
         </TalentOptions>
       </SubTree>
     </TalentTree>

@@ -31,7 +31,7 @@
           <TalentOption identifier="occscythebearer" />
         </TalentOptions>
         <TalentOptions>
-          <TalentOption identifier="unjustscales" />
+          <TalentOption identifier="occunjustscales" />
         </TalentOptions>
       </SubTree>
       <SubTree identifier="ceremony" type="specialization" requires="occultist_primary">
